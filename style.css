@@ -1,0 +1,465 @@
+:root {
+  --bg-dark: #05070d;
+  --matrix-green: #00ff99;
+  --noah-accent: #04f4d7;
+  --johanna-accent: #d72638;
+  --sibylle-accent: #f7b733;
+  --gold: #ffd700;
+  --warm-bg: linear-gradient(135deg, #5c2a2a, #8f3f2f, #b0533f);
+  font-family: 'Poppins', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle, #0b132b, #01030a);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.intro {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 30;
+}
+
+.heart-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heart {
+  width: 160px;
+  height: 140px;
+  background-color: #f44336;
+  position: relative;
+  transform: rotate(-45deg);
+  animation: pulse 1s infinite;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  width: 160px;
+  height: 140px;
+  background-color: #f44336;
+  border-radius: 80px 80px 0 0;
+  position: absolute;
+}
+
+.heart::before {
+  top: -80px;
+  left: 0;
+}
+
+.heart::after {
+  left: 80px;
+  top: 0;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: rotate(-45deg) scale(0.95); }
+  50% { transform: rotate(-45deg) scale(1.05); }
+}
+
+.matrix {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
+
+.intro-text {
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.scoreboard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  align-items: center;
+}
+
+.scoreboard span {
+  font-weight: 500;
+}
+
+.scoreboard button,
+.scoreboard input[type="range"] {
+  cursor: pointer;
+}
+
+main {
+  width: min(1200px, 100%);
+  padding: 1.5rem;
+}
+
+.panel {
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.user-select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.user-select button {
+  flex: 1;
+  min-width: 160px;
+  padding: 1rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.user-select button[data-user="noah"] {
+  background: linear-gradient(135deg, #050505, #0f4c81);
+  box-shadow: 0 0 10px #04f4d7;
+}
+
+.user-select button[data-user="johanna"] {
+  background: linear-gradient(135deg, #8b1e3f, #c75146);
+}
+
+.user-select button[data-user="sibylle"] {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  color: #121212;
+}
+
+.user-select button:focus,
+.user-select button:hover {
+  transform: translateY(-4px);
+}
+
+.security {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.security input {
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.security button {
+  padding: 0.85rem;
+  border-radius: 10px;
+  border: none;
+  background: #1f8ef1;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.calendar {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 0.85rem;
+}
+
+.calendar button {
+  padding: 2rem 0;
+  border-radius: 16px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.calendar button.locked {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.calendar button:hover:not(.locked) {
+  transform: translateY(-3px);
+}
+
+.calendar button span {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.calendar button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(255,255,255,0.35), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.calendar button:hover::after {
+  opacity: 1;
+}
+
+.calendar-controls {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.calendar-controls button {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.9rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.snow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.flake {
+  position: absolute;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  animation: snowfall linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes snowfall {
+  from {
+    transform: translateY(0) translateX(0);
+  }
+  to {
+    transform: translateY(120%) translateX(20px);
+  }
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  padding: 1rem;
+}
+
+.modal-content {
+  background: rgba(5, 7, 15, 0.95);
+  border-radius: 16px;
+  padding: 2rem;
+  width: min(500px, 90%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  display: grid;
+  gap: 1rem;
+}
+
+.answers {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.answers button {
+  padding: 0.9rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.answers button.correct { background: #37b24d; }
+.answers button.wrong { background: #e03131; }
+
+.message {
+  min-height: 1.25rem;
+  font-weight: 600;
+}
+
+.celebration {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 25;
+  animation: fade-in 0.5s forwards;
+}
+
+.celebration-content {
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: #ffd700;
+  animation: pop 1s infinite;
+}
+
+.celebration-content.crown {
+  font-size: clamp(2rem, 6vw, 4.5rem);
+}
+
+.flash {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  animation: blink 0.8s steps(2, start) infinite;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pop {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 32px;
+}
+
+.switch input { display: none; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: #888;
+  border-radius: 32px;
+  transition: 0.2s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+input:checked + .slider { background-color: #1dd1a1; }
+input:checked + .slider::before { transform: translateX(28px); }
+
+.volume input {
+  width: 100px;
+}
+
+.admin .admin-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+body[data-theme='theme-noah'] {
+  background: radial-gradient(circle, #04070f, #000);
+}
+
+body[data-theme='theme-noah'] .panel,
+body[data-theme='theme-noah'] .calendar button {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 20px rgba(4, 244, 215, 0.3);
+}
+
+body[data-theme='theme-johanna'] {
+  background: var(--warm-bg);
+}
+
+body[data-theme='theme-johanna'] .panel,
+body[data-theme='theme-johanna'] .calendar button {
+  background: rgba(96, 22, 32, 0.85);
+}
+
+body[data-theme='theme-sibylle'] {
+  background: linear-gradient(135deg, #0d2c36, #1a5d6b);
+}
+
+body[data-theme='theme-sibylle'] .panel,
+body[data-theme='theme-sibylle'] .calendar button {
+  background: rgba(10, 46, 54, 0.8);
+}
+
+@media (max-width: 768px) {
+  .calendar button {
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  .scoreboard {
+    flex-wrap: wrap;
+  }
+
+  .calendar-controls button {
+    min-width: 150px;
+  }
+}
