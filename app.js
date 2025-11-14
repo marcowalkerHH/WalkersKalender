@@ -112,6 +112,44 @@ let toggleModeButton;
 let musicToggle;
 let volumeControl;
 let nextTrackButton;
+const calendar = document.getElementById('calendar');
+const calendarTitle = document.getElementById('calendarTitle');
+const calendarSubtitle = document.getElementById('calendarSubtitle');
+const modeSwitch = document.getElementById('modeSwitch');
+const modeLabel = document.getElementById('modeLabel');
+const questionModal = document.getElementById('questionModal');
+const questionTitle = document.getElementById('questionTitle');
+const questionText = document.getElementById('questionText');
+const questionCategory = document.getElementById('questionCategory');
+const answersContainer = document.getElementById('answers');
+const questionFeedback = document.getElementById('questionFeedback');
+const loginSection = document.getElementById('login');
+const calendarView = document.getElementById('calendarView');
+const loginMessage = document.getElementById('loginMessage');
+const securityAnswer = document.getElementById('securityAnswer');
+const loginConfirmButton = document.getElementById('loginConfirm');
+const app = document.getElementById('app');
+const intro = document.getElementById('intro');
+const heartStage = document.getElementById('heartStage');
+const matrixCanvas = document.getElementById('matrixCanvas');
+const closeQuestion = document.getElementById('closeQuestion');
+const refreshQuestions = document.getElementById('refreshQuestions');
+const backToLogin = document.getElementById('backToLogin');
+const scoreboard = document.getElementById('scoreboard');
+const levelOverlay = document.getElementById('levelOverlay');
+const crownOverlay = document.getElementById('crownOverlay');
+const adminModal = document.getElementById('adminModal');
+const adminOpen = document.getElementById('adminOpen');
+const adminClose = document.getElementById('adminClose');
+const adminCheck = document.getElementById('adminCheck');
+const adminPanel = document.getElementById('adminPanel');
+const adminCodeInput = document.getElementById('adminCode');
+const adminMessage = document.getElementById('adminMessage');
+const resetScoresButton = document.getElementById('resetScores');
+const toggleModeButton = document.getElementById('toggleMode');
+const musicToggle = document.getElementById('musicToggle');
+const volumeControl = document.getElementById('volumeControl');
+const nextTrackButton = document.getElementById('nextTrack');
 
 const audioPlaylist = Array.isArray(window.WALKERS_AUDIO_TRACKS)
   ? window.WALKERS_AUDIO_TRACKS
@@ -275,11 +313,14 @@ function init() {
     // initialization (like DOM assertions) fails on mismatched files.
     setupIntro();
     ensureDomReferences();
+    ensureDomReferences();
+    setupIntro();
     restoreState();
     setupLogin();
     createCalendar();
     bindEvents();
     loadQuestions();
+    setupIntro();
     initSnow();
     initMusic();
   } catch (error) {
@@ -310,6 +351,22 @@ function setupIntro() {
       matrixCanvas.classList.remove('hidden');
       startMatrixAnimation();
     }
+function init() {
+  restoreState();
+  setupLogin();
+  createCalendar();
+  bindEvents();
+  loadQuestions();
+  setupIntro();
+  initSnow();
+  initMusic();
+}
+
+function setupIntro() {
+  setTimeout(() => {
+    heartStage.classList.add('hidden');
+    matrixCanvas.classList.remove('hidden');
+    startMatrixAnimation();
   }, 3500);
 
   setTimeout(() => {
@@ -321,6 +378,7 @@ function setupIntro() {
       clearTimeout(introFailsafeTimer);
       introFailsafeTimer = null;
     }
+    app.classList.remove('hidden');
   }, 8500);
 }
 
@@ -377,6 +435,19 @@ function setupLogin() {
       showCalendar();
     });
   }
+  document.getElementById('loginConfirm').addEventListener('click', () => {
+    if (!state.selectedUser) {
+      loginMessage.textContent = 'Bitte wähle eine Person.';
+      return;
+    }
+    if (Number(securityAnswer.value) !== 12) {
+      loginMessage.textContent = 'Die Antwort ist leider falsch.';
+      return;
+    }
+    loginMessage.textContent = '';
+    securityAnswer.value = '';
+    showCalendar();
+  });
 }
 
 function showCalendar() {
@@ -434,6 +505,9 @@ function getDoorIcons() {
   return DOOR_ICONS[state.selectedUser] || DOOR_ICONS.default;
 }
 
+  updateDoors();
+}
+
 function handleDoorClick(day) {
   if (!state.selectedUser) {
     loginMessage.textContent = 'Bitte erst einloggen.';
@@ -472,6 +546,12 @@ function loadQuestions() {
       state.questions[user] = [];
     }));
   return Promise.all(entries);
+  const entries = Object.entries(questionFiles).map(([user, path]) => fetch(path).then((res) => res.json()).then((data) => {
+    state.questions[user] = data;
+  }));
+  Promise.all(entries).then(() => {
+    console.info('Fragen geladen');
+  }).catch((err) => console.error('Fehler beim Laden der Fragen', err));
 }
 
 function openQuestion() {
@@ -550,6 +630,9 @@ function handleAnswer(button, isCorrect, question) {
     button.classList.add('correct');
     questionFeedback.textContent = getPraiseMessage();
     questionFeedback.classList.add('celebrate');
+  if (isCorrect) {
+    button.classList.add('correct');
+    questionFeedback.textContent = 'Richtig! +1 Punkt';
     updateScore(1);
   } else {
     button.classList.add('wrong');
@@ -704,6 +787,11 @@ function restoreState() {
   state.categoryUsage = safeReadJSON(LOCAL_KEYS.categoryUsage, {});
   state.usedQuestions = safeReadJSON(LOCAL_KEYS.usedQuestions, {});
   const musicSettings = safeReadJSON(LOCAL_KEYS.music, {});
+  state.scores = JSON.parse(localStorage.getItem(LOCAL_KEYS.scores)) || state.scores;
+  state.mode = localStorage.getItem(LOCAL_KEYS.mode) || 'open';
+  state.categoryUsage = JSON.parse(localStorage.getItem(LOCAL_KEYS.categoryUsage)) || {};
+  state.usedQuestions = JSON.parse(localStorage.getItem(LOCAL_KEYS.usedQuestions)) || {};
+  const musicSettings = JSON.parse(localStorage.getItem(LOCAL_KEYS.music)) || {};
   state.musicEnabled = musicSettings.enabled ?? true;
   state.musicVolume = musicSettings.volume ?? 0.35;
   state.musicIndex = musicSettings.index ?? 0;
@@ -776,4 +864,5 @@ if (document.readyState === 'loading') {
 } else {
   init();
 }
+window.addEventListener('load', init);
 
