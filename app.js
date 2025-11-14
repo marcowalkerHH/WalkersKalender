@@ -88,6 +88,7 @@ let questionFeedback;
 let loginSection;
 let calendarView;
 let loginMessage;
+let securityQuestionLabel;
 let securityAnswer;
 let loginConfirmButton;
 let app;
@@ -130,6 +131,7 @@ audioPlayer.addEventListener('error', () => {
 
 let hasInitialized = false;
 let introFailsafeTimer = null;
+let loginChallengeAnswer = null;
 
 function cacheDom() {
   calendar = document.getElementById('calendar');
@@ -146,6 +148,7 @@ function cacheDom() {
   loginSection = document.getElementById('login');
   calendarView = document.getElementById('calendarView');
   loginMessage = document.getElementById('loginMessage');
+  securityQuestionLabel = document.getElementById('securityQuestionLabel');
   securityAnswer = document.getElementById('securityAnswer');
   loginConfirmButton = document.getElementById('loginConfirm');
   app = document.getElementById('app');
@@ -188,6 +191,7 @@ function ensureDomReferences() {
     loginSection,
     calendarView,
     loginMessage,
+    securityQuestionLabel,
     securityAnswer,
     loginConfirmButton,
     app,
@@ -352,6 +356,21 @@ function startMatrixAnimation() {
   setTimeout(() => clearInterval(matrixInterval), 5000);
 }
 
+function getRandomInt(min, max) {
+  const minCeil = Math.ceil(min);
+  const maxFloor = Math.floor(max);
+  return Math.floor(Math.random() * (maxFloor - minCeil + 1)) + minCeil;
+}
+
+function refreshSecurityQuestion() {
+  if (!securityQuestionLabel || !securityAnswer) return;
+  const first = getRandomInt(3, 12);
+  const second = getRandomInt(2, 11);
+  loginChallengeAnswer = first + second;
+  securityQuestionLabel.textContent = `Sicherheitsfrage: Wieviel ist ${first} + ${second}?`;
+  securityAnswer.value = '';
+}
+
 function setupLogin() {
   document.querySelectorAll('.user-select button').forEach((button) => {
     button.addEventListener('click', () => {
@@ -368,15 +387,21 @@ function setupLogin() {
         loginMessage.textContent = 'Bitte wähle eine Person.';
         return;
       }
-      if (Number(securityAnswer.value) !== 12) {
+      if (loginChallengeAnswer === null) {
+        refreshSecurityQuestion();
+      }
+      if (Number(securityAnswer.value) !== loginChallengeAnswer) {
         loginMessage.textContent = 'Die Antwort ist leider falsch.';
+        refreshSecurityQuestion();
         return;
       }
       loginMessage.textContent = '';
-      securityAnswer.value = '';
+      refreshSecurityQuestion();
       showCalendar();
     });
   }
+
+  refreshSecurityQuestion();
 }
 
 function showCalendar() {
@@ -609,6 +634,10 @@ function bindEvents() {
   backToLogin.addEventListener('click', () => {
     calendarView.classList.add('hidden');
     loginSection.classList.remove('hidden');
+    state.selectedUser = null;
+    document.querySelectorAll('.user-select button').forEach((btn) => btn.classList.remove('active'));
+    loginMessage.textContent = '';
+    refreshSecurityQuestion();
   });
   modeSwitch.addEventListener('change', () => {
     modeSwitch.checked = state.mode === 'advent';
@@ -688,14 +717,28 @@ function validateAdmin() {
 function initSnow() {
   const snowLayer = document.getElementById('snowLayer');
   if (!snowLayer) return;
-  for (let i = 0; i < 60; i += 1) {
+
+  const spawnFlake = () => {
     const flake = document.createElement('div');
     flake.className = 'flake';
     flake.style.left = `${Math.random() * 100}%`;
-    flake.style.animationDelay = `${Math.random() * 5}s`;
-    flake.style.animationDuration = `${4 + Math.random() * 6}s`;
+    const delay = Math.random() * 4;
+    const duration = 4 + Math.random() * 6;
+    flake.style.animationDelay = `${delay}s`;
+    flake.style.animationDuration = `${duration}s`;
     snowLayer.appendChild(flake);
+    setTimeout(() => {
+      if (flake.parentNode) {
+        flake.parentNode.removeChild(flake);
+      }
+    }, (delay + duration + 1) * 1000);
+  };
+
+  for (let i = 0; i < 80; i += 1) {
+    spawnFlake();
   }
+
+  setInterval(spawnFlake, 700);
 }
 
 function restoreState() {

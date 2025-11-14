@@ -36,7 +36,7 @@
         <button data-user="sibylle">Sibylle</button>
       </div>
       <div class="security">
-        <label for="securityAnswer">Sicherheitsfrage: Wieviel ist 7 + 5?</label>
+        <label for="securityAnswer" id="securityQuestionLabel">Sicherheitsfrage: Wird geladen ...</label>
         <input type="number" id="securityAnswer" placeholder="Antwort eingeben">
         <button id="loginConfirm">Kalender öffnen</button>
         <p id="loginMessage" class="message" aria-live="assertive"></p>
@@ -105,7 +105,7 @@
     <div class="modal-content admin">
       <h3>Admin-Bereich</h3>
       <label for="adminCode">Admin-Code eingeben</label>
-      <input type="password" id="adminCode" placeholder="687468">
+      <input type="password" id="adminCode" placeholder="Admin-Code">
       <div class="admin-actions">
         <button id="adminCheck">Bestätigen</button>
         <button id="adminClose">Schließen</button>

@@ -210,7 +210,15 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   gap: 0.85rem;
   position: relative;
-  z-index: 1;
+  z-index: 2;
+}
+
+.calendar-header,
+.calendar-controls,
+.calendar-controls button,
+.calendar .mode-toggle {
+  position: relative;
+  z-index: 2;
 }
 
 .calendar button {
@@ -298,7 +306,7 @@ main {
   pointer-events: none;
   overflow: hidden;
   border-radius: 18px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .flake {
@@ -331,15 +339,15 @@ main {
   position: absolute;
   left: -10%;
   width: 120%;
-  height: 30px;
+  height: 22px;
   background: repeating-linear-gradient(90deg, #f7b733, #f7b733 20px, #ff4f81 20px, #ff4f81 40px);
   opacity: 0.75;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
   animation: garland-glow 2s ease-in-out infinite;
 }
 
-.garland-top { top: 10px; border-radius: 50% 50% 0 0; }
-.garland-bottom { bottom: 50px; border-radius: 0 0 50% 50%; }
+.garland-top { top: 0; border-radius: 50% 50% 0 0; }
+.garland-bottom { bottom: 8px; border-radius: 0 0 50% 50%; }
 
 @keyframes garland-glow {
   0%, 100% { opacity: 0.7; }

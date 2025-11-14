@@ -36,6 +36,7 @@ TEMPLATES = {
     "Frauengesundheit": "Welcher Frauengesundheitsbegriff passt: {prompt}",
     "Spanisch Niveau 11. Klasse": "¿Qué expresión corresponde a la descripción: {prompt}?",
     "Hamburg": "Welcher Hamburg-Fakt passt: {prompt}",
+    "Grey's Anatomy": "Welche Aussage zu Grey's Anatomy passt: {prompt}",
 }
 
 def parse_entries(block: str) -> list[dict]:
@@ -829,6 +830,38 @@ Intimpflege|pH-neutrale Produkte, keine Duftstoffe
 Vulvodynie|chronische Schmerzen im Vulvabereich
 Lichen sclerosus|entzündliche Hauterkrankung im Genitalbereich
 Menstruationstracker|Apps zur Zyklusauswertung
+"""),
+        "Grey's Anatomy": parse_entries("""
+Meredith Grey|Internistin und Tochter von Ellis Grey, die als Protagonistin startet
+Miranda Bailey|Strenge Mentorin mit Spitznamen "The Nazi" und spätere Chefärztin
+Derek Shepherd|Neurochirurg mit Spitznamen "McDreamy"
+Mark Sloan|Plastischer Chirurg, bekannt als "McSteamy"
+Cristina Yang|Kardiothorakale Chirurgin, die Stress mit "Dance It Out" löst
+Lexie Grey|Halbschwester mit fotografischem Gedächtnis
+Richard Webber|Langjähriger Chief of Surgery und Mentor
+Callie Torres|Orthopädin, die 3D-gedruckte Knochenimplantate entwickelt
+Arizona Robbins|Pädiatrische Chirurgin, die gerne Rollschuhe trägt
+Owen Hunt|Traumachirurg mit Army-Hintergrund
+Amelia Shepherd|Dereks Schwester, die die Neurochirurgie übernimmt
+April Kepner|Glaube-geprägte Traumachirurgin, die ihr Board-Examen zunächst nicht besteht
+Jackson Avery|Plastischer Chirurg aus der Harper-Avery-Familie
+Teddy Altman|Kardiothorakale Chirurgin und ehemalige Army-Kameradin von Owen
+Jo Wilson|Assistenzärztin, die vor einer missbräuchlichen Ehe geflüchtet ist
+Izzie Stevens|Gründet die Denny-Duquette-Gedächtnisklinik
+George O'Malley|Assistenzarzt mit Rufnamen 007, der bei einem Busunglück stirbt
+Andrew DeLuca|Diagnostiziert Menschenhandel und wird nach einer Messerattacke tödlich verletzt
+Cormac Hayes|Irischer Kinderchirurg mit Spitznamen "McWidow"
+Levi Schmitt|Assistenzarzt mit Spitznamen "Glasses"
+Maggie Pierce|Kardiologin und Tochter von Ellis Grey und Richard Webber
+Alex Karev|Wird leitender Pädiater und folgt später Izzie
+Grey Sloan Memorial Hospital|Neuer Name von Seattle Grace nach dem Flugzeugabsturz
+Catherine Fox Award|Neue Bezeichnung des Harper-Avery-Preises nach dem Skandal
+Addison Montgomery|Neonatologin, die nach Los Angeles wechselt
+Ben Warren|Ehemaliger Anästhesist, der zur Feuerwehr (Station 19) wechselt
+Tom Koracick|Neurochirurg, der eine intrakranielle Ultraschallkugel entwickelt
+Winston Ndugu|Herzchirurg aus Boston, der Maggie heiratet
+Carina DeLuca|OB/Gyn-Forscherin und Schwester von Andrew
+Atticus "Link" Lincoln|Orthopäde und Surf-Fan, der Amelia liebt
 """),
         "Spanisch Niveau 11. Klasse": parse_entries("""
 Subjuntivo|modo verbal para expresar deseos, dudas o emociones

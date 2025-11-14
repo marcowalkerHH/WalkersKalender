@@ -8,7 +8,7 @@ Interaktive Ein-Seiten-Anwendung als Adventskalender für Noah, Johanna und Siby
 - Zwei Modi (Offen & Advent). Der Advent-Modus erlaubt nur Türchen bis zum aktuellen Datum und kann ausschließlich mit Admin-Code gewechselt werden.
 - Fragenpools pro Person (normal & schwer) aus JSON-Dateien, ausgewogene Kategorienlogik, erneutes Mischen per Button.
 - Punkte- & Level-System, Kronen-Overlay ab 50 Punkten, jederzeit sichtbare Score-Leiste.
-- Adminbereich zum Zurücksetzen aller Punkte sowie zum Moduswechsel, geschützt per Code **687468**.
+- Adminbereich zum Zurücksetzen aller Punkte sowie zum Moduswechsel, geschützt per Geheimcode (in `app.js` als `ADMIN_CODE` hinterlegt).
 - Optionaler Hintergrundmusik-Player mit Playlist, Musik-/Lautstärketoggle sowie Track-Skip. Einstellungen persistieren via `localStorage`.
 
 ## Entwicklung & Nutzung
@@ -40,7 +40,7 @@ Interaktive Ein-Seiten-Anwendung als Adventskalender für Noah, Johanna und Siby
 
 ### Fehlerbehebung
 - **Intro bleibt stehen oder UI lädt nicht vollständig?** Seit diesem Update fängt die App fehlende DOM-Elemente und defekte `localStorage`-Einträge automatisch ab. Sollte dennoch etwas hängen bleiben, Browser-Tab einmal neu laden oder den lokalen Speicher der Seite löschen.
-- **Verbogene Punktestände/Kategorien?** Über den Adminbereich (Code `687468`) lassen sich Punkte zurücksetzen sowie Fragen neu mischen.
+- **Verbogene Punktestände/Kategorien?** Über den Adminbereich (Code steht in `app.js` als `ADMIN_CODE`) lassen sich Punkte zurücksetzen sowie Fragen neu mischen.
 - **Konsole meldet fehlende JSON-Dateien?** Sicherstellen, dass der Server die Dateien aus `questions/` ausliefert (bei reinem `file://`-Aufruf werden Fetches vom Browser blockiert – daher bitte immer über einen kleinen Dev-Server arbeiten).
 
 ## Lizenz

@@ -3508,5 +3508,395 @@
     ],
     "correctIndex": 3,
     "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_greys_anatomy_001",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Internistin und Tochter von Ellis Grey, die als Protagonistin startet",
+    "answers": [
+      "Meredith Grey",
+      "Cristina Yang",
+      "Lexie Grey",
+      "Izzie Stevens"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_002",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Strenge Mentorin mit Spitznamen 'The Nazi' und spätere Chefärztin",
+    "answers": [
+      "Miranda Bailey",
+      "Teddy Altman",
+      "Maggie Pierce",
+      "Addison Montgomery"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_003",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Neurochirurg mit Spitznamen 'McDreamy'",
+    "answers": [
+      "Derek Shepherd",
+      "Owen Hunt",
+      "Tom Koracick",
+      "Jackson Avery"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_004",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Plastischer Chirurg, bekannt als 'McSteamy'",
+    "answers": [
+      "Mark Sloan",
+      "Alex Karev",
+      "Cormac Hayes",
+      "Levi Schmitt"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_005",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Kardiothorakale Chirurgin, die Stress mit 'Dance It Out' löst",
+    "answers": [
+      "Cristina Yang",
+      "Maggie Pierce",
+      "Teddy Altman",
+      "Carina DeLuca"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_006",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Halbschwester mit fotografischem Gedächtnis",
+    "answers": [
+      "Lexie Grey",
+      "Maggie Pierce",
+      "Jo Wilson",
+      "April Kepner"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_007",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Langjähriger Chief of Surgery und Mentor",
+    "answers": [
+      "Richard Webber",
+      "Ben Warren",
+      "Owen Hunt",
+      "Tom Koracick"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_008",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Orthopädin, die 3D-gedruckte Knochenimplantate entwickelt",
+    "answers": [
+      "Callie Torres",
+      "Addison Montgomery",
+      "Miranda Bailey",
+      "Cristina Yang"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_009",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Pädiatrische Chirurgin, die gerne Rollschuhe trägt",
+    "answers": [
+      "Arizona Robbins",
+      "April Kepner",
+      "Jo Wilson",
+      "Carina DeLuca"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_010",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Traumachirurg mit Army-Hintergrund",
+    "answers": [
+      "Owen Hunt",
+      "Andrew DeLuca",
+      "Jackson Avery",
+      "Winston Ndugu"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_011",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Dereks Schwester, die die Neurochirurgie übernimmt",
+    "answers": [
+      "Amelia Shepherd",
+      "Lexie Grey",
+      "Teddy Altman",
+      "Miranda Bailey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_012",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Glaube-geprägte Traumachirurgin, die ihr Board-Examen zunächst nicht besteht",
+    "answers": [
+      "April Kepner",
+      "Jo Wilson",
+      "Arizona Robbins",
+      "Addison Montgomery"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_013",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Plastischer Chirurg aus der Harper-Avery-Familie",
+    "answers": [
+      "Jackson Avery",
+      "Mark Sloan",
+      "Alex Karev",
+      "Ben Warren"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_014",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Kardiothorakale Chirurgin und ehemalige Army-Kameradin von Owen",
+    "answers": [
+      "Teddy Altman",
+      "Cristina Yang",
+      "Maggie Pierce",
+      "Meredith Grey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_015",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Assistenzärztin, die vor einer missbräuchlichen Ehe geflüchtet ist",
+    "answers": [
+      "Jo Wilson",
+      "Izzie Stevens",
+      "April Kepner",
+      "Meredith Grey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_016",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Gründet die Denny-Duquette-Gedächtnisklinik",
+    "answers": [
+      "Izzie Stevens",
+      "Miranda Bailey",
+      "Callie Torres",
+      "Lexie Grey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_017",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Assistenzarzt mit Rufnamen 007, der bei einem Busunglück stirbt",
+    "answers": [
+      "George O'Malley",
+      "Derek Shepherd",
+      "Alex Karev",
+      "Andrew DeLuca"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_018",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Diagnostiziert Menschenhandel und wird nach einer Messerattacke tödlich verletzt",
+    "answers": [
+      "Andrew DeLuca",
+      "Owen Hunt",
+      "Ben Warren",
+      "Levi Schmitt"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_019",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Irischer Kinderchirurg mit Spitznamen 'McWidow'",
+    "answers": [
+      "Cormac Hayes",
+      "Atticus Lincoln",
+      "Jackson Avery",
+      "Alex Karev"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_020",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Assistenzarzt mit Spitznamen 'Glasses'",
+    "answers": [
+      "Levi Schmitt",
+      "Nico Kim",
+      "Ben Warren",
+      "Andrew DeLuca"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_021",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Kardiologin und Tochter von Ellis Grey und Richard Webber",
+    "answers": [
+      "Maggie Pierce",
+      "Lexie Grey",
+      "Cristina Yang",
+      "Carina DeLuca"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_022",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Wird leitender Pädiater und folgt später Izzie",
+    "answers": [
+      "Alex Karev",
+      "Jackson Avery",
+      "Cormac Hayes",
+      "Atticus Lincoln"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_023",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Neuer Name von Seattle Grace nach dem Flugzeugabsturz",
+    "answers": [
+      "Grey Sloan Memorial Hospital",
+      "Pac-North",
+      "Mass Gen",
+      "MedCom"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_024",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Neue Bezeichnung des Harper-Avery-Preises nach dem Skandal",
+    "answers": [
+      "Catherine Fox Award",
+      "Golden Scalpel",
+      "Chief's Medal",
+      "Seattle Cup"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_025",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Neonatologin, die nach Los Angeles wechselt",
+    "answers": [
+      "Addison Montgomery",
+      "Arizona Robbins",
+      "Carina DeLuca",
+      "Miranda Bailey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_greys_anatomy_026",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Ehemaliger Anästhesist, der zur Feuerwehr wechselt",
+    "answers": [
+      "Ben Warren",
+      "Jackson Avery",
+      "Owen Hunt",
+      "Andrew DeLuca"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_greys_anatomy_027",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Neurochirurg, der eine intrakranielle Ultraschallkugel entwickelt",
+    "answers": [
+      "Tom Koracick",
+      "Derek Shepherd",
+      "Amelia Shepherd",
+      "Teddy Altman"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_greys_anatomy_028",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Herzchirurg aus Boston, der Maggie heiratet",
+    "answers": [
+      "Winston Ndugu",
+      "Owen Hunt",
+      "Alex Karev",
+      "Andrew DeLuca"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_greys_anatomy_029",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: OB/Gyn-Forscherin und Schwester von Andrew",
+    "answers": [
+      "Carina DeLuca",
+      "April Kepner",
+      "Addison Montgomery",
+      "Jo Wilson"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_greys_anatomy_030",
+    "category": "Grey's Anatomy",
+    "question": "Welche Aussage zu Grey's Anatomy passt: Orthopäde und Surf-Fan, der Amelia liebt",
+    "answers": [
+      "Atticus \"Link\" Lincoln",
+      "Jackson Avery",
+      "Cormac Hayes",
+      "Alex Karev"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
   }
 ]
