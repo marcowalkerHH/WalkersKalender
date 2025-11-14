@@ -3510,3 +3510,24 @@
     "difficulty": "hard"
   }
 ]
+]
+]
+  {"id":"sibylle_kardio_001","category":"Kardiologie","question":"Welches Herzgeräusch weist häufig auf eine Aortenstenose hin?","answers":["Systolisches Crescendo-Decrescendo","Holosystolisches Geräusch","Mittel-diastolisches Rumpeln","Diastolisches Decrescendo"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"sibylle_kardio_101","category":"Kardiologie","question":"Wie hoch ist der normale Ejektionsanteil (EF) eines gesunden Herzens?","answers":["25-35 %","40-50 %","55-70 %","80-90 %"],"correctIndex":2,"difficulty":"hard"},
+  {"id":"sibylle_hyper_001","category":"Hypertensiologie","question":"Ab welchem systolischen Wert spricht man laut ESC von Hypertonie Grad 1?","answers":["120 mmHg","130 mmHg","140 mmHg","160 mmHg"],"correctIndex":2,"difficulty":"normal"},
+  {"id":"sibylle_hyper_101","category":"Hypertensiologie","question":"Welcher Lebensstilfaktor senkt nachweislich den Blutdruck?","answers":["Mehr Zucker","Regelmäßige Bewegung","Salzreiche Kost","Schlafentzug"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"sibylle_rhythmus_001","category":"Rhythmologie","question":"Welcher Abschnitt des EKG beschreibt die Vorhoferregung?","answers":["P-Welle","QRS-Komplex","ST-Strecke","T-Welle"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"sibylle_rhythmus_101","category":"Rhythmologie","question":"Welche Therapie kommt bei paroxysmalem Vorhofflimmern häufig zum Einsatz?","answers":["Sofortige Herztransplantation","Katheterablation","Herzschrittmacher bei jedem Patienten","Nur Beobachten"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"sibylle_diabetes_001","category":"Diabetologie","question":"Wie hoch ist der Grenzwert für einen normalen Nüchternblutzucker?","answers":["< 70 mg/dl","< 100 mg/dl","< 125 mg/dl","< 150 mg/dl"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"sibylle_diabetes_101","category":"Diabetologie","question":"Welcher HbA1c-Zielbereich wird für viele Patienten empfohlen?","answers":["3-4 %","5-6 %","7-8 %","10-12 %"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"sibylle_lipid_001","category":"Lipidmanagement","question":"Welcher LDL-Zielwert gilt für Hochrisikopatienten laut ESC (2023)?","answers":["< 130 mg/dl","< 100 mg/dl","< 70 mg/dl","< 55 mg/dl"],"correctIndex":3,"difficulty":"normal"},
+  {"id":"sibylle_lipid_101","category":"Lipidmanagement","question":"Welches Medikament senkt LDL durch Hemmung von PCSK9?","answers":["Atorvastatin","Alirocumab","Ezetimib","Niacin"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"sibylle_ernaehrung_001","category":"Gesunde Ernährung","question":"Welche Fettquelle enthält viele Omega-3-Fettsäuren?","answers":["Leinöl","Palmöl","Schweineschmalz","Kokosfett"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"sibylle_ernaehrung_101","category":"Gesunde Ernährung","question":"Welches Gemüse liefert besonders viel Vitamin K?","answers":["Karotte","Blattspinat","Tomate","Zucchini"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"sibylle_frauen_001","category":"Frauengesundheit","question":"Welcher Zeitraum beschreibt das Klimakterium?","answers":["Pubertät","Zeit um die Menopause","Erste Schwangerschaft","Wochenbett"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"sibylle_frauen_101","category":"Frauengesundheit","question":"Welches Screening wird Frauen ab 50 in Deutschland empfohlen?","answers":["Mammographie","PSA-Test","Lungenfunktion","Kolon-Kapsel"],"correctIndex":0,"difficulty":"hard"},
+  {"id":"sibylle_spanisch_001","category":"Spanisch Niveau 11. Klasse","question":"¿Cómo se dice 'gesund bleiben' en español?","answers":["mantenerse saludable","ir de compras","tomar apuntes","estar cansado"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"sibylle_spanisch_101","category":"Spanisch Niveau 11. Klasse","question":"Completa la frase: 'La prevención es más efectiva ____ el tratamiento.'","answers":["si","como","que","que el"],"correctIndex":3,"difficulty":"hard"},
+  {"id":"sibylle_hamburg_001","category":"Hamburg","question":"Wie heißt der größte Park Hamburgs?","answers":["Planten un Blomen","Stadtpark","Jenischpark","Altonaer Balkon"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"sibylle_hamburg_101","category":"Hamburg","question":"Welches Wahrzeichen steht in der Speicherstadt und leuchtet blau?","answers":["Elbphilharmonie","Fernsehturm","Dock 11","Michel"],"correctIndex":0,"difficulty":"hard"}
+]
