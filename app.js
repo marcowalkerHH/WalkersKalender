@@ -74,6 +74,44 @@ const state = {
   musicVolume: 0.35,
 };
 
+let calendar;
+let calendarTitle;
+let calendarSubtitle;
+let modeSwitch;
+let modeLabel;
+let questionModal;
+let questionTitle;
+let questionText;
+let questionCategory;
+let answersContainer;
+let questionFeedback;
+let loginSection;
+let calendarView;
+let loginMessage;
+let securityAnswer;
+let loginConfirmButton;
+let app;
+let intro;
+let heartStage;
+let matrixCanvas;
+let closeQuestion;
+let refreshQuestions;
+let backToLogin;
+let scoreboard;
+let levelOverlay;
+let crownOverlay;
+let adminModal;
+let adminOpen;
+let adminClose;
+let adminCheck;
+let adminPanel;
+let adminCodeInput;
+let adminMessage;
+let resetScoresButton;
+let toggleModeButton;
+let musicToggle;
+let volumeControl;
+let nextTrackButton;
 const calendar = document.getElementById('calendar');
 const calendarTitle = document.getElementById('calendarTitle');
 const calendarSubtitle = document.getElementById('calendarSubtitle');
@@ -130,6 +168,47 @@ audioPlayer.addEventListener('error', () => {
 
 let hasInitialized = false;
 let introFailsafeTimer = null;
+
+function cacheDom() {
+  calendar = document.getElementById('calendar');
+  calendarTitle = document.getElementById('calendarTitle');
+  calendarSubtitle = document.getElementById('calendarSubtitle');
+  modeSwitch = document.getElementById('modeSwitch');
+  modeLabel = document.getElementById('modeLabel');
+  questionModal = document.getElementById('questionModal');
+  questionTitle = document.getElementById('questionTitle');
+  questionText = document.getElementById('questionText');
+  questionCategory = document.getElementById('questionCategory');
+  answersContainer = document.getElementById('answers');
+  questionFeedback = document.getElementById('questionFeedback');
+  loginSection = document.getElementById('login');
+  calendarView = document.getElementById('calendarView');
+  loginMessage = document.getElementById('loginMessage');
+  securityAnswer = document.getElementById('securityAnswer');
+  loginConfirmButton = document.getElementById('loginConfirm');
+  app = document.getElementById('app');
+  intro = document.getElementById('intro');
+  heartStage = document.getElementById('heartStage');
+  matrixCanvas = document.getElementById('matrixCanvas');
+  closeQuestion = document.getElementById('closeQuestion');
+  refreshQuestions = document.getElementById('refreshQuestions');
+  backToLogin = document.getElementById('backToLogin');
+  scoreboard = document.getElementById('scoreboard');
+  levelOverlay = document.getElementById('levelOverlay');
+  crownOverlay = document.getElementById('crownOverlay');
+  adminModal = document.getElementById('adminModal');
+  adminOpen = document.getElementById('adminOpen');
+  adminClose = document.getElementById('adminClose');
+  adminCheck = document.getElementById('adminCheck');
+  adminPanel = document.getElementById('adminPanel');
+  adminCodeInput = document.getElementById('adminCode');
+  adminMessage = document.getElementById('adminMessage');
+  resetScoresButton = document.getElementById('resetScores');
+  toggleModeButton = document.getElementById('toggleMode');
+  musicToggle = document.getElementById('musicToggle');
+  volumeControl = document.getElementById('volumeControl');
+  nextTrackButton = document.getElementById('nextTrack');
+}
 
 function ensureDomReferences() {
   const required = {
@@ -229,6 +308,7 @@ function init() {
   if (hasInitialized) return;
   hasInitialized = true;
   try {
+    cacheDom();
     ensureDomReferences();
     setupIntro();
     restoreState();
