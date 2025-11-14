@@ -309,6 +309,10 @@ function init() {
   hasInitialized = true;
   try {
     cacheDom();
+    // Start the intro immediately so it always fades out even if later
+    // initialization (like DOM assertions) fails on mismatched files.
+    setupIntro();
+    ensureDomReferences();
     ensureDomReferences();
     setupIntro();
     restoreState();
