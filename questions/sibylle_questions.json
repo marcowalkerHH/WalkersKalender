@@ -1,4 +1,3515 @@
 [
+  {
+    "id": "sibylle_kardiologie_001",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: ST-Strecken-Hebungsinfarkt mit sofortiger Reperfusion",
+    "answers": [
+      "STEMI",
+      "TIMI-Score",
+      "NSTEMI",
+      "Troponin T"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_002",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Infarkt ohne ST-Hebung, Diagnose via Troponin",
+    "answers": [
+      "Troponin T",
+      "Killip-Klassifikation",
+      "NSTEMI",
+      "TIMI-Score"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_003",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: hoch-sensitiver Biomarker für Myokardschaden",
+    "answers": [
+      "Troponin T",
+      "TIMI-Score",
+      "PCI",
+      "Killip-Klassifikation"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_004",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Risikostratifizierung beim akuten Koronarsyndrom",
+    "answers": [
+      "Killip-Klassifikation",
+      "CABG",
+      "PCI",
+      "TIMI-Score"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_005",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Einteilung der Herzinsuffizienz beim Infarkt",
+    "answers": [
+      "Killip-Klassifikation",
+      "CABG",
+      "Dual Antiplatelet Therapy",
+      "PCI"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_006",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: perkutane Koronarintervention mit Stentimplantation",
+    "answers": [
+      "Dual Antiplatelet Therapy",
+      "CABG",
+      "PCI",
+      "DES-Stent"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_007",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Koronararterien-Bypass-Operation",
+    "answers": [
+      "DES-Stent",
+      "CABG",
+      "Dual Antiplatelet Therapy",
+      "Fractional Flow Reserve"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_008",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Kombination aus ASS und P2Y12-Hemmer",
+    "answers": [
+      "Fractional Flow Reserve",
+      "Dual Antiplatelet Therapy",
+      "DES-Stent",
+      "IMPELLA"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_009",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: medikamentenbeschichteter Stent mit geringerer Restenose",
+    "answers": [
+      "DES-Stent",
+      "IMPELLA",
+      "Fractional Flow Reserve",
+      "IABP"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_010",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Druckmessung zur Beurteilung koronarer Stenosen",
+    "answers": [
+      "HFpEF",
+      "Fractional Flow Reserve",
+      "IABP",
+      "IMPELLA"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_011",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: perkutane linksventrikuläre Unterstützungspumpe",
+    "answers": [
+      "HFrEF",
+      "HFpEF",
+      "IMPELLA",
+      "IABP"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_012",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: intraaortale Ballonpumpe bei kardiogenem Schock",
+    "answers": [
+      "NYHA-Klassen",
+      "HFrEF",
+      "HFpEF",
+      "IABP"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_013",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Herzinsuffizienz mit erhaltener Ejektionsfraktion",
+    "answers": [
+      "NT-proBNP",
+      "HFpEF",
+      "HFrEF",
+      "NYHA-Klassen"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_014",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Herzinsuffizienz mit reduzierter Ejektionsfraktion",
+    "answers": [
+      "NYHA-Klassen",
+      "NT-proBNP",
+      "ACE-Hemmer",
+      "HFrEF"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_015",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Belastungsabhängige Einteilung der Herzinsuffizienzsymptome",
+    "answers": [
+      "NYHA-Klassen",
+      "ACE-Hemmer",
+      "NT-proBNP",
+      "ARNI"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_016",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Biomarker zur Differenzierung von Dyspnoe-Ursachen",
+    "answers": [
+      "NT-proBNP",
+      "ACE-Hemmer",
+      "ARNI",
+      "SGLT2-Inhibitor"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_017",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Basistherapie der systolischen Herzinsuffizienz",
+    "answers": [
+      "ARNI",
+      "SGLT2-Inhibitor",
+      "CRT-D",
+      "ACE-Hemmer"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_018",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Angiotensin-Rezeptor-Neprilysin-Inhibitor, z. B. Sacubitril/Valsartan",
+    "answers": [
+      "SGLT2-Inhibitor",
+      "CRT-D",
+      "Mitral-Clip",
+      "ARNI"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_019",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: dapagliflozin zur Prognoseverbesserung bei Herzinsuffizienz",
+    "answers": [
+      "CRT-D",
+      "Mitral-Clip",
+      "TAVI",
+      "SGLT2-Inhibitor"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_020",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: kardiale Resynchronisation mit Defibrillatorfunktion",
+    "answers": [
+      "CRT-D",
+      "Mitral-Clip",
+      "Left Bundle Branch Block",
+      "TAVI"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_021",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: kathetergestützte Mitralklappenrekonstruktion",
+    "answers": [
+      "Mitral-Clip",
+      "TAVI",
+      "Heart-Team",
+      "Left Bundle Branch Block"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_022",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Transkatheter-Aortenklappenimplantation",
+    "answers": [
+      "Left Bundle Branch Block",
+      "TAVI",
+      "Coronary Calcium Score",
+      "Heart-Team"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_023",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: typische Indikation für CRT",
+    "answers": [
+      "Coronary Calcium Score",
+      "Heart-Team",
+      "Cardiac MRI",
+      "Left Bundle Branch Block"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_024",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: interdisziplinäre Fallkonferenz bei komplexen Klappenerkrankungen",
+    "answers": [
+      "Late Gadolinium Enhancement",
+      "Coronary Calcium Score",
+      "Heart-Team",
+      "Cardiac MRI"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_025",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: CT-basierter Marker für Atherosklerose",
+    "answers": [
+      "Cardiac MRI",
+      "Late Gadolinium Enhancement",
+      "Cardio-Onkologie",
+      "Coronary Calcium Score"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_kardiologie_026",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Goldstandard für Myokarditisdiagnostik",
+    "answers": [
+      "Cardiac MRI",
+      "Cardio-Onkologie",
+      "ESC-Guidelines",
+      "Late Gadolinium Enhancement"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_kardiologie_027",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: zeigt fibrotische Myokardareale",
+    "answers": [
+      "Late Gadolinium Enhancement",
+      "ESC-Guidelines",
+      "Cardiac Rehab Phase II",
+      "Cardio-Onkologie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_kardiologie_028",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: Überwachung kardiotoxischer Chemotherapien",
+    "answers": [
+      "Cardiac Rehab Phase II",
+      "Cardio-Onkologie",
+      "ESC-Guidelines",
+      "STEMI"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_kardiologie_029",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: europäische Leitlinien für Herztherapien",
+    "answers": [
+      "Cardiac Rehab Phase II",
+      "ESC-Guidelines",
+      "STEMI",
+      "NSTEMI"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_kardiologie_030",
+    "category": "Kardiologie",
+    "question": "Welcher kardiologische Begriff passt: ambulantes Training nach Herzereignis",
+    "answers": [
+      "NSTEMI",
+      "STEMI",
+      "Cardiac Rehab Phase II",
+      "Troponin T"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hypertensiologie_001",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Messung beim Arzt, kann Weißkitteleffekt zeigen",
+    "answers": [
+      "Weißkittelhypertonie",
+      "Praxisblutdruck",
+      "Masked Hypertension",
+      "24h-RR"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_002",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Langzeitmessung zur Erfassung nächtlicher Werte",
+    "answers": [
+      "Arterieller Hypertonus Grad 1",
+      "Weißkittelhypertonie",
+      "Masked Hypertension",
+      "24h-RR"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_003",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: erhöhte Werte nur in medizinischer Umgebung",
+    "answers": [
+      "Masked Hypertension",
+      "Arterieller Hypertonus Grad 2",
+      "Weißkittelhypertonie",
+      "Arterieller Hypertonus Grad 1"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_004",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: normale Praxiswerte, aber erhöhte ambulant",
+    "answers": [
+      "Arterieller Hypertonus Grad 2",
+      "Arterieller Hypertonus Grad 3",
+      "Masked Hypertension",
+      "Arterieller Hypertonus Grad 1"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_005",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: 140-159/90-99 mmHg",
+    "answers": [
+      "Hypertensive Krise",
+      "Arterieller Hypertonus Grad 1",
+      "Arterieller Hypertonus Grad 2",
+      "Arterieller Hypertonus Grad 3"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_006",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: 160-179/100-109 mmHg",
+    "answers": [
+      "Arterieller Hypertonus Grad 3",
+      "Arterieller Hypertonus Grad 2",
+      "Hypertensive Krise",
+      "Hypertensiver Notfall"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_007",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: ≥180/110 mmHg",
+    "answers": [
+      "Arterieller Hypertonus Grad 3",
+      "Primärer Hyperaldosteronismus",
+      "Hypertensive Krise",
+      "Hypertensiver Notfall"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_008",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: RR > 180/120 ohne Organschaden",
+    "answers": [
+      "Hypertensive Krise",
+      "Hypertensiver Notfall",
+      "Renale Denervation",
+      "Primärer Hyperaldosteronismus"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_009",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: RR > 180/120 mit Organschaden",
+    "answers": [
+      "Primärer Hyperaldosteronismus",
+      "Salzrestriktion",
+      "Hypertensiver Notfall",
+      "Renale Denervation"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_010",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: führt zu therapieresistenter Hypertonie",
+    "answers": [
+      "Primärer Hyperaldosteronismus",
+      "DASH-Diät",
+      "Renale Denervation",
+      "Salzrestriktion"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_011",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: katheterbasierte Therapie bei Resistenz",
+    "answers": [
+      "DASH-Diät",
+      "ACE-Hemmer",
+      "Renale Denervation",
+      "Salzrestriktion"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_012",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: unter 5 g Kochsalz täglich empfohlen",
+    "answers": [
+      "DASH-Diät",
+      "Salzrestriktion",
+      "ACE-Hemmer",
+      "ARB"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_013",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: reich an Gemüse, Obst, wenig Fett zur Blutdrucksenkung",
+    "answers": [
+      "ARB",
+      "DASH-Diät",
+      "ACE-Hemmer",
+      "Kalziumantagonisten"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_014",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: First-Line Medikation bei Hypertonie",
+    "answers": [
+      "ACE-Hemmer",
+      "ARB",
+      "Kalziumantagonisten",
+      "Thiazid-Diuretikum"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_015",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Alternative zu ACE-Hemmern ohne Husten",
+    "answers": [
+      "Thiazid-Diuretikum",
+      "ARB",
+      "Kalziumantagonisten",
+      "Betablocker"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_016",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: verringern Gefäßtonus",
+    "answers": [
+      "Kalziumantagonisten",
+      "Spironolacton",
+      "Thiazid-Diuretikum",
+      "Betablocker"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_017",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: senkt Blutdruck über Natriurese",
+    "answers": [
+      "Spironolacton",
+      "Orthostatische Hypotonie",
+      "Betablocker",
+      "Thiazid-Diuretikum"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_018",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: indiziert bei Hypertonie plus Herzinsuffizienz",
+    "answers": [
+      "Betablocker",
+      "Orthostatische Hypotonie",
+      "Morning Surge",
+      "Spironolacton"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_019",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: wirkt bei therapieresistenter Hypertonie",
+    "answers": [
+      "Nocturnal Dipping",
+      "Spironolacton",
+      "Orthostatische Hypotonie",
+      "Morning Surge"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_020",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: RR-Abfall beim Aufstehen, relevant bei Therapie",
+    "answers": [
+      "Orthostatische Hypotonie",
+      "Nocturnal Dipping",
+      "Morning Surge",
+      "Non-Dipper"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_021",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: morgendlicher Blutdruckanstieg",
+    "answers": [
+      "Morning Surge",
+      "Non-Dipper",
+      "Central Blood Pressure",
+      "Nocturnal Dipping"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_022",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: physiologischer nächtlicher RR-Abfall",
+    "answers": [
+      "Central Blood Pressure",
+      "Pulsdruck",
+      "Nocturnal Dipping",
+      "Non-Dipper"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_023",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: fehlender nächtlicher RR-Abfall, höheres Risiko",
+    "answers": [
+      "Central Blood Pressure",
+      "Pulsdruck",
+      "Non-Dipper",
+      "Arteriosteife"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_024",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: aortaler Druck, messbar via Pulswellenanalyse",
+    "answers": [
+      "Central Blood Pressure",
+      "Pulsdruck",
+      "Hypertonie bei Schwangerschaft",
+      "Arteriosteife"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_025",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Differenz zwischen systolischem und diastolischem RR",
+    "answers": [
+      "Hypertonie bei Schwangerschaft",
+      "Arteriosteife",
+      "HELLP-Syndrom",
+      "Pulsdruck"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hypertensiologie_026",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Pulse Wave Velocity als Surrogatmarker",
+    "answers": [
+      "Renovaskuläre Hypertonie",
+      "HELLP-Syndrom",
+      "Hypertonie bei Schwangerschaft",
+      "Arteriosteife"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hypertensiologie_027",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Gestationshypertonie vs. Präeklampsie",
+    "answers": [
+      "HELLP-Syndrom",
+      "Hypertonie bei Schwangerschaft",
+      "Ambulantes Blutdrucktagebuch",
+      "Renovaskuläre Hypertonie"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hypertensiologie_028",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: hämolytische Komplikation mit Hypertonie",
+    "answers": [
+      "Praxisblutdruck",
+      "HELLP-Syndrom",
+      "Ambulantes Blutdrucktagebuch",
+      "Renovaskuläre Hypertonie"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hypertensiologie_029",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Nierenarterienstenose verursacht hohen RR",
+    "answers": [
+      "Renovaskuläre Hypertonie",
+      "Praxisblutdruck",
+      "Ambulantes Blutdrucktagebuch",
+      "24h-RR"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hypertensiologie_030",
+    "category": "Hypertensiologie",
+    "question": "Welcher Hypertonie-Begriff passt: Selbstmessungen zur Therapieanpassung",
+    "answers": [
+      "Weißkittelhypertonie",
+      "Ambulantes Blutdrucktagebuch",
+      "Praxisblutdruck",
+      "24h-RR"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_rhythmologie_001",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: häufigste supraventrikuläre Arrhythmie",
+    "answers": [
+      "Katheterablation",
+      "Vorhofflimmern",
+      "HAS-BLED",
+      "CHA2DS2-VASc"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_002",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Score zur Schlaganfallrisikoabschätzung",
+    "answers": [
+      "CHA2DS2-VASc",
+      "Katheterablation",
+      "HAS-BLED",
+      "Kryoballon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_003",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Score zur Blutungsrisikoeinschätzung",
+    "answers": [
+      "Pulmonalvenenisolation",
+      "HAS-BLED",
+      "Katheterablation",
+      "Kryoballon"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_004",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Veröden arrhythmogener Herde mittels Radiofrequenz",
+    "answers": [
+      "Katheterablation",
+      "AV-Knoten-Reentry",
+      "Pulmonalvenenisolation",
+      "Kryoballon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_005",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Kältebasierte Pulmonalvenenisolation",
+    "answers": [
+      "Kryoballon",
+      "Pulmonalvenenisolation",
+      "Wolff-Parkinson-White",
+      "AV-Knoten-Reentry"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_006",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Standardprozedur bei paroxysmalem Vorhofflimmern",
+    "answers": [
+      "Pulmonalvenenisolation",
+      "Wolff-Parkinson-White",
+      "His-Bündel-Ablation",
+      "AV-Knoten-Reentry"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_007",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: typische Ursache für paroxysmale Supraventrikuläre Tachykardie",
+    "answers": [
+      "AV-Knoten-Reentry",
+      "His-Bündel-Ablation",
+      "ICD",
+      "Wolff-Parkinson-White"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_008",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: angeborene akzessorische Leitungsbahn",
+    "answers": [
+      "His-Bündel-Ablation",
+      "Subkutaner ICD",
+      "ICD",
+      "Wolff-Parkinson-White"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_009",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Therapie bei therapierefraktärem Vorhofflimmern",
+    "answers": [
+      "CRT-P",
+      "ICD",
+      "His-Bündel-Ablation",
+      "Subkutaner ICD"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_010",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Implantierbarer Cardioverter-Defibrillator",
+    "answers": [
+      "CRT-P",
+      "ICD",
+      "Brugada-Syndrom",
+      "Subkutaner ICD"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_011",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Defi ohne transvenöse Elektroden",
+    "answers": [
+      "Brugada-Syndrom",
+      "CRT-P",
+      "Subkutaner ICD",
+      "Long-QT-Syndrom"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_012",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: kardiale Resynchronisation ohne Defibrillatorfunktion",
+    "answers": [
+      "Long-QT-Syndrom",
+      "CRT-P",
+      "Brugada-Syndrom",
+      "Ajmalin-Test"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_013",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: genetische Kanalopathie mit Risiko für Kammerflimmern",
+    "answers": [
+      "Brugada-Syndrom",
+      "Ajmalin-Test",
+      "Long-QT-Syndrom",
+      "ZIO Patch"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_014",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: verzögerte Repolarisation, erhöht Torsade-de-pointes-Risiko",
+    "answers": [
+      "Ajmalin-Test",
+      "ZIO Patch",
+      "Long-QT-Syndrom",
+      "Holter-EKG"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_015",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Provokationstest zur Brugada-Diagnostik",
+    "answers": [
+      "Loop-Recorder",
+      "ZIO Patch",
+      "Holter-EKG",
+      "Ajmalin-Test"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_016",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Langzeit-EKG-Monitoring als Patch",
+    "answers": [
+      "ZIO Patch",
+      "Holter-EKG",
+      "Loop-Recorder",
+      "Sinusknoten-Dysfunktion"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_017",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: 24h-EKG zur Arrhythmieerkennung",
+    "answers": [
+      "Sick-Sinus-Syndrom",
+      "Loop-Recorder",
+      "Sinusknoten-Dysfunktion",
+      "Holter-EKG"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_018",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: implantierter Monitor für seltene Synkopen",
+    "answers": [
+      "Sick-Sinus-Syndrom",
+      "Loop-Recorder",
+      "Sinusknoten-Dysfunktion",
+      "Pacemaker-DDD"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_019",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: führt zu bradykarden Episoden",
+    "answers": [
+      "Leadless Pacemaker",
+      "Sick-Sinus-Syndrom",
+      "Sinusknoten-Dysfunktion",
+      "Pacemaker-DDD"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_020",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Kombination aus Bradykardie und Tachykardie",
+    "answers": [
+      "Pacemaker-DDD",
+      "Vagus-Manöver",
+      "Sick-Sinus-Syndrom",
+      "Leadless Pacemaker"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_021",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Zweistimulationssystem für Vorhof und Ventrikel",
+    "answers": [
+      "Leadless Pacemaker",
+      "Vagus-Manöver",
+      "Pacemaker-DDD",
+      "Adenosin"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_022",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: kabelloser VVI-Schrittmacher",
+    "answers": [
+      "Torsade de pointes",
+      "Vagus-Manöver",
+      "Adenosin",
+      "Leadless Pacemaker"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_023",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: z. B. Valsalva zur Terminierung supraventrikulärer Tachykardie",
+    "answers": [
+      "Vagus-Manöver",
+      "Elektrokonversion",
+      "Torsade de pointes",
+      "Adenosin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_024",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Kurz wirksames Medikament zur AV-Knoten-Blockade",
+    "answers": [
+      "Amiodaron",
+      "Adenosin",
+      "Torsade de pointes",
+      "Elektrokonversion"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_025",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: polymorphe VT mit QT-Verlängerung",
+    "answers": [
+      "Torsade de pointes",
+      "Flecainid",
+      "Amiodaron",
+      "Elektrokonversion"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_rhythmologie_026",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Synchroner Schock zur Rhythmusnormalisierung",
+    "answers": [
+      "Elektrokonversion",
+      "Amiodaron",
+      "His-Bundle-Pacing",
+      "Flecainid"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_rhythmologie_027",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Breitband-Antiarrhythmikum mit vielen Nebenwirkungen",
+    "answers": [
+      "Flecainid",
+      "EHRA-Score",
+      "Amiodaron",
+      "His-Bundle-Pacing"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_rhythmologie_028",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: Klasse-IC-Medikament für Rhythmuskontrolle",
+    "answers": [
+      "Flecainid",
+      "His-Bundle-Pacing",
+      "Vorhofflimmern",
+      "EHRA-Score"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_rhythmologie_029",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: physiologisches Schrittmacherverfahren",
+    "answers": [
+      "His-Bundle-Pacing",
+      "CHA2DS2-VASc",
+      "EHRA-Score",
+      "Vorhofflimmern"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_rhythmologie_030",
+    "category": "Rhythmologie",
+    "question": "Welcher Rhythmusbegriff passt: symptomatische Einteilung bei Vorhofflimmern",
+    "answers": [
+      "HAS-BLED",
+      "CHA2DS2-VASc",
+      "EHRA-Score",
+      "Vorhofflimmern"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_diabetologie_001",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: langfristiger Parameter zur Glukosekontrolle",
+    "answers": [
+      "CGM",
+      "HbA1c",
+      "Time in Range",
+      "Basal-Bolus-Therapie"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_002",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: kontinuierliches Glukosemonitoring über Sensoren",
+    "answers": [
+      "Time in Range",
+      "CGM",
+      "Basal-Bolus-Therapie",
+      "Insulinpumpe"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_003",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Prozentsatz der Zeit im Zielbereich 70–180 mg/dl",
+    "answers": [
+      "Basal-Bolus-Therapie",
+      "Closed-Loop-System",
+      "Insulinpumpe",
+      "Time in Range"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_004",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Langzeitinsulin plus Mahlzeiteninsulin",
+    "answers": [
+      "Insulinpumpe",
+      "Basal-Bolus-Therapie",
+      "Closed-Loop-System",
+      "Metformin"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_005",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: kontinuierliche subkutane Infusionspumpe",
+    "answers": [
+      "Insulinpumpe",
+      "Metformin",
+      "SGLT2-Hemmer",
+      "Closed-Loop-System"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_006",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Kombination aus CGM und Automatikpumpe",
+    "answers": [
+      "Closed-Loop-System",
+      "GLP-1-Rezeptoragonist",
+      "Metformin",
+      "SGLT2-Hemmer"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_007",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: First-Line-Medikament bei Typ-2-Diabetes",
+    "answers": [
+      "SGLT2-Hemmer",
+      "GLP-1-Rezeptoragonist",
+      "Metformin",
+      "DPP-4-Hemmer"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_008",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: fördern Glukoseausscheidung über die Niere",
+    "answers": [
+      "SGLT2-Hemmer",
+      "Sulfonylharnstoffe",
+      "DPP-4-Hemmer",
+      "GLP-1-Rezeptoragonist"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_009",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: wirkt appetitzügelnd und gewichtsreduzierend",
+    "answers": [
+      "Hypoglykämie",
+      "DPP-4-Hemmer",
+      "GLP-1-Rezeptoragonist",
+      "Sulfonylharnstoffe"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_010",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: verlängern Wirkung endogener Incretine",
+    "answers": [
+      "DPP-4-Hemmer",
+      "Hyperglykämie",
+      "Hypoglykämie",
+      "Sulfonylharnstoffe"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_011",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: erhöhen Insulinsekretion, Hypoglykämie-Risiko",
+    "answers": [
+      "Hyperglykämie",
+      "DKA",
+      "Hypoglykämie",
+      "Sulfonylharnstoffe"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_012",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: unter 70 mg/dl mit Symptomen wie Schwitzen",
+    "answers": [
+      "Hyperglykämie",
+      "HHS",
+      "Hypoglykämie",
+      "DKA"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_013",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: erhöhte Blutzuckerwerte, führen zu Polyurie",
+    "answers": [
+      "DKA",
+      "Hyperglykämie",
+      "HHS",
+      "Fuß-Check"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_014",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: diabetische Ketoazidose mit Ketonkörpern und Azidose",
+    "answers": [
+      "DKA",
+      "Augen-Hintergrund",
+      "Fuß-Check",
+      "HHS"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_015",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: hyperosmolares hyperglykämisches Syndrom ohne Ketose",
+    "answers": [
+      "Albuminurie",
+      "Fuß-Check",
+      "HHS",
+      "Augen-Hintergrund"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_016",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: jährliche Untersuchung auf Neuropathie",
+    "answers": [
+      "Neuropathie",
+      "Albuminurie",
+      "Fuß-Check",
+      "Augen-Hintergrund"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_017",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Screening auf diabetische Retinopathie",
+    "answers": [
+      "Augen-Hintergrund",
+      "Carb Counting",
+      "Albuminurie",
+      "Neuropathie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_018",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Frühes Zeichen diabetischer Nephropathie",
+    "answers": [
+      "Bolus-Rechner",
+      "Albuminurie",
+      "Neuropathie",
+      "Carb Counting"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_019",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: schädigt sensible und autonome Nerven",
+    "answers": [
+      "Carb Counting",
+      "Somogyi-Effekt",
+      "Neuropathie",
+      "Bolus-Rechner"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_020",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: berechnet Kohlenhydrateinheiten für Insulindosis",
+    "answers": [
+      "Dawn-Phänomen",
+      "Somogyi-Effekt",
+      "Carb Counting",
+      "Bolus-Rechner"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_021",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Hilft, Mahlzeiteninsulin einzustellen",
+    "answers": [
+      "Inselzelltransplantation",
+      "Bolus-Rechner",
+      "Dawn-Phänomen",
+      "Somogyi-Effekt"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_022",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: morgendliche Hyperglykämie nach nächtlicher Hypo",
+    "answers": [
+      "Inselzelltransplantation",
+      "Somogyi-Effekt",
+      "Hybrid Closed Loop",
+      "Dawn-Phänomen"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_023",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: morgendlicher Glukoseanstieg durch Hormone",
+    "answers": [
+      "Libre Sensor",
+      "Hybrid Closed Loop",
+      "Inselzelltransplantation",
+      "Dawn-Phänomen"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_024",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Therapieoption bei Typ-1-Diabetes",
+    "answers": [
+      "Hybrid Closed Loop",
+      "Libre Sensor",
+      "AGP-Profil",
+      "Inselzelltransplantation"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_025",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: automatisiert Basalrate, Bolus bleibt manuell",
+    "answers": [
+      "AGP-Profil",
+      "Hybrid Closed Loop",
+      "Glyx-Index",
+      "Libre Sensor"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_diabetologie_026",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: Flash-Glukosemonitor ohne Kalibrierung",
+    "answers": [
+      "Glyx-Index",
+      "Libre Sensor",
+      "Low-Carb-Ernährung",
+      "AGP-Profil"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_diabetologie_027",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: standardisierte CGM-Auswertung",
+    "answers": [
+      "AGP-Profil",
+      "Glyx-Index",
+      "Low-Carb-Ernährung",
+      "Sick-Day-Regeln"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_diabetologie_028",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: gibt Geschwindigkeit des Blutzuckeranstiegs an",
+    "answers": [
+      "Low-Carb-Ernährung",
+      "Glyx-Index",
+      "HbA1c",
+      "Sick-Day-Regeln"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_diabetologie_029",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: reduziert Kohlenhydrate zur BZ-Kontrolle",
+    "answers": [
+      "Low-Carb-Ernährung",
+      "CGM",
+      "Sick-Day-Regeln",
+      "HbA1c"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_diabetologie_030",
+    "category": "Diabetologie",
+    "question": "Welcher Diabetologie-Begriff passt: angepasste Insulin- und Flüssigkeitszufuhr bei Krankheit",
+    "answers": [
+      "HbA1c",
+      "CGM",
+      "Sick-Day-Regeln",
+      "Time in Range"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_lipidmanagement_001",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: primäres Zielparameter laut Leitlinien",
+    "answers": [
+      "Triglyzeride",
+      "LDL-Cholesterin",
+      "non-HDL-Cholesterin",
+      "Lp(a)"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_002",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Ersatzmarker bei Hypertriglyzeridämie",
+    "answers": [
+      "Triglyzeride",
+      "non-HDL-Cholesterin",
+      "ApoB",
+      "Lp(a)"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_003",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Fette, die bei Werten > 500 mg/dl Pankreatitis riskieren",
+    "answers": [
+      "Familial Hypercholesterolemia",
+      "Lp(a)",
+      "Triglyzeride",
+      "ApoB"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_004",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: genetisch bestimmtes Lipoprotein mit Atheroskleroserisiko",
+    "answers": [
+      "Familial Hypercholesterolemia",
+      "ApoB",
+      "Statine",
+      "Lp(a)"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_005",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Marker für Anzahl atherogener Partikel",
+    "answers": [
+      "Statine",
+      "ApoB",
+      "Familial Hypercholesterolemia",
+      "Ezetimib"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_006",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: erblich bedingt hohe LDL-Werte",
+    "answers": [
+      "PCSK9-Inhibitor",
+      "Statine",
+      "Ezetimib",
+      "Familial Hypercholesterolemia"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_007",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: HMG-CoA-Reduktasehemmer zur LDL-Senkung",
+    "answers": [
+      "Ezetimib",
+      "Statine",
+      "PCSK9-Inhibitor",
+      "Inclisiran"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_008",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: hemmt Cholesterinaufnahme im Darm",
+    "answers": [
+      "Ezetimib",
+      "PCSK9-Inhibitor",
+      "Inclisiran",
+      "Bempedoinsäure"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_009",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: monoklonale Antikörper, die LDL-Rezeptoren erhalten",
+    "answers": [
+      "Fibrate",
+      "Bempedoinsäure",
+      "PCSK9-Inhibitor",
+      "Inclisiran"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_010",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: siRNA, die PCSK9-Expression reduziert",
+    "answers": [
+      "Bempedoinsäure",
+      "Inclisiran",
+      "Fibrate",
+      "Omega-3-Fettsäuren"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_011",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: ATP-Citrat-Lyase-Hemmer zur LDL-Senkung",
+    "answers": [
+      "Fibrate",
+      "Bempedoinsäure",
+      "Omega-3-Fettsäuren",
+      "Nikotinsäure"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_012",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: senken vor allem Triglyzeride und erhöhen HDL",
+    "answers": [
+      "Omega-3-Fettsäuren",
+      "Nikotinsäure",
+      "LDL-Apherese",
+      "Fibrate"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_013",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: senken hohe Triglyzeride",
+    "answers": [
+      "Omega-3-Fettsäuren",
+      "LDL-Apherese",
+      "Nikotinsäure",
+      "Sekundärprävention"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_014",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: älteres Mittel zur Lipidtherapie mit Flush",
+    "answers": [
+      "ESC Ziel <55 mg/dl",
+      "Sekundärprävention",
+      "LDL-Apherese",
+      "Nikotinsäure"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_015",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: extrakorporal bei homozygoter FH",
+    "answers": [
+      "Statinintoleranz",
+      "LDL-Apherese",
+      "ESC Ziel <55 mg/dl",
+      "Sekundärprävention"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_016",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: intensivere LDL-Ziele nach Ereignissen",
+    "answers": [
+      "ESC Ziel <55 mg/dl",
+      "Coenzym Q10",
+      "Statinintoleranz",
+      "Sekundärprävention"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_017",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: empfohlen für sehr hohes Risiko",
+    "answers": [
+      "Lifestyle",
+      "Statinintoleranz",
+      "ESC Ziel <55 mg/dl",
+      "Coenzym Q10"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_018",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Myalgien oder CK-Erhöhung unter Therapie",
+    "answers": [
+      "Statinintoleranz",
+      "Plant Sterols",
+      "Coenzym Q10",
+      "Lifestyle"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_019",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Supplements, die Myalgien lindern sollen",
+    "answers": [
+      "Plant Sterols",
+      "Lifestyle",
+      "Bempedoic Acid",
+      "Coenzym Q10"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_020",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Gewichtsreduktion, mediterrane Kost, Sport",
+    "answers": [
+      "Lifestyle",
+      "Plant Sterols",
+      "Coronary Artery Calcium",
+      "Bempedoic Acid"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_021",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: senken Cholesterinabsorption",
+    "answers": [
+      "Plant Sterols",
+      "Lipidprofil nüchtern",
+      "Bempedoic Acid",
+      "Coronary Artery Calcium"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_022",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: wird nur in der Leber aktiviert, weniger Muskelsymptome",
+    "answers": [
+      "Bempedoic Acid",
+      "Coronary Artery Calcium",
+      "Lipidprofil nüchtern",
+      "Remnant-Cholesterin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_023",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: entscheidet bei intermediärem Risiko",
+    "answers": [
+      "Lipidprofil nüchtern",
+      "Remnant-Cholesterin",
+      "Coronary Artery Calcium",
+      "Familienanamnese"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_024",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: notwendig bei extremen Triglyzeriden",
+    "answers": [
+      "Familienanamnese",
+      "Lipidprofil nüchtern",
+      "Remnant-Cholesterin",
+      "Xanthome"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_025",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Atherogener Anteil aus VLDL/IDL",
+    "answers": [
+      "Xanthome",
+      "ARC-Studien",
+      "Familienanamnese",
+      "Remnant-Cholesterin"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_lipidmanagement_026",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: erhöhtes Risiko bei frühem Infarkt der Eltern",
+    "answers": [
+      "Familienanamnese",
+      "Monotherapie vs. Kombination",
+      "Xanthome",
+      "ARC-Studien"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_lipidmanagement_027",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: cholesterinhaltige Hautablagerungen",
+    "answers": [
+      "Lipidambulanz",
+      "Xanthome",
+      "ARC-Studien",
+      "Monotherapie vs. Kombination"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_lipidmanagement_028",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: belegen Nutzen intensiver LDL-Senkung",
+    "answers": [
+      "LDL-Cholesterin",
+      "Monotherapie vs. Kombination",
+      "ARC-Studien",
+      "Lipidambulanz"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_lipidmanagement_029",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: Mehrere Wirkstoffe erreichen strenge Ziele",
+    "answers": [
+      "Lipidambulanz",
+      "non-HDL-Cholesterin",
+      "LDL-Cholesterin",
+      "Monotherapie vs. Kombination"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_lipidmanagement_030",
+    "category": "Lipidmanagement",
+    "question": "Welcher Lipid- oder Stoffwechselbegriff passt: spezialisierte Einrichtung für schwere Dyslipidämien",
+    "answers": [
+      "non-HDL-Cholesterin",
+      "Lipidambulanz",
+      "Triglyzeride",
+      "LDL-Cholesterin"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_001",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: betont Olivenöl, Gemüse, Fisch",
+    "answers": [
+      "Ballaststoffe",
+      "Vollkorn",
+      "Mediterrane Diät",
+      "Omega-3-Fettsäuren"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_002",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: fördern Sättigung und Darmgesundheit",
+    "answers": [
+      "Vollkorn",
+      "Pflanzenproteine",
+      "Omega-3-Fettsäuren",
+      "Ballaststoffe"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_003",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: liefert komplexe Kohlenhydrate und Mineralstoffe",
+    "answers": [
+      "Vollkorn",
+      "Pflanzenproteine",
+      "Fermentierte Lebensmittel",
+      "Omega-3-Fettsäuren"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_004",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: entzündungshemmend, etwa aus Lachs und Leinsamen",
+    "answers": [
+      "Pflanzenproteine",
+      "Fermentierte Lebensmittel",
+      "Meal Prep",
+      "Omega-3-Fettsäuren"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_005",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Hülsenfrüchte, Tofu und Tempeh",
+    "answers": [
+      "Fermentierte Lebensmittel",
+      "Meal Prep",
+      "Pflanzenproteine",
+      "Portionskontrolle"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_006",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Kimchi, Kefir und Sauerkraut für Mikrobiom",
+    "answers": [
+      "Fermentierte Lebensmittel",
+      "Saisonal essen",
+      "Meal Prep",
+      "Portionskontrolle"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_007",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Vorbereiten gesunder Mahlzeiten im Voraus",
+    "answers": [
+      "Portionskontrolle",
+      "Regional einkaufen",
+      "Meal Prep",
+      "Saisonal essen"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_008",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: bewusstes Abmessen vermeidet Überessen",
+    "answers": [
+      "Mindful Eating",
+      "Regional einkaufen",
+      "Portionskontrolle",
+      "Saisonal essen"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_009",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Lebensmittel nach Erntezeiten auswählen",
+    "answers": [
+      "Hydration",
+      "Mindful Eating",
+      "Saisonal essen",
+      "Regional einkaufen"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_010",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: kurze Transportwege und frische Ware",
+    "answers": [
+      "Zuckerreduktion",
+      "Hydration",
+      "Regional einkaufen",
+      "Mindful Eating"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_011",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: achtsames Essen ohne Ablenkung",
+    "answers": [
+      "Mindful Eating",
+      "Salzlimit",
+      "Zuckerreduktion",
+      "Hydration"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_012",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: mindestens 1,5–2 Liter Wasser pro Tag",
+    "answers": [
+      "Zuckerreduktion",
+      "Hydration",
+      "Healthy Fats",
+      "Salzlimit"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_013",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: versteckte Zucker in Getränken meiden",
+    "answers": [
+      "Healthy Fats",
+      "Salzlimit",
+      "Zuckerreduktion",
+      "Flexitarisch"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_014",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: unter 5 g pro Tag laut WHO",
+    "answers": [
+      "Salzlimit",
+      "Intervallfasten",
+      "Flexitarisch",
+      "Healthy Fats"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_015",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Avocado, Nüsse, Samen",
+    "answers": [
+      "Glyx-Kurve",
+      "Flexitarisch",
+      "Healthy Fats",
+      "Intervallfasten"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_016",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: überwiegend pflanzlich, gelegentlich Fleisch",
+    "answers": [
+      "Intervallfasten",
+      "Flexitarisch",
+      "Superfoods",
+      "Glyx-Kurve"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_017",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Essensfenster wie 16:8 zur Stoffwechselregulation",
+    "answers": [
+      "Intervallfasten",
+      "Meal Timing",
+      "Glyx-Kurve",
+      "Superfoods"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_018",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Blutzuckerschwankungen durch Low-GI-Lebensmittel minimieren",
+    "answers": [
+      "Antioxidantien",
+      "Glyx-Kurve",
+      "Meal Timing",
+      "Superfoods"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_019",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Beeren, Chia oder Matcha mit hoher Nährstoffdichte",
+    "answers": [
+      "Antioxidantien",
+      "Meal Timing",
+      "Superfoods",
+      "Phytonährstoffe"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_020",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Proteine nach dem Training fördern Regeneration",
+    "answers": [
+      "Phytonährstoffe",
+      "Antioxidantien",
+      "Meal Timing",
+      "Makronährstoffverteilung"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_021",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Vitamin C, E und Polyphenole schützen Zellen",
+    "answers": [
+      "Sprossen",
+      "Antioxidantien",
+      "Phytonährstoffe",
+      "Makronährstoffverteilung"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_022",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Farbstoffe wie Carotinoide, Flavonoide",
+    "answers": [
+      "Sprossen",
+      "Phytonährstoffe",
+      "Makronährstoffverteilung",
+      "Smoothie Bowls"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_023",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: ausgewogenes Verhältnis von KH, Fett, Protein",
+    "answers": [
+      "Makronährstoffverteilung",
+      "Meal Planning",
+      "Sprossen",
+      "Smoothie Bowls"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_024",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: vitaminreiche Keimlinge auf Sandwiches und Bowls",
+    "answers": [
+      "Smoothie Bowls",
+      "Food Waste vermeiden",
+      "Meal Planning",
+      "Sprossen"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_025",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Mix aus Obst, Gemüse und Toppings",
+    "answers": [
+      "Smoothie Bowls",
+      "Food Waste vermeiden",
+      "Nussbutter",
+      "Meal Planning"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_026",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Wochengerichte planen spart Zeit und Geld",
+    "answers": [
+      "B12 Supplement",
+      "Nussbutter",
+      "Food Waste vermeiden",
+      "Meal Planning"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_027",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Reste kreativ verwerten",
+    "answers": [
+      "Nussbutter",
+      "Calciumquellen",
+      "Food Waste vermeiden",
+      "B12 Supplement"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_028",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: gesunde Fette und Eiweiß aus Mandeln oder Erdnüssen",
+    "answers": [
+      "B12 Supplement",
+      "Nussbutter",
+      "Mediterrane Diät",
+      "Calciumquellen"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_029",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: wichtig bei veganer Ernährung",
+    "answers": [
+      "B12 Supplement",
+      "Calciumquellen",
+      "Ballaststoffe",
+      "Mediterrane Diät"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_gesunde_ernahrung_030",
+    "category": "Gesunde Ernährung",
+    "question": "Welches Ernährungsprinzip passt: Brokkoli, Mandeln und angereicherte Drinks",
+    "answers": [
+      "Vollkorn",
+      "Calciumquellen",
+      "Mediterrane Diät",
+      "Ballaststoffe"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_frauengesundheit_001",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Screening auf Zervixdysplasien",
+    "answers": [
+      "HPV-Impfung",
+      "Mammographie",
+      "BRCA-Testung",
+      "Pap-Abstrich"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_002",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Schützt vor Hochrisiko-Typen, die Krebs verursachen können",
+    "answers": [
+      "BRCA-Testung",
+      "Mammographie",
+      "Selbstabtastung",
+      "HPV-Impfung"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_003",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: genetisches Screening bei familiärem Brustkrebs",
+    "answers": [
+      "Knochendichte-Messung",
+      "BRCA-Testung",
+      "Mammographie",
+      "Selbstabtastung"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_004",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Bildgebung ab 50 zum Brustkrebsscreening",
+    "answers": [
+      "Selbstabtastung",
+      "Mammographie",
+      "Knochendichte-Messung",
+      "Folsäure"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_005",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: monatliche Brustkontrolle",
+    "answers": [
+      "Selbstabtastung",
+      "Folsäure",
+      "Knochendichte-Messung",
+      "Gestationsdiabetes"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_006",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: erkennt Osteoporoserisiko nach der Menopause",
+    "answers": [
+      "Knochendichte-Messung",
+      "Präeklampsie-Screening",
+      "Gestationsdiabetes",
+      "Folsäure"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_007",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Supplement vor und während Frühschwangerschaft",
+    "answers": [
+      "Gestationsdiabetes",
+      "Folsäure",
+      "Hebammenbetreuung",
+      "Präeklampsie-Screening"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_008",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Glukosetest zwischen 24. und 28. SSW",
+    "answers": [
+      "Endometriose",
+      "Hebammenbetreuung",
+      "Gestationsdiabetes",
+      "Präeklampsie-Screening"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_009",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Überwachung von Blutdruck und Proteinurie",
+    "answers": [
+      "Präeklampsie-Screening",
+      "Hebammenbetreuung",
+      "Endometriose",
+      "PCOS"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_010",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: begleitet Schwangerschaft und Wochenbett",
+    "answers": [
+      "Hebammenbetreuung",
+      "HRT",
+      "Endometriose",
+      "PCOS"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_011",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: chronische Erkrankung mit ektopischem Endometriumgewebe",
+    "answers": [
+      "Endometriose",
+      "PCOS",
+      "Beckenboden-Training",
+      "HRT"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_012",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Polyzystisches Ovarialsyndrom mit Zyklusstörungen",
+    "answers": [
+      "Beckenboden-Training",
+      "Stillberatung",
+      "PCOS",
+      "HRT"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_013",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Hormonersatztherapie zur Linderung menopausaler Symptome",
+    "answers": [
+      "HRT",
+      "Stillberatung",
+      "Beckenboden-Training",
+      "IUD"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_014",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: beugt Inkontinenz und Prolaps vor",
+    "answers": [
+      "IUD",
+      "Beckenboden-Training",
+      "Stillberatung",
+      "Kupferkette"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_015",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: unterstützt beim erfolgreichen Stillen",
+    "answers": [
+      "Langzyklus-Pille",
+      "Stillberatung",
+      "IUD",
+      "Kupferkette"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_016",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Intrauterinspange zur Langzeitverhütung",
+    "answers": [
+      "Langzyklus-Pille",
+      "IUD",
+      "Fertilitätsmonitoring",
+      "Kupferkette"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_017",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: hormonfreie Alternative zum Kupfer IUP",
+    "answers": [
+      "Pränataldiagnostik",
+      "Kupferkette",
+      "Langzyklus-Pille",
+      "Fertilitätsmonitoring"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_018",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Verhindert monatliche Entzugsblutungen",
+    "answers": [
+      "Langzyklus-Pille",
+      "Doula",
+      "Fertilitätsmonitoring",
+      "Pränataldiagnostik"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_019",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Basaltemperatur und LH-Tests zur Zyklusbestimmung",
+    "answers": [
+      "Doula",
+      "Fertilitätsmonitoring",
+      "Pränataldiagnostik",
+      "Stillhütchen"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_020",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: NIPT, Chorionzotten, Amniozentese",
+    "answers": [
+      "Stillhütchen",
+      "Doula",
+      "Pränataldiagnostik",
+      "Postpartale Depression"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_021",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: nicht-medizinische Geburtsbegleitung",
+    "answers": [
+      "Stillhütchen",
+      "Doula",
+      "Postpartale Depression",
+      "Babyblues"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_022",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Hilfsmittel bei wunden Brustwarzen",
+    "answers": [
+      "Postpartale Depression",
+      "Stillhütchen",
+      "Babyblues",
+      "Muttermilchbanken"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_023",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: psychische Erkrankung nach Geburt",
+    "answers": [
+      "Babyblues",
+      "Stillfreundliche Medikamente",
+      "Muttermilchbanken",
+      "Postpartale Depression"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_024",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: kurzfristige Stimmungsschwankung nach Entbindung",
+    "answers": [
+      "Intimpflege",
+      "Muttermilchbanken",
+      "Babyblues",
+      "Stillfreundliche Medikamente"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_025",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Spenden für Frühgeborene",
+    "answers": [
+      "Stillfreundliche Medikamente",
+      "Intimpflege",
+      "Muttermilchbanken",
+      "Vulvodynie"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_frauengesundheit_026",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Kompatibilität via Embryotox prüfen",
+    "answers": [
+      "Stillfreundliche Medikamente",
+      "Vulvodynie",
+      "Lichen sclerosus",
+      "Intimpflege"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_frauengesundheit_027",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: pH-neutrale Produkte, keine Duftstoffe",
+    "answers": [
+      "Lichen sclerosus",
+      "Vulvodynie",
+      "Menstruationstracker",
+      "Intimpflege"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_frauengesundheit_028",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: chronische Schmerzen im Vulvabereich",
+    "answers": [
+      "Lichen sclerosus",
+      "Menstruationstracker",
+      "Pap-Abstrich",
+      "Vulvodynie"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_frauengesundheit_029",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: entzündliche Hauterkrankung im Genitalbereich",
+    "answers": [
+      "HPV-Impfung",
+      "Pap-Abstrich",
+      "Lichen sclerosus",
+      "Menstruationstracker"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_frauengesundheit_030",
+    "category": "Frauengesundheit",
+    "question": "Welcher Frauengesundheitsbegriff passt: Apps zur Zyklusauswertung",
+    "answers": [
+      "BRCA-Testung",
+      "Pap-Abstrich",
+      "HPV-Impfung",
+      "Menstruationstracker"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_001",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: modo verbal para expresar deseos, dudas o emociones?",
+    "answers": [
+      "Subjuntivo",
+      "Condicional compuesto",
+      "Pluscuamperfecto",
+      "Pretérito indefinido"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_002",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: tiempo que describe acciones anteriores a otra acción pasada?",
+    "answers": [
+      "Condicional compuesto",
+      "Pluscuamperfecto",
+      "Pretérito indefinido",
+      "Pretérito imperfecto"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_003",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: expresa posibilidades no cumplidas en el pasado?",
+    "answers": [
+      "Condicional compuesto",
+      "Pretérito imperfecto",
+      "Perífrasis ir a + infinitivo",
+      "Pretérito indefinido"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_004",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: tiempo para acciones puntuales terminadas?",
+    "answers": [
+      "Pretérito imperfecto",
+      "Se impersonal",
+      "Pretérito indefinido",
+      "Perífrasis ir a + infinitivo"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_005",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: acciones habituales o descripciones en el pasado?",
+    "answers": [
+      "Perífrasis ir a + infinitivo",
+      "Se impersonal",
+      "Pretérito imperfecto",
+      "Ser vs. estar"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_006",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: expresa futuro inmediato?",
+    "answers": [
+      "Por vs. para",
+      "Perífrasis ir a + infinitivo",
+      "Ser vs. estar",
+      "Se impersonal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_007",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: estructura para hablar sin sujeto específico?",
+    "answers": [
+      "Pronombres de objeto indirecto",
+      "Se impersonal",
+      "Ser vs. estar",
+      "Por vs. para"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_008",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: ser para cualidades permanentes, estar para estados temporales?",
+    "answers": [
+      "Ser vs. estar",
+      "Por vs. para",
+      "Pronombres de objeto indirecto",
+      "Cláusulas con si"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_009",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: por indica causa, para objetivo o destino?",
+    "answers": [
+      "Por vs. para",
+      "Cláusulas con si",
+      "Estilo indirecto",
+      "Pronombres de objeto indirecto"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_010",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: le, les para indicar a quién se dirige la acción?",
+    "answers": [
+      "Estilo indirecto",
+      "Cláusulas con si",
+      "Conectores discursivos",
+      "Pronombres de objeto indirecto"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_011",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: si + presente conduce a futuro, si + imperfecto de subjuntivo a condicional?",
+    "answers": [
+      "Conectores discursivos",
+      "Cláusulas con si",
+      "Voz pasiva perifrástica",
+      "Estilo indirecto"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_012",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: transforma citas directas usando cambios de tiempo?",
+    "answers": [
+      "Voz pasiva refleja",
+      "Estilo indirecto",
+      "Voz pasiva perifrástica",
+      "Conectores discursivos"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_013",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: por lo tanto, sin embargo, a pesar de que?",
+    "answers": [
+      "Concordancia de adjetivos",
+      "Voz pasiva refleja",
+      "Voz pasiva perifrástica",
+      "Conectores discursivos"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_014",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: ser + participio?",
+    "answers": [
+      "Concordancia de adjetivos",
+      "Voz pasiva refleja",
+      "Voz pasiva perifrástica",
+      "Oraciones de relativo"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_015",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: se + verbo en tercera persona?",
+    "answers": [
+      "Voz pasiva refleja",
+      "Oraciones de relativo",
+      "Futuro perfecto",
+      "Concordancia de adjetivos"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_016",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: género y número coinciden con el sustantivo?",
+    "answers": [
+      "Oraciones de relativo",
+      "Concordancia de adjetivos",
+      "Mandatos negativos",
+      "Futuro perfecto"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_017",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: que, quien, cuyo para unir ideas?",
+    "answers": [
+      "Oraciones de relativo",
+      "Mandatos negativos",
+      "Mandatos formales",
+      "Futuro perfecto"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_018",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: hablar de acciones completadas antes de otro momento futuro?",
+    "answers": [
+      "Mandatos negativos",
+      "Expresiones idiomáticas",
+      "Futuro perfecto",
+      "Mandatos formales"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_019",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: no + subjuntivo (no hables)?",
+    "answers": [
+      "Expresiones idiomáticas",
+      "Falsos amigos",
+      "Mandatos formales",
+      "Mandatos negativos"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_020",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: subjuntivo presente (hable, hablen)?",
+    "answers": [
+      "Campos léxicos",
+      "Mandatos formales",
+      "Falsos amigos",
+      "Expresiones idiomáticas"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_021",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: estar en las nubes, tener ganas de?",
+    "answers": [
+      "Conectores temporales",
+      "Campos léxicos",
+      "Expresiones idiomáticas",
+      "Falsos amigos"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_022",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: actual significa real, no actual?",
+    "answers": [
+      "Conectores temporales",
+      "Falsos amigos",
+      "Perífrasis estar + gerundio",
+      "Campos léxicos"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_023",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: palabras relacionadas con un tema específico?",
+    "answers": [
+      "Campos léxicos",
+      "Perífrasis llevar + gerundio",
+      "Perífrasis estar + gerundio",
+      "Conectores temporales"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_024",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: antes de que, mientras, después de?",
+    "answers": [
+      "Conectores temporales",
+      "Perífrasis llevar + gerundio",
+      "Perífrasis estar + gerundio",
+      "Verbos de cambio"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_025",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: acción en progreso?",
+    "answers": [
+      "Perífrasis llevar + gerundio",
+      "Perífrasis estar + gerundio",
+      "Verbos de cambio",
+      "Discurso persuasivo"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_026",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: indica duración (llevo estudiando dos horas)?",
+    "answers": [
+      "Perífrasis llevar + gerundio",
+      "Discurso persuasivo",
+      "Resumen académico",
+      "Verbos de cambio"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_027",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: ponerse, hacerse, volverse?",
+    "answers": [
+      "Comentario cultural",
+      "Verbos de cambio",
+      "Resumen académico",
+      "Discurso persuasivo"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_028",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: tesis, argumentos y contraargumentos?",
+    "answers": [
+      "Discurso persuasivo",
+      "Comentario cultural",
+      "Subjuntivo",
+      "Resumen académico"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_029",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: síntesis con ideas principales sin opinión personal?",
+    "answers": [
+      "Subjuntivo",
+      "Resumen académico",
+      "Pluscuamperfecto",
+      "Comentario cultural"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_spanisch_niveau_11_klasse_030",
+    "category": "Spanisch Niveau 11. Klasse",
+    "question": "¿Qué expresión corresponde a la descripción: analiza costumbres, música o literatura?",
+    "answers": [
+      "Condicional compuesto",
+      "Comentario cultural",
+      "Subjuntivo",
+      "Pluscuamperfecto"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hamburg_001",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Konzerthaus mit Plaza und gläserner Welle",
+    "answers": [
+      "Reeperbahn",
+      "Speicherstadt",
+      "HafenCity",
+      "Elbphilharmonie"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_002",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: UNESCO-Weltkulturerbe mit Lagerhäusern auf Eichenpfählen",
+    "answers": [
+      "HafenCity",
+      "Speicherstadt",
+      "Reeperbahn",
+      "Landungsbrücken"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_003",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: modernes Stadtviertel an der Elbe",
+    "answers": [
+      "Reeperbahn",
+      "Landungsbrücken",
+      "Miniatur Wunderland",
+      "HafenCity"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_004",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Vergnügungsmeile im Stadtteil St. Pauli",
+    "answers": [
+      "Alster",
+      "Reeperbahn",
+      "Landungsbrücken",
+      "Miniatur Wunderland"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_005",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Anleger für Hafenfähren und Hafenrundfahrten",
+    "answers": [
+      "Planten un Blomen",
+      "Alster",
+      "Landungsbrücken",
+      "Miniatur Wunderland"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_006",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: größte Modelleisenbahn der Welt",
+    "answers": [
+      "Planten un Blomen",
+      "Alster",
+      "Michel",
+      "Miniatur Wunderland"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_007",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Binnen- und Außenalster für Segelboote und Jogger",
+    "answers": [
+      "Michel",
+      "Fischmarkt",
+      "Planten un Blomen",
+      "Alster"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_008",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Park mit Wasserspielen und Tropengewächshaus",
+    "answers": [
+      "Övelgönne",
+      "Michel",
+      "Planten un Blomen",
+      "Fischmarkt"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_009",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: St. Michaelis Kirche mit Aussichtsplattform",
+    "answers": [
+      "Övelgönne",
+      "Michel",
+      "Elbtunnel",
+      "Fischmarkt"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_010",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Sonntagmorgenmarkt mit Marktschreiern",
+    "answers": [
+      "Elbtunnel",
+      "Blankenese Treppenviertel",
+      "Fischmarkt",
+      "Övelgönne"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_011",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Museumshafen mit historischen Schiffen",
+    "answers": [
+      "Altonaer Balkon",
+      "Blankenese Treppenviertel",
+      "Elbtunnel",
+      "Övelgönne"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_012",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Alter Tunnel von 1911 für Fußgänger und Radfahrer",
+    "answers": [
+      "Blankenese Treppenviertel",
+      "Altonaer Balkon",
+      "Schanzenviertel",
+      "Elbtunnel"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_013",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: villengeprägtes Elbviertel mit Hanglage",
+    "answers": [
+      "Altonaer Balkon",
+      "Schanzenviertel",
+      "Blankenese Treppenviertel",
+      "Hagenbecks Tierpark"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_014",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Aussichtspunkt mit Blick über den Hafen",
+    "answers": [
+      "Köhlbrandbrücke",
+      "Schanzenviertel",
+      "Altonaer Balkon",
+      "Hagenbecks Tierpark"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_015",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Hipsterquartier mit Street Art und Cafés",
+    "answers": [
+      "Köhlbrandbrücke",
+      "Hagenbecks Tierpark",
+      "Binnenalster Fontäne",
+      "Schanzenviertel"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_016",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: traditioneller Zoo mit Freigehegen",
+    "answers": [
+      "Hamburger Rathaus",
+      "Binnenalster Fontäne",
+      "Köhlbrandbrücke",
+      "Hagenbecks Tierpark"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_017",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: markante Brücke über den Elbhafen",
+    "answers": [
+      "Binnenalster Fontäne",
+      "Hamburger Rathaus",
+      "Jungfernstieg",
+      "Köhlbrandbrücke"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_018",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Wasserfontäne als Wahrzeichen im Sommer",
+    "answers": [
+      "Europa Passage",
+      "Jungfernstieg",
+      "Binnenalster Fontäne",
+      "Hamburger Rathaus"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_019",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Neorenaissancebau mit 647 Räumen",
+    "answers": [
+      "Europa Passage",
+      "Elberadweg",
+      "Hamburger Rathaus",
+      "Jungfernstieg"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_020",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Boulevard zwischen Binnenalster und Einkaufspassagen",
+    "answers": [
+      "Europa Passage",
+      "Jungfernstieg",
+      "Hafengeburtstag",
+      "Elberadweg"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_021",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Shoppingcenter mit Glasdach",
+    "answers": [
+      "Elberadweg",
+      "Hafengeburtstag",
+      "Cruise Center",
+      "Europa Passage"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_022",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: beliebte Radroute entlang der Elbe",
+    "answers": [
+      "Cruise Center",
+      "Süllberg",
+      "Hafengeburtstag",
+      "Elberadweg"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_023",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: jährliches Fest mit Schiffsparaden",
+    "answers": [
+      "Hafengeburtstag",
+      "Cruise Center",
+      "S-Bahn Linie S1",
+      "Süllberg"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_024",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Terminals für Kreuzfahrtschiffe",
+    "answers": [
+      "U4 HafenCity",
+      "S-Bahn Linie S1",
+      "Cruise Center",
+      "Süllberg"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_025",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Aussichtsrestaurant im Westen der Stadt",
+    "answers": [
+      "U4 HafenCity",
+      "S-Bahn Linie S1",
+      "Gängeviertel",
+      "Süllberg"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "sibylle_hamburg_026",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: verbindet Flughafen und Innenstadt",
+    "answers": [
+      "S-Bahn Linie S1",
+      "Stadtpark",
+      "U4 HafenCity",
+      "Gängeviertel"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hamburg_027",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: U-Bahn-Linie zum Überseequartier",
+    "answers": [
+      "Gängeviertel",
+      "Bürgerhaus Barmbek",
+      "U4 HafenCity",
+      "Stadtpark"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hamburg_028",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: historisches Künstlerquartier",
+    "answers": [
+      "Gängeviertel",
+      "Stadtpark",
+      "Bürgerhaus Barmbek",
+      "Elbphilharmonie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hamburg_029",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: große Grünanlage mit Planetarium",
+    "answers": [
+      "Elbphilharmonie",
+      "Speicherstadt",
+      "Stadtpark",
+      "Bürgerhaus Barmbek"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "sibylle_hamburg_030",
+    "category": "Hamburg",
+    "question": "Welcher Hamburg-Fakt passt: Kulturzentrum im Norden",
+    "answers": [
+      "Speicherstadt",
+      "Elbphilharmonie",
+      "HafenCity",
+      "Bürgerhaus Barmbek"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  }
+]
   {"id":"sibylle_kardio_001","category":"Kardiologie","question":"Welches Herzgeräusch weist häufig auf eine Aortenstenose hin?","answers":["Systolisches Crescendo-Decrescendo","Holosystolisches Geräusch","Mittel-diastolisches Rumpeln","Diastolisches Decrescendo"],"correctIndex":0,"difficulty":"normal"},
   {"id":"sibylle_kardio_101","category":"Kardiologie","question":"Wie hoch ist der normale Ejektionsanteil (EF) eines gesunden Herzens?","answers":["25-35 %","40-50 %","55-70 %","80-90 %"],"correctIndex":2,"difficulty":"hard"},
   {"id":"sibylle_hyper_001","category":"Hypertensiologie","question":"Ab welchem systolischen Wert spricht man laut ESC von Hypertonie Grad 1?","answers":["120 mmHg","130 mmHg","140 mmHg","160 mmHg"],"correctIndex":2,"difficulty":"normal"},

@@ -22,6 +22,36 @@ const questionFiles = {
   sibylle: 'questions/sibylle_questions.json'
 };
 
+const DOOR_ICONS = {
+  default: ['❄️', '🎄', '⭐', '🎁', '🕯️', '🎅', '🧝‍♀️', '☃️', '🔔', '🍪'],
+  noah: ['🎮', '🛸', '🧬', '⚡', '🛰️', '🕹️', '🧠', '💾', '🎬', '🪐'],
+  johanna: ['👗', '💄', '💍', '👜', '👠', '💅', '💐', '✨', '🌸', '🎀'],
+  sibylle: ['❤️', '🩺', '💊', '🧬', '🥼', '🌿', '🍎', '🧠', '🫀', '💡'],
+};
+
+const PRAISE_MESSAGES = {
+  default: [
+    'Glückwunsch, das war absolut richtig! +1 Punkt 🎉',
+    'Fantastisch beantwortet – weiter so! +1 Punkt ✨',
+    'Dein Wissen glänzt heller als jede Lichterkette! +1 Punkt 🌟',
+  ],
+  noah: [
+    'Noah, du bist ein Matrix-Mastermind! +1 Punkt ⚡',
+    'Gaming-Instinkt on point – stark gemacht! +1 Punkt 🎮',
+    'Mission erfüllt, Captain Noah! +1 Punkt 🚀',
+  ],
+  johanna: [
+    'Johanna, du bist der Inbegriff von Haute-Couture-Wissen! +1 Punkt 👗',
+    'Fashion-Queen! Perfekte Antwort. +1 Punkt 👑',
+    'Eleganter Volltreffer, Johanna! +1 Punkt ✨',
+  ],
+  sibylle: [
+    'Diagnose top, Doc Sibylle! +1 Punkt 🩺',
+    'Herzwissen deluxe – bravo! +1 Punkt ❤️',
+    'Sibylle, du behandelst jede Frage meisterhaft! +1 Punkt 🌿',
+  ],
+};
+
 const LOCAL_KEYS = {
   scores: 'wc_scores',
   mode: 'wc_mode',
@@ -188,6 +218,7 @@ function updateTheme() {
   document.querySelectorAll('.calendar button').forEach((door) => {
     door.style.boxShadow = `inset 0 0 0 2px ${user.accent}`;
   });
+  updateDoorIcons();
 }
 
 function updateDoors() {
@@ -205,10 +236,28 @@ function createCalendar() {
     const button = document.createElement('button');
     button.innerHTML = `<span>${i}</span>`;
     button.dataset.day = i;
+    button.dataset.iconIndex = i - 1;
     button.addEventListener('click', () => handleDoorClick(i));
     fragment.appendChild(button);
   }
   calendar.appendChild(fragment);
+  updateDoorIcons();
+  updateDoors();
+}
+
+function updateDoorIcons() {
+  const icons = getDoorIcons();
+  document.querySelectorAll('.calendar button').forEach((door) => {
+    const index = Number(door.dataset.iconIndex) || 0;
+    door.dataset.icon = icons[index % icons.length];
+  });
+}
+
+function getDoorIcons() {
+  if (!state.selectedUser) return DOOR_ICONS.default;
+  return DOOR_ICONS[state.selectedUser] || DOOR_ICONS.default;
+}
+
   updateDoors();
 }
 
@@ -262,6 +311,7 @@ function openQuestion() {
     });
   }
   questionFeedback.textContent = '';
+  questionFeedback.classList.remove('celebrate', 'oops');
   questionModal.classList.remove('hidden');
 }
 
@@ -313,6 +363,11 @@ function handleAnswer(button, isCorrect, question) {
   document.querySelectorAll('#answers button').forEach((btn) => {
     btn.disabled = true;
   });
+  questionFeedback.classList.remove('celebrate', 'oops');
+  if (isCorrect) {
+    button.classList.add('correct');
+    questionFeedback.textContent = getPraiseMessage();
+    questionFeedback.classList.add('celebrate');
   if (isCorrect) {
     button.classList.add('correct');
     questionFeedback.textContent = 'Richtig! +1 Punkt';
@@ -320,8 +375,16 @@ function handleAnswer(button, isCorrect, question) {
   } else {
     button.classList.add('wrong');
     questionFeedback.textContent = `Leider falsch. Richtige Antwort: ${question.answers[question.correctIndex]}. -1 Punkt`;
+    questionFeedback.classList.add('oops');
     updateScore(-1);
   }
+}
+
+function getPraiseMessage() {
+  const user = state.selectedUser;
+  const pool = (user && PRAISE_MESSAGES[user]) || PRAISE_MESSAGES.default;
+  const index = Math.floor(Math.random() * pool.length);
+  return pool[index];
 }
 
 function updateScore(delta) {

@@ -19,6 +19,7 @@ Interaktive Ein-Seiten-Anwendung als Adventskalender für Noah, Johanna und Siby
 ### Fragen erweitern
 - JSON-Dateien liegen in `questions/`. Jede Frage besitzt `category`, `question`, `answers`, `correctIndex` und `difficulty` (`normal` oder `hard`).
 - Zusätzliche Fragen einfach anhängen. Die Auswahl priorisiert weniger verwendete Kategorien automatisch.
+- Die Datei `scripts/generate_questions.py` erzeugt die JSON-Dateien aus gepflegten Faktensammlungen. Nach Anpassungen genügt `python scripts/generate_questions.py`, um alle Dateien konsistent mit exakt 30 Fragen pro Kategorie neu zu generieren.
 
 ### Audio anpassen
 - Um Pull-Requests ohne Binärdateien zu ermöglichen, enthält das Repo keine Audiodateien.

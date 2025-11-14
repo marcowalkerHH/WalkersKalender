@@ -130,6 +130,14 @@ main {
   overflow: hidden;
 }
 
+.winter-decor {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 18px;
+}
+
 .user-select {
   display: flex;
   flex-wrap: wrap;
@@ -201,6 +209,8 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   gap: 0.85rem;
+  position: relative;
+  z-index: 1;
 }
 
 .calendar button {
@@ -218,6 +228,21 @@ main {
   transition: transform 0.2s, background 0.2s;
 }
 
+.calendar button::before {
+  content: attr(data-icon);
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-size: 1.35rem;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+  animation: ornament-dance 4s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+.calendar button:nth-child(4n+2)::before { animation-duration: 5s; }
+.calendar button:nth-child(4n+3)::before { animation-duration: 6s; }
+.calendar button:nth-child(4n+4)::before { animation-duration: 7s; }
+
 .calendar button.locked {
   cursor: not-allowed;
   opacity: 0.5;
@@ -234,6 +259,7 @@ main {
   align-items: center;
   justify-content: center;
   z-index: 1;
+  font-variant-numeric: tabular-nums;
 }
 
 .calendar button::after {
@@ -272,6 +298,7 @@ main {
   pointer-events: none;
   overflow: hidden;
   border-radius: 18px;
+  z-index: 2;
 }
 
 .flake {
@@ -283,6 +310,7 @@ main {
   border-radius: 50%;
   animation: snowfall linear infinite;
   opacity: 0.8;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
 @keyframes snowfall {
@@ -292,6 +320,144 @@ main {
   to {
     transform: translateY(120%) translateX(20px);
   }
+}
+
+@keyframes ornament-dance {
+  from { transform: translateY(0) rotate(-3deg); }
+  to { transform: translateY(-6px) rotate(3deg); }
+}
+
+.winter-decor .garland {
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 30px;
+  background: repeating-linear-gradient(90deg, #f7b733, #f7b733 20px, #ff4f81 20px, #ff4f81 40px);
+  opacity: 0.75;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  animation: garland-glow 2s ease-in-out infinite;
+}
+
+.garland-top { top: 10px; border-radius: 50% 50% 0 0; }
+.garland-bottom { bottom: 50px; border-radius: 0 0 50% 50%; }
+
+@keyframes garland-glow {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+.winter-decor .tree {
+  position: absolute;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  bottom: 10px;
+  animation: tree-sway 5s ease-in-out infinite;
+}
+
+.winter-decor .tree::after { content: '🎄'; }
+
+.tree-left { left: 5%; }
+.tree-right { right: 5%; animation-duration: 6s; }
+
+@keyframes tree-sway {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.winter-decor .elf,
+.winter-decor .santa {
+  position: absolute;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  bottom: 90px;
+}
+
+.winter-decor .elf {
+  left: 18%;
+  animation: elf-hop 3s ease-in-out infinite;
+}
+
+.winter-decor .elf::after { content: '🧝‍♂️'; }
+
+.winter-decor .santa {
+  right: -10%;
+  animation: santa-ride 14s linear infinite;
+}
+
+.winter-decor .santa::after { content: '🎅🛷'; }
+
+@keyframes elf-hop {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes santa-ride {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-110%); }
+}
+
+.winter-decor .snowball {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff, #dff0ff);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  animation: snowball-slide 6s cubic-bezier(0.55, 0.06, 0.68, 0.53) infinite;
+}
+
+@keyframes snowball-slide {
+  0% { transform: translate(0, 0) scale(0.8); opacity: 0; }
+  10% { opacity: 1; }
+  60% { transform: translate(120%, 40vh) scale(1); opacity: 1; }
+  100% { transform: translate(160%, 55vh) scale(0.5); opacity: 0; }
+}
+
+.winter-decor .mistletoe,
+.winter-decor .reindeer,
+.winter-decor .gift {
+  position: absolute;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.4));
+}
+
+.winter-decor .mistletoe {
+  top: 8px;
+  right: 14%;
+  animation: mistletoe-sway 4s ease-in-out infinite;
+}
+
+.winter-decor .mistletoe::after { content: '🌿🎀'; }
+
+.winter-decor .reindeer {
+  bottom: 55px;
+  left: 60%;
+  animation: reindeer-prance 5s ease-in-out infinite;
+}
+
+.winter-decor .reindeer::after { content: '🦌'; }
+
+.winter-decor .gift {
+  bottom: 20px;
+  left: 45%;
+  animation: gift-glow 2.5s ease-in-out infinite;
+}
+
+.winter-decor .gift::after { content: '🎁'; }
+
+@keyframes mistletoe-sway {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+
+@keyframes reindeer-prance {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes gift-glow {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
 }
 
 .modal {
@@ -334,6 +500,21 @@ main {
 .message {
   min-height: 1.25rem;
   font-weight: 600;
+}
+
+.message.celebrate {
+  color: #a8ffda;
+  animation: praise-pop 0.5s ease;
+}
+
+.message.oops {
+  color: #ffd2d2;
+}
+
+@keyframes praise-pop {
+  0% { transform: scale(0.9); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
 }
 
 .celebration {
