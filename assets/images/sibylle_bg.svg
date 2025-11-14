@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7c59f"/>
+      <stop offset="100%" stop-color="#f05d5e"/>
+    </linearGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="100%" stop-color="#1c2541"/>
+    </linearGradient>
+    <linearGradient id="health" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9f871"/>
+      <stop offset="100%" stop-color="#43aa8b"/>
+    </linearGradient>
+    <linearGradient id="love" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f72585"/>
+      <stop offset="100%" stop-color="#ffb703"/>
+    </linearGradient>
+    <style>
+      text { font-family: 'Poppins', 'Segoe UI', sans-serif; font-weight: 700; fill: #fff; }
+      .subtitle { font-size: 52px; letter-spacing: 1px; }
+      .title { font-size: 64px; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="600" height="400" fill="url(#warm)"/>
+  <rect x="600" y="0" width="600" height="400" fill="#ffe0b5"/>
+  <rect x="0" y="400" width="600" height="400" fill="url(#night)"/>
+  <rect x="600" y="400" width="600" height="400" fill="url(#health)"/>
+  <g transform="translate(80,120)">
+    <circle cx="120" cy="80" r="70" fill="#f94144"/>
+    <path d="M120 70 l40 50 l-40 50 l-40 -50 z" fill="#fff" opacity="0.3"/>
+    <text x="0" y="220" class="title">HERZEN</text>
+  </g>
+  <g transform="translate(720,120)">
+    <rect x="0" y="0" width="240" height="160" rx="30" fill="#f3722c"/>
+    <circle cx="280" cy="80" r="70" fill="#f94144"/>
+    <rect x="260" y="30" width="40" height="100" rx="20" fill="#fff" opacity="0.8"/>
+    <rect x="320" y="40" width="90" height="80" rx="25" fill="#577590"/>
+    <text x="0" y="220" class="subtitle" fill="#f3722c">MEDIZIN</text>
+  </g>
+  <g transform="translate(100,520)">
+    <path d="M0 0 h360 l-60 200 h-240 z" fill="#f4a261"/>
+    <polyline points="40,40 140,80 240,40" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+    <text x="0" y="250" class="subtitle">STERN</text>
+    <text x="0" y="320" class="title">KARDIOLOGIE</text>
+  </g>
+  <g transform="translate(720,520)">
+    <circle cx="120" cy="120" r="100" fill="url(#love)"/>
+    <text x="-10" y="260" class="subtitle">UND LIEBE</text>
+  </g>
+</svg>

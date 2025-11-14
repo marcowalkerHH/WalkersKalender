@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walkers Christmas Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="intro" class="intro">
+    <div class="heart-stage" id="heartStage">
+      <div class="heart"></div>
+      <p class="intro-text">Walkers Christmas Calendar</p>
+    </div>
+    <div class="neon-stage hidden" id="neonStage">
+      <p class="neon-credit">von Marco / Papa</p>
+    </div>
+    <canvas id="matrixCanvas" class="matrix hidden" width="800" height="600"></canvas>
+  </div>
+
+  <header class="scoreboard" id="scoreboard">
+    <span data-user="noah">Noah: <strong>0</strong></span>
+    <span data-user="johanna">Johanna: <strong>0</strong></span>
+    <span data-user="sibylle">Sibylle: <strong>0</strong></span>
+    <button id="musicToggle" aria-label="Musik an/aus">🎵</button>
+    <label class="volume">
+      <input type="range" min="0" max="1" step="0.05" id="volumeControl">
+    </label>
+    <button id="nextTrack" aria-label="Nächstes Lied">⏭</button>
+    <button id="adminOpen" aria-label="Admin">⚙️</button>
+  </header>
+
+  <main id="app" class="hidden">
+    <section id="login" class="panel">
+      <h1>Wer öffnet den Kalender?</h1>
+      <div class="user-select">
+        <button data-user="noah">Noah</button>
+        <button data-user="johanna">Johanna</button>
+        <button data-user="sibylle">Sibylle</button>
+      </div>
+      <div class="security">
+        <label for="securityAnswer" id="securityQuestionLabel">Sicherheitsfrage: Wird geladen ...</label>
+        <input type="number" id="securityAnswer" placeholder="Antwort eingeben">
+        <button id="loginConfirm">Kalender öffnen</button>
+        <p id="loginMessage" class="message" aria-live="assertive"></p>
+      </div>
+    </section>
+
+    <section id="calendarView" class="panel hidden">
+      <div class="calendar-header">
+        <div>
+          <h2 id="calendarTitle">Kalender</h2>
+          <p id="calendarSubtitle">Wähle ein Türchen</p>
+        </div>
+        <div class="mode-toggle">
+          <label class="switch">
+            <input type="checkbox" id="modeSwitch">
+            <span class="slider"></span>
+          </label>
+          <span id="modeLabel">Offener Modus</span>
+        </div>
+      </div>
+      <div class="winter-decor" aria-hidden="true">
+        <div class="garland garland-top"></div>
+        <div class="garland garland-bottom"></div>
+        <div class="tree tree-left"></div>
+        <div class="tree tree-right"></div>
+        <div class="elf"></div>
+        <div class="santa"></div>
+        <div class="snowball"></div>
+        <div class="mistletoe"></div>
+        <div class="reindeer"></div>
+        <div class="gift"></div>
+      </div>
+      <div class="calendar" id="calendar"></div>
+      <div class="calendar-controls">
+        <button id="refreshQuestions">Fragen neu mischen</button>
+        <button id="backToLogin">Zur Personenauswahl</button>
+      </div>
+      <div class="snow" id="snowLayer" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <div id="questionModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="questionTitle">
+    <div class="modal-content">
+      <h3 id="questionTitle">Frage</h3>
+      <p id="questionCategory" class="category"></p>
+      <p id="questionText"></p>
+      <div id="answers" class="answers"></div>
+      <p id="questionFeedback" class="message"></p>
+      <button id="closeQuestion">Zurück zum Kalender</button>
+    </div>
+  </div>
+
+  <div id="levelOverlay" class="celebration hidden">
+    <div class="celebration-content">
+      <p class="flash">Nächstes Level erreicht!</p>
+    </div>
+  </div>
+
+  <div id="crownOverlay" class="celebration hidden">
+    <div class="celebration-content crown">
+      <p>👑 Quiz-Sieger! 👑</p>
+    </div>
+  </div>
+
+  <div id="adminModal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-content admin">
+      <h3>Admin-Bereich</h3>
+      <label for="adminCode">Admin-Code eingeben</label>
+      <input type="password" id="adminCode" placeholder="Admin-Code">
+      <div class="admin-actions">
+        <button id="adminCheck">Bestätigen</button>
+        <button id="adminClose">Schließen</button>
+      </div>
+      <div id="adminPanel" class="hidden">
+        <button id="resetScores">Punkte zurücksetzen</button>
+        <button id="toggleMode">Kalender-Modus wechseln</button>
+      </div>
+      <p id="adminMessage" class="message" aria-live="assertive"></p>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
