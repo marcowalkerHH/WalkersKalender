@@ -3511,6 +3511,7 @@
   }
 ]
 ]
+]
   {"id":"sibylle_kardio_001","category":"Kardiologie","question":"Welches Herzgeräusch weist häufig auf eine Aortenstenose hin?","answers":["Systolisches Crescendo-Decrescendo","Holosystolisches Geräusch","Mittel-diastolisches Rumpeln","Diastolisches Decrescendo"],"correctIndex":0,"difficulty":"normal"},
   {"id":"sibylle_kardio_101","category":"Kardiologie","question":"Wie hoch ist der normale Ejektionsanteil (EF) eines gesunden Herzens?","answers":["25-35 %","40-50 %","55-70 %","80-90 %"],"correctIndex":2,"difficulty":"hard"},
   {"id":"sibylle_hyper_001","category":"Hypertensiologie","question":"Ab welchem systolischen Wert spricht man laut ESC von Hypertonie Grad 1?","answers":["120 mmHg","130 mmHg","140 mmHg","160 mmHg"],"correctIndex":2,"difficulty":"normal"},

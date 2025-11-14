@@ -3121,6 +3121,7 @@
   }
 ]
 ]
+]
   {"id":"johanna_mode_001","category":"Mode","question":"Wie nennt man ein kleines Schwarzes im englischen Sprachraum?","answers":["Little Black Dress","Mini Black","Night Shift","Evening Fit"],"correctIndex":0,"difficulty":"normal"},
   {"id":"johanna_mode_101","category":"Mode","question":"Welches Jahrzehnt prägte die Schulterpolster am stärksten?","answers":["1960er","1970er","1980er","1990er"],"correctIndex":2,"difficulty":"hard"},
   {"id":"johanna_haute_001","category":"Haute Couture","question":"In welcher Stadt finden die offiziellen Haute-Couture-Schauen statt?","answers":["Paris","Mailand","New York","London"],"correctIndex":0,"difficulty":"normal"},

@@ -129,6 +129,7 @@ audioPlayer.addEventListener('error', () => {
 });
 
 let hasInitialized = false;
+let introFailsafeTimer = null;
 
 function ensureDomReferences() {
   const required = {
@@ -229,6 +230,7 @@ function init() {
   hasInitialized = true;
   try {
     ensureDomReferences();
+    setupIntro();
     restoreState();
     setupLogin();
     createCalendar();
@@ -247,6 +249,15 @@ function setupIntro() {
     revealAppImmediately();
     return;
   }
+
+  if (introFailsafeTimer) {
+    clearTimeout(introFailsafeTimer);
+  }
+
+  introFailsafeTimer = setTimeout(() => {
+    console.warn('Intro-Failsafe aktiv, Anwendung wird direkt angezeigt.');
+    revealAppImmediately();
+  }, 12000);
 
   setTimeout(() => {
     if (heartStage) {
@@ -278,6 +289,10 @@ function setupIntro() {
     intro.classList.add('hidden');
     if (app) {
       app.classList.remove('hidden');
+    }
+    if (introFailsafeTimer) {
+      clearTimeout(introFailsafeTimer);
+      introFailsafeTimer = null;
     }
     app.classList.remove('hidden');
   }, 8500);
