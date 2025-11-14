@@ -502,6 +502,10 @@ main {
   font-weight: 600;
 }
 
+.message.error {
+  color: #ff8787;
+}
+
 .message.celebrate {
   color: #a8ffda;
   animation: praise-pop 0.5s ease;

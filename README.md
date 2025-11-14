@@ -38,5 +38,10 @@ Interaktive Ein-Seiten-Anwendung als Adventskalender für Noah, Johanna und Siby
 
 - Ohne diese Definition bleiben die Musik-Controls deaktiviert.
 
+### Fehlerbehebung
+- **Intro bleibt stehen oder UI lädt nicht vollständig?** Seit diesem Update fängt die App fehlende DOM-Elemente und defekte `localStorage`-Einträge automatisch ab. Sollte dennoch etwas hängen bleiben, Browser-Tab einmal neu laden oder den lokalen Speicher der Seite löschen.
+- **Verbogene Punktestände/Kategorien?** Über den Adminbereich (Code `687468`) lassen sich Punkte zurücksetzen sowie Fragen neu mischen.
+- **Konsole meldet fehlende JSON-Dateien?** Sicherstellen, dass der Server die Dateien aus `questions/` ausliefert (bei reinem `file://`-Aufruf werden Fetches vom Browser blockiert – daher bitte immer über einen kleinen Dev-Server arbeiten).
+
 ## Lizenz
 Privates Familienprojekt. Weitere Nutzung auf eigene Verantwortung.

@@ -89,6 +89,7 @@ const loginSection = document.getElementById('login');
 const calendarView = document.getElementById('calendarView');
 const loginMessage = document.getElementById('loginMessage');
 const securityAnswer = document.getElementById('securityAnswer');
+const loginConfirmButton = document.getElementById('loginConfirm');
 const app = document.getElementById('app');
 const intro = document.getElementById('intro');
 const heartStage = document.getElementById('heartStage');
@@ -127,6 +128,134 @@ audioPlayer.addEventListener('error', () => {
   nextTrack();
 });
 
+let hasInitialized = false;
+
+function ensureDomReferences() {
+  const required = {
+    calendar,
+    calendarTitle,
+    calendarSubtitle,
+    modeSwitch,
+    modeLabel,
+    questionModal,
+    questionTitle,
+    questionText,
+    questionCategory,
+    answersContainer,
+    questionFeedback,
+    loginSection,
+    calendarView,
+    loginMessage,
+    securityAnswer,
+    loginConfirmButton,
+    app,
+    intro,
+    heartStage,
+    matrixCanvas,
+    closeQuestion,
+    refreshQuestions,
+    backToLogin,
+    scoreboard,
+    levelOverlay,
+    crownOverlay,
+    adminModal,
+    adminOpen,
+    adminClose,
+    adminCheck,
+    adminPanel,
+    adminCodeInput,
+    adminMessage,
+    resetScoresButton,
+    toggleModeButton,
+    musicToggle,
+    volumeControl,
+    nextTrackButton,
+  };
+
+  const missing = Object.entries(required)
+    .filter(([, el]) => !el)
+    .map(([name]) => name);
+
+  if (missing.length) {
+    throw new Error(`Fehlende DOM-Elemente: ${missing.join(', ')}`);
+  }
+}
+
+function handleFatalError(error) {
+  console.error('Initialisierung fehlgeschlagen', error);
+  revealAppImmediately();
+  showFatalMessage('Ups! Bitte lade die Seite neu oder leere den Browser-Cache.');
+}
+
+function revealAppImmediately() {
+  if (intro) {
+    intro.classList.add('hidden');
+  }
+  if (app) {
+    app.classList.remove('hidden');
+  }
+}
+
+function showFatalMessage(text) {
+  if (loginMessage) {
+    loginMessage.textContent = text;
+    loginMessage.classList.add('error');
+    return;
+  }
+  const fallback = document.createElement('p');
+  fallback.className = 'message error';
+  fallback.textContent = text;
+  (app || document.body).prepend(fallback);
+}
+
+function safeReadJSON(key, fallback) {
+  const raw = localStorage.getItem(key);
+  if (!raw) return fallback;
+  try {
+    const parsed = JSON.parse(raw);
+    if (parsed === null || typeof parsed !== 'object') {
+      return fallback;
+    }
+    return parsed;
+  } catch (error) {
+    console.warn(`Konnte localStorage-Eintrag ${key} nicht lesen, wird zurückgesetzt.`, error);
+    localStorage.removeItem(key);
+    return fallback;
+  }
+}
+
+function init() {
+  if (hasInitialized) return;
+  hasInitialized = true;
+  try {
+    ensureDomReferences();
+    restoreState();
+    setupLogin();
+    createCalendar();
+    bindEvents();
+    loadQuestions();
+    setupIntro();
+    initSnow();
+    initMusic();
+  } catch (error) {
+    handleFatalError(error);
+  }
+}
+
+function setupIntro() {
+  if (!intro) {
+    revealAppImmediately();
+    return;
+  }
+
+  setTimeout(() => {
+    if (heartStage) {
+      heartStage.classList.add('hidden');
+    }
+    if (matrixCanvas) {
+      matrixCanvas.classList.remove('hidden');
+      startMatrixAnimation();
+    }
 function init() {
   restoreState();
   setupLogin();
@@ -147,11 +276,15 @@ function setupIntro() {
 
   setTimeout(() => {
     intro.classList.add('hidden');
+    if (app) {
+      app.classList.remove('hidden');
+    }
     app.classList.remove('hidden');
   }, 8500);
 }
 
 function startMatrixAnimation() {
+  if (!matrixCanvas) return;
   const ctx = matrixCanvas.getContext('2d');
   const w = matrixCanvas.width = window.innerWidth;
   const h = matrixCanvas.height = window.innerHeight;
@@ -188,6 +321,21 @@ function setupLogin() {
     });
   });
 
+  if (loginConfirmButton) {
+    loginConfirmButton.addEventListener('click', () => {
+      if (!state.selectedUser) {
+        loginMessage.textContent = 'Bitte wähle eine Person.';
+        return;
+      }
+      if (Number(securityAnswer.value) !== 12) {
+        loginMessage.textContent = 'Die Antwort ist leider falsch.';
+        return;
+      }
+      loginMessage.textContent = '';
+      securityAnswer.value = '';
+      showCalendar();
+    });
+  }
   document.getElementById('loginConfirm').addEventListener('click', () => {
     if (!state.selectedUser) {
       loginMessage.textContent = 'Bitte wähle eine Person.';
@@ -284,6 +432,21 @@ function getCurrentAdventDay() {
 }
 
 function loadQuestions() {
+  const entries = Object.entries(questionFiles).map(([user, path]) => fetch(path)
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}`);
+      }
+      return res.json();
+    })
+    .then((data) => {
+      state.questions[user] = Array.isArray(data) ? data : [];
+    })
+    .catch((error) => {
+      console.error(`Fehler beim Laden der Fragen für ${user}`, error);
+      state.questions[user] = [];
+    }));
+  return Promise.all(entries);
   const entries = Object.entries(questionFiles).map(([user, path]) => fetch(path).then((res) => res.json()).then((data) => {
     state.questions[user] = data;
   }));
@@ -508,6 +671,7 @@ function validateAdmin() {
 
 function initSnow() {
   const snowLayer = document.getElementById('snowLayer');
+  if (!snowLayer) return;
   for (let i = 0; i < 60; i += 1) {
     const flake = document.createElement('div');
     flake.className = 'flake';
@@ -519,6 +683,11 @@ function initSnow() {
 }
 
 function restoreState() {
+  state.scores = safeReadJSON(LOCAL_KEYS.scores, state.scores);
+  state.mode = localStorage.getItem(LOCAL_KEYS.mode) || 'open';
+  state.categoryUsage = safeReadJSON(LOCAL_KEYS.categoryUsage, {});
+  state.usedQuestions = safeReadJSON(LOCAL_KEYS.usedQuestions, {});
+  const musicSettings = safeReadJSON(LOCAL_KEYS.music, {});
   state.scores = JSON.parse(localStorage.getItem(LOCAL_KEYS.scores)) || state.scores;
   state.mode = localStorage.getItem(LOCAL_KEYS.mode) || 'open';
   state.categoryUsage = JSON.parse(localStorage.getItem(LOCAL_KEYS.categoryUsage)) || {};
@@ -591,5 +760,10 @@ function nextTrack() {
   saveState();
 }
 
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
 window.addEventListener('load', init);
 
