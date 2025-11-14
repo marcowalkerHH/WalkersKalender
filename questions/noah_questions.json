@@ -1,0 +1,3512 @@
+[
+  {
+    "id": "noah_fortnite_001",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: bringt alle Spieler zu Beginn des Matches hoch über die Insel und lässt sie abspringen",
+    "answers": [
+      "Loot Llama",
+      "Riss-To-Go",
+      "Battle Bus",
+      "Sturmkreis"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_002",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: explodiert in einem Regen aus Ressourcen, Munition und Heilung, wenn du ihn öffnest",
+    "answers": [
+      "Loot Llama",
+      "Sturmkreis",
+      "Null Bauen",
+      "Riss-To-Go"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_003",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: verkleinert sich fortlaufend und zwingt alle Spieler in ein kleineres Gebiet",
+    "answers": [
+      "Null Bauen",
+      "Sturmkreis",
+      "Riss-To-Go",
+      "Reboot-Van"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_004",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: teleportiert dich sofort nach oben und lässt dich erneut gleiten",
+    "answers": [
+      "Reboot-Van",
+      "Chug Jug",
+      "Riss-To-Go",
+      "Null Bauen"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_005",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: ist der Modus ohne Baumaterialien, in dem Deckung nur über Gelände und Gadgets entsteht",
+    "answers": [
+      "Null Bauen",
+      "Chug Jug",
+      "Reboot-Van",
+      "Shockwave Hammer"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_006",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: reanimiert ausgeschiedene Teammitglieder mit ihrer Karte",
+    "answers": [
+      "ODM-Ausrüstung",
+      "Reboot-Van",
+      "Shockwave Hammer",
+      "Chug Jug"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_007",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: füllt Lebenspunkte und Schild vollständig auf, benötigt aber eine lange Trinkzeit",
+    "answers": [
+      "Chug Jug",
+      "ODM-Ausrüstung",
+      "Shockwave Hammer",
+      "Reality Augments"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_008",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: schleudert dich weit durch die Luft und kann Gegner wegstoßen",
+    "answers": [
+      "Shockwave Hammer",
+      "Kinetic Blade",
+      "Reality Augments",
+      "ODM-Ausrüstung"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_009",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: ermöglicht wendige Greifhaken-Schwünge inspiriert von Attack on Titan",
+    "answers": [
+      "Herald Sanctum Chrom",
+      "ODM-Ausrüstung",
+      "Kinetic Blade",
+      "Reality Augments"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_010",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: passive Perks, die zufällig angeboten werden und Boni wie Schnellladen liefern",
+    "answers": [
+      "Reality Augments",
+      "Kinetic Blade",
+      "Herald Sanctum Chrom",
+      "Launchpad"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_011",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: eine Nahkampfwaffe, die Kombos schlägt und Dashs vergibt",
+    "answers": [
+      "Midas Touch",
+      "Herald Sanctum Chrom",
+      "Kinetic Blade",
+      "Launchpad"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_012",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: ermöglicht durch Chrom-Spray das Phasen durch Wände und schnellere Rotation",
+    "answers": [
+      "Launchpad",
+      "Heisted Breacher Shotgun",
+      "Herald Sanctum Chrom",
+      "Midas Touch"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_013",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: katapultiert dich und dein Team nach oben für einen freien Gleiterstart",
+    "answers": [
+      "Capture Point",
+      "Midas Touch",
+      "Heisted Breacher Shotgun",
+      "Launchpad"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_014",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: verwandelt Waffen beim Aufheben in goldene Seltenheit",
+    "answers": [
+      "Capture Point",
+      "Holo-Chest Schlüssel",
+      "Midas Touch",
+      "Heisted Breacher Shotgun"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_015",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: zerstört mit jedem Schuss sofort Mauern",
+    "answers": [
+      "Holo-Chest Schlüssel",
+      "Slap Juice",
+      "Heisted Breacher Shotgun",
+      "Capture Point"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_016",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: markiert nahe Gegner und Truhen nach erobern eines Ortes im neuen Kapitel",
+    "answers": [
+      "Slap Juice",
+      "Capture Point",
+      "Kamehameha Angriff",
+      "Holo-Chest Schlüssel"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_017",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: öffnen Tresore mit vorbestimmten Waffen, wenn du Schlüssel sammelst",
+    "answers": [
+      "Holo-Chest Schlüssel",
+      "Nimbus-Cloud",
+      "Kamehameha Angriff",
+      "Slap Juice"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_018",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: gibt vorübergehende Ausdauer, sodass du ohne Sprintlimit laufen kannst",
+    "answers": [
+      "Grind Rails",
+      "Nimbus-Cloud",
+      "Slap Juice",
+      "Kamehameha Angriff"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_019",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: feuert einen massiven Energiebeam mit großem Schaden ab",
+    "answers": [
+      "Muddy Mounds",
+      "Grind Rails",
+      "Kamehameha Angriff",
+      "Nimbus-Cloud"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_020",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: funktioniert als wiederaufladbarer Schwebe-Sprung für hohe Mobilität",
+    "answers": [
+      "Grind Rails",
+      "Muddy Mounds",
+      "Nimbus-Cloud",
+      "Jelly Angler"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_021",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: lassen dich mit vollem Tempo über Mega City gleiten",
+    "answers": [
+      "Bush Bomb",
+      "Jelly Angler",
+      "Grind Rails",
+      "Muddy Mounds"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_022",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: ermöglichen lautloses Fortbewegen, wenn du dich eingräbst",
+    "answers": [
+      "Bush Bomb",
+      "Jelly Angler",
+      "Snowball Launcher",
+      "Muddy Mounds"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_023",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: fischt unendlich viele heilende Quallen",
+    "answers": [
+      "Mythic Boss Medaillon",
+      "Jelly Angler",
+      "Snowball Launcher",
+      "Bush Bomb"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_024",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: erschafft ein temporäres Laubversteck auf offener Fläche",
+    "answers": [
+      "Bush Bomb",
+      "Mythic Boss Medaillon",
+      "Snowball Launcher",
+      "Train Heist Tresor"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_025",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: verschießt explosive Schneebälle während Winterevents",
+    "answers": [
+      "Train Heist Tresor",
+      "Soccer NPC Aufgaben",
+      "Mythic Boss Medaillon",
+      "Snowball Launcher"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_fortnite_026",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: gewährt passive Schildregeneration, solange du ihn trägst",
+    "answers": [
+      "Soccer NPC Aufgaben",
+      "Mythic Boss Medaillon",
+      "Weapon Mods",
+      "Train Heist Tresor"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_fortnite_027",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: enthält mythische Beute im fahrenden Zug von Kapitel 5",
+    "answers": [
+      "Soccer NPC Aufgaben",
+      "Train Heist Tresor",
+      "Storm Surge",
+      "Weapon Mods"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_fortnite_028",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: fordern dich zu Dribblings oder Torschüssen für EP und Gold",
+    "answers": [
+      "Storm Surge",
+      "Weapon Mods",
+      "Battle Bus",
+      "Soccer NPC Aufgaben"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_fortnite_029",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: lassen dich Läufe, Magazine und Zieloptiken frei kombinieren",
+    "answers": [
+      "Storm Surge",
+      "Weapon Mods",
+      "Battle Bus",
+      "Loot Llama"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_fortnite_030",
+    "category": "Fortnite",
+    "question": "Welches Fortnite-Element passt zur Beschreibung: fügt Teams Schaden zu, die zu wenig Schaden gemacht haben, um Campen zu verhindern",
+    "answers": [
+      "Loot Llama",
+      "Storm Surge",
+      "Sturmkreis",
+      "Battle Bus"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_marvel_001",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: ist der finale Nanoanzug, den Tony Stark in Endgame trägt",
+    "answers": [
+      "Vibranium",
+      "Mjölnir",
+      "Arc Reactor",
+      "Iron Man Mark 85"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_002",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: liefert Tony Stark die Energiequelle in seiner Brust",
+    "answers": [
+      "Tesserakt",
+      "Vibranium",
+      "Mjölnir",
+      "Arc Reactor"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_003",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: ist Thors Hammer, der nur von Würdigen gehoben werden kann",
+    "answers": [
+      "Vibranium",
+      "Mjölnir",
+      "Tesserakt",
+      "Infinity Gauntlet"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_004",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: ist das seltene Metall aus Wakanda, aus dem Captain Americas Schild besteht",
+    "answers": [
+      "Vibranium",
+      "Tesserakt",
+      "Infinity Gauntlet",
+      "Black Widow"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_005",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: beherbergt den Raumstein und ermöglicht Teleportation",
+    "answers": [
+      "Tesserakt",
+      "Black Widow",
+      "Hawkeye",
+      "Infinity Gauntlet"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_006",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Handschuh, der alle sechs Infinity-Steine aufnehmen kann",
+    "answers": [
+      "Infinity Gauntlet",
+      "Hawkeye",
+      "Doctor Strange",
+      "Black Widow"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_007",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Avenger-Spionin Natasha Romanoff mit rotem Haar und Kampfstöcken",
+    "answers": [
+      "Black Widow",
+      "Hawkeye",
+      "Doctor Strange",
+      "Scarlet Witch"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_008",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Bogenschütze Clint Barton, der trickreiche Pfeile nutzt",
+    "answers": [
+      "Doctor Strange",
+      "Scarlet Witch",
+      "Ant-Man",
+      "Hawkeye"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_009",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Schutz der Zeitlinie mit dem Auge von Agamotto",
+    "answers": [
+      "Ant-Man",
+      "Wasp",
+      "Scarlet Witch",
+      "Doctor Strange"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_010",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Wanda Maximoff, die Chaosmagie und Hexfelder kontrolliert",
+    "answers": [
+      "Scarlet Witch",
+      "Black Panther",
+      "Ant-Man",
+      "Wasp"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_011",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Scott Lang, der mit Pym-Partikeln Größe verändert",
+    "answers": [
+      "Ant-Man",
+      "Wasp",
+      "Okoye",
+      "Black Panther"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_012",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Hope van Dyne, die gemeinsam mit Ant-Man fliegt und sticht",
+    "answers": [
+      "Shuri",
+      "Okoye",
+      "Wasp",
+      "Black Panther"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_013",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: König T’Challa, der den Pantheranzug und Kräuterkräfte nutzt",
+    "answers": [
+      "Winter Soldier",
+      "Okoye",
+      "Shuri",
+      "Black Panther"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_014",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Generälin der Dora Milaje mit Vibranium-Speer",
+    "answers": [
+      "Shuri",
+      "Winter Soldier",
+      "Okoye",
+      "Falcon"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_015",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: geniale Erfinderin, die Panther-Anzüge und Gadgets baut",
+    "answers": [
+      "Winter Soldier",
+      "Shuri",
+      "Falcon",
+      "Captain Marvel"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_016",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Bucky Barnes mit Vibranium-Arm aus Wakanda",
+    "answers": [
+      "Nick Fury",
+      "Falcon",
+      "Captain Marvel",
+      "Winter Soldier"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_017",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Sam Wilson, der Flügel und Redwing-Drohne steuert",
+    "answers": [
+      "Falcon",
+      "Captain Marvel",
+      "Nick Fury",
+      "Loki"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_018",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Carol Danvers mit Photonenstrahlen und kosmischer Power",
+    "answers": [
+      "Loki",
+      "Heimdall",
+      "Captain Marvel",
+      "Nick Fury"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_019",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Direktor von S.H.I.E.L.D. mit Augenklappe",
+    "answers": [
+      "Korg",
+      "Nick Fury",
+      "Heimdall",
+      "Loki"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_020",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Asgardischer Gott der Streiche mit Zepter",
+    "answers": [
+      "Heimdall",
+      "Korg",
+      "Loki",
+      "Rocket Raccoon"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_021",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Wächter der Bifröst-Brücke, der alles sieht",
+    "answers": [
+      "Rocket Raccoon",
+      "Heimdall",
+      "Korg",
+      "Groot"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_022",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Steinwesenfreund von Thor mit trockenem Humor",
+    "answers": [
+      "Korg",
+      "Groot",
+      "Gamora",
+      "Rocket Raccoon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_023",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Genmanipulierter Waschbär und Waffenexperte der Guardians",
+    "answers": [
+      "Rocket Raccoon",
+      "Groot",
+      "Gamora",
+      "Nebula"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_024",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: baumähnliches Wesen, das sich regenerieren kann",
+    "answers": [
+      "Nebula",
+      "Yondu",
+      "Gamora",
+      "Groot"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_025",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Assassinin und adoptierte Tochter von Thanos",
+    "answers": [
+      "Nebula",
+      "Eternals",
+      "Yondu",
+      "Gamora"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_marvel_026",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Zyklopische Schwester, die kybernetische Verbesserungen trägt",
+    "answers": [
+      "Nebula",
+      "Eternals",
+      "Shang-Chi",
+      "Yondu"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_marvel_027",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Ravager-Anführer mit pfeifgesteuertem Pfeil",
+    "answers": [
+      "Shang-Chi",
+      "Eternals",
+      "Yondu",
+      "Moon Knight"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_marvel_028",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Unsterbliche Gruppe, die Deviants bekämpft",
+    "answers": [
+      "Iron Man Mark 85",
+      "Shang-Chi",
+      "Eternals",
+      "Moon Knight"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_marvel_029",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: meistert die Zehn Ringe seines Vaters",
+    "answers": [
+      "Shang-Chi",
+      "Arc Reactor",
+      "Iron Man Mark 85",
+      "Moon Knight"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_marvel_030",
+    "category": "Marvel",
+    "question": "Welche Marvel-Person oder -Technologie passt zur Beschreibung: Söldner Marc Spector mit Identitäten, die für Khonshu kämpfen",
+    "answers": [
+      "Arc Reactor",
+      "Mjölnir",
+      "Moon Knight",
+      "Iron Man Mark 85"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_star_wars_001",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Schiff von Han Solo und Chewbacca, berühmt für den Kessel-Flug",
+    "answers": [
+      "Lightsaber",
+      "TIE Fighter",
+      "X-Flügler",
+      "Millennium Falcon"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_002",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Standardjäger der Rebellenallianz mit S-Flügeln",
+    "answers": [
+      "Lightsaber",
+      "Death Star",
+      "TIE Fighter",
+      "X-Flügler"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_003",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: imperiales Abfangschiff ohne Schilde",
+    "answers": [
+      "TIE Fighter",
+      "Death Star",
+      "Lightsaber",
+      "Holocron"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_004",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: ikonische Waffe der Jedi und Sith aus Kyberkristallen",
+    "answers": [
+      "The Force",
+      "Death Star",
+      "Lightsaber",
+      "Holocron"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_005",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Monumentale Raumstation mit Superlaser",
+    "answers": [
+      "Order 66",
+      "Death Star",
+      "The Force",
+      "Holocron"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_006",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Speicherkristalle für Jedi- oder Sith-Wissen",
+    "answers": [
+      "Order 66",
+      "Clone Trooper",
+      "Holocron",
+      "The Force"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_007",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: mystische Energie, die alles verbindet",
+    "answers": [
+      "Clone Trooper",
+      "Stormtrooper",
+      "The Force",
+      "Order 66"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_008",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: geheimer Befehl, der die Klone gegen die Jedi wendet",
+    "answers": [
+      "AT-AT",
+      "Clone Trooper",
+      "Stormtrooper",
+      "Order 66"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_009",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Soldatenarmee, die auf Jango Fetts DNA basiert",
+    "answers": [
+      "Stormtrooper",
+      "AT-AT",
+      "Speeder Bike",
+      "Clone Trooper"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_010",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: weiße Infanterie des Imperiums",
+    "answers": [
+      "AT-AT",
+      "Stormtrooper",
+      "Speeder Bike",
+      "Jedi Council"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_011",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: vierbeiniger Kampfläufer auf Hoth",
+    "answers": [
+      "AT-AT",
+      "Sith",
+      "Speeder Bike",
+      "Jedi Council"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_012",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: schnelles Luftfahrzeug in den Wäldern von Endor",
+    "answers": [
+      "Holonet",
+      "Sith",
+      "Jedi Council",
+      "Speeder Bike"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_013",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Rat der weisen Meister auf Coruscant",
+    "answers": [
+      "Holonet",
+      "Jedi Council",
+      "Sith",
+      "Coruscant"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_014",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Orden, der die dunkle Seite der Macht nutzt",
+    "answers": [
+      "Sith",
+      "Holonet",
+      "Coruscant",
+      "Tatooine"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_015",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Galaxisweites Kommunikationsnetz",
+    "answers": [
+      "Tatooine",
+      "Coruscant",
+      "Hoth",
+      "Holonet"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_016",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Metropole und politisches Zentrum",
+    "answers": [
+      "Coruscant",
+      "Hoth",
+      "Tatooine",
+      "Bespin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_017",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Wüstenplanet, Heimat von Anakin und Luke",
+    "answers": [
+      "Tatooine",
+      "Dagobah",
+      "Bespin",
+      "Hoth"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_018",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Eisplanet mit Echo-Basis der Rebellen",
+    "answers": [
+      "Kylo Ren",
+      "Dagobah",
+      "Hoth",
+      "Bespin"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_019",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Wolkenstadt, in der Lando regiert",
+    "answers": [
+      "Bespin",
+      "Rey",
+      "Kylo Ren",
+      "Dagobah"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_020",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Sumpfplanet, auf dem Yoda Luke trainiert",
+    "answers": [
+      "Dagobah",
+      "The Mandalorian",
+      "Kylo Ren",
+      "Rey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_021",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Anführer der Ritter von Ren mit Kreuz-Lichtschwert",
+    "answers": [
+      "The Mandalorian",
+      "Grogu",
+      "Rey",
+      "Kylo Ren"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_022",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Schrottsammlerin, die zur Jedi-Schülerin wird",
+    "answers": [
+      "Rey",
+      "The Mandalorian",
+      "Dark Saber",
+      "Grogu"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_023",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Din Djarin, Kopfgeldjäger mit Beskar-Rüstung",
+    "answers": [
+      "Grogu",
+      "Dark Saber",
+      "The Mandalorian",
+      "Inquisitoren"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_024",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: machtbegabtes Kind, das Mando begleitet",
+    "answers": [
+      "Inquisitoren",
+      "Grogu",
+      "Dark Saber",
+      "Hyperspace"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_025",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: schwarzes Lichtschwert der Mandalorianer",
+    "answers": [
+      "Dark Saber",
+      "Holoprojector",
+      "Hyperspace",
+      "Inquisitoren"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_star_wars_026",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Machtnutzer, die überlebende Jedi jagen",
+    "answers": [
+      "Holoprojector",
+      "Hyperspace",
+      "Blaster",
+      "Inquisitoren"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_star_wars_027",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Überlichtgeschwindigkeitssystem",
+    "answers": [
+      "Hyperspace",
+      "Holoprojector",
+      "Gonk-Droid",
+      "Blaster"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_star_wars_028",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Gerät, das 3D-Nachrichten darstellt",
+    "answers": [
+      "Millennium Falcon",
+      "Gonk-Droid",
+      "Holoprojector",
+      "Blaster"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_star_wars_029",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: Standard-Fernkampfwaffe in der Galaxis",
+    "answers": [
+      "X-Flügler",
+      "Gonk-Droid",
+      "Blaster",
+      "Millennium Falcon"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_star_wars_030",
+    "category": "Star Wars",
+    "question": "Was aus dem Star-Wars-Universum wird hier beschrieben: kastenförmiger Energieträger-Droide",
+    "answers": [
+      "TIE Fighter",
+      "Millennium Falcon",
+      "X-Flügler",
+      "Gonk-Droid"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_minecraft_001",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: grünes Monster, das explodiert, wenn es sich dir nähert",
+    "answers": [
+      "Wither",
+      "Enderman",
+      "Creeper",
+      "Ghast"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_002",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: hohes Wesen, das Blöcke trägt und sich teleportiert",
+    "answers": [
+      "Enderman",
+      "Enderdrache",
+      "Wither",
+      "Ghast"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_003",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: fliegendes Netherwesen, das Feuerbälle spuckt",
+    "answers": [
+      "Wither",
+      "Netherportal",
+      "Enderdrache",
+      "Ghast"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_004",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Boss mit drei Schädeln, der Nethersterne droppt",
+    "answers": [
+      "Wither",
+      "Netherportal",
+      "Redstone",
+      "Enderdrache"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_005",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: finaler Boss in der End-Dimension",
+    "answers": [
+      "Enderdrache",
+      "Netherportal",
+      "Beacon",
+      "Redstone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_006",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Tor aus Obsidian, das dich in den Nether bringt",
+    "answers": [
+      "Enchanting Table",
+      "Netherportal",
+      "Beacon",
+      "Redstone"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_007",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Material zum Bau elektrischer Schaltungen",
+    "answers": [
+      "Redstone",
+      "Beacon",
+      "Anvil",
+      "Enchanting Table"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_008",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Strahlenturm, der Buffs gibt, wenn du ihn aktivierst",
+    "answers": [
+      "Anvil",
+      "Beacon",
+      "Totem der Unsterblichkeit",
+      "Enchanting Table"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_009",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Block zum Verzaubern von Werkzeugen",
+    "answers": [
+      "Enchanting Table",
+      "Totem der Unsterblichkeit",
+      "Anvil",
+      "Elytra"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_010",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: erlaubt Reparaturen und das Kombinieren von Verzauberungen",
+    "answers": [
+      "Anvil",
+      "Elytra",
+      "Trident",
+      "Totem der Unsterblichkeit"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_011",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: rettet dich einmalig vor dem Tod",
+    "answers": [
+      "Totem der Unsterblichkeit",
+      "Shulker-Box",
+      "Trident",
+      "Elytra"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_012",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Flügel, mit denen du durch die Luft gleiten kannst",
+    "answers": [
+      "Trident",
+      "Elytra",
+      "Shulker-Box",
+      "Village"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_013",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Waffe aus Drowned-Drops, die mit Loyalität zurückkehrt",
+    "answers": [
+      "Pillager Outpost",
+      "Trident",
+      "Shulker-Box",
+      "Village"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_014",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: tragbare Kiste, deren Inhalt beim Abbau erhalten bleibt",
+    "answers": [
+      "Ocean Monument",
+      "Village",
+      "Shulker-Box",
+      "Pillager Outpost"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_015",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Dorf mit Händlern und Arbeitsplätzen",
+    "answers": [
+      "Ocean Monument",
+      "Village",
+      "Pillager Outpost",
+      "Stronghold"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_016",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Turm der Plünderer mit Bannern und Käfigen",
+    "answers": [
+      "Stronghold",
+      "Ocean Monument",
+      "Pillager Outpost",
+      "Axolotl"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_017",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Wasserstruktur mit Guardians und Prismarin",
+    "answers": [
+      "Axolotl",
+      "Stronghold",
+      "Beehive",
+      "Ocean Monument"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_018",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: unterirdische Festung mit Portalrahmen ins End",
+    "answers": [
+      "Beehive",
+      "Honey Block",
+      "Stronghold",
+      "Axolotl"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_019",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: freundliche Wasserbegleiter, die dich gegen Drowns unterstützen",
+    "answers": [
+      "Honey Block",
+      "Snow Golem",
+      "Axolotl",
+      "Beehive"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_020",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Block, der Honig und Bienen beherbergt",
+    "answers": [
+      "Beehive",
+      "Snow Golem",
+      "Iron Golem",
+      "Honey Block"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_021",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: blockiert Fallgeschwindigkeit und dient als Redstone-Komponente",
+    "answers": [
+      "Honey Block",
+      "Snow Golem",
+      "Iron Golem",
+      "Bastion Remnant"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_022",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Schneekreatur, die Schneebälle auf Gegner wirft",
+    "answers": [
+      "Bastion Remnant",
+      "Iron Golem",
+      "Snow Golem",
+      "Warped Forest"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_023",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: beschützt Dörfer mit starken Nahkampfangriffen",
+    "answers": [
+      "Bastion Remnant",
+      "Moss Block",
+      "Iron Golem",
+      "Warped Forest"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_024",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Nether-Struktur voller Piglins und Loot",
+    "answers": [
+      "Moss Block",
+      "Warped Forest",
+      "Bastion Remnant",
+      "Dripstone"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_025",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Nether-Biom, das Endermen beherbergt",
+    "answers": [
+      "Warped Forest",
+      "Dripstone",
+      "Goat Horn",
+      "Moss Block"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_minecraft_026",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: neuer Block aus Lush Caves mit Knochenmehlverbreitung",
+    "answers": [
+      "Moss Block",
+      "Dripstone",
+      "Goat Horn",
+      "Cartography Table"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_minecraft_027",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Spitzen, aus denen Lava oder Wasser tropfen kann",
+    "answers": [
+      "Cartography Table",
+      "Goat Horn",
+      "Dripstone",
+      "Fletching Table"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_minecraft_028",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Musikinstrument, das beim Rammen gedroppt wird",
+    "answers": [
+      "Creeper",
+      "Goat Horn",
+      "Cartography Table",
+      "Fletching Table"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_minecraft_029",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Block zum Kopieren und Sperren von Karten",
+    "answers": [
+      "Cartography Table",
+      "Fletching Table",
+      "Creeper",
+      "Enderman"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_minecraft_030",
+    "category": "Minecraft",
+    "question": "Welches Minecraft-Element passt: Arbeitsplatz für Bogner-Dorfbewohner",
+    "answers": [
+      "Ghast",
+      "Creeper",
+      "Fletching Table",
+      "Enderman"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_woodwalkers_001",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Protagonist, der sich in einen Puma verwandeln kann",
+    "answers": [
+      "Brandon",
+      "Carag",
+      "Tikaani",
+      "Holly"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_002",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Carags beste Freundin mit Wolfs-Gestalt",
+    "answers": [
+      "Holly",
+      "Brandon",
+      "Shari",
+      "Tikaani"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_003",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: freche Rotfuchs-Wandlerin, die Streiche liebt",
+    "answers": [
+      "Brandon",
+      "Holly",
+      "Shari",
+      "Jeffrey"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_004",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Bison-Wandler mit ruhigem Gemüt",
+    "answers": [
+      "Mr. Bridger",
+      "Jeffrey",
+      "Brandon",
+      "Shari"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_005",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Leopardin, die Carag im Training unterstützt",
+    "answers": [
+      "Shari",
+      "Mr. Bridger",
+      "Mrs. Calloway",
+      "Jeffrey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_006",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Ehemaliger Feind, der sich in einen Koyoten verwandelt",
+    "answers": [
+      "Mr. Bridger",
+      "Clearwater High",
+      "Mrs. Calloway",
+      "Jeffrey"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_007",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Direktor der Clearwater High",
+    "answers": [
+      "Clearwater High",
+      "Mrs. Calloway",
+      "Mr. Bridger",
+      "Winglet-Klub"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_008",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Lehrerin für Wandlerkunde an der Schule",
+    "answers": [
+      "Lysander",
+      "Clearwater High",
+      "Mrs. Calloway",
+      "Winglet-Klub"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_009",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Wandler-Schule in den Rocky Mountains",
+    "answers": [
+      "Lysander",
+      "Winglet-Klub",
+      "Clearwater High",
+      "Ella"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_010",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Geheime Gruppe für waghalsige Schüleraktionen",
+    "answers": [
+      "Lysander",
+      "Ella",
+      "Winglet-Klub",
+      "Maya"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_011",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Adler-Wandler mit strenger Haltung",
+    "answers": [
+      "King",
+      "Maya",
+      "Lysander",
+      "Ella"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_012",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Schildkröten-Wandlerin mit einem Faible für Kunst",
+    "answers": [
+      "Ella",
+      "Maya",
+      "King",
+      "Nanuq"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_013",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Kolibri-Wandlerin, die schnelle Flüge beherrscht",
+    "answers": [
+      "Lightning",
+      "Maya",
+      "King",
+      "Nanuq"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_014",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Grizzly-Wandler, der Carag trainiert",
+    "answers": [
+      "Lightning",
+      "King",
+      "Nanuq",
+      "Spirit Talk"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_015",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Eisbären-Wandler aus Kanada",
+    "answers": [
+      "Nanuq",
+      "Gestaltwechsel-Schmerz",
+      "Spirit Talk",
+      "Lightning"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_016",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Kater, der Carag als Haustier begleitet",
+    "answers": [
+      "Gestaltwechsel-Schmerz",
+      "Spirit Talk",
+      "Lightning",
+      "Pfadfinder-Team"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_017",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Technik, bei der Wandler mit ihrer Tierseite sprechen",
+    "answers": [
+      "Pfadfinder-Team",
+      "Gestaltwechsel-Schmerz",
+      "Meisterprüfung",
+      "Spirit Talk"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_018",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: kurzer Moment, in dem Knochen sich anpassen",
+    "answers": [
+      "Gestaltwechsel-Schmerz",
+      "Meisterprüfung",
+      "Kyrill",
+      "Pfadfinder-Team"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_019",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Schulgruppe, die Waldmissionen übernimmt",
+    "answers": [
+      "Meisterprüfung",
+      "Blaue Lagune",
+      "Kyrill",
+      "Pfadfinder-Team"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_020",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Test, der beweist, dass du deine Tierform kontrollieren kannst",
+    "answers": [
+      "Kyrill",
+      "Meisterprüfung",
+      "Blaue Lagune",
+      "Rat der Ältesten"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_021",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Luchs-Wandler, der sich Carag anschließt",
+    "answers": [
+      "Kyrill",
+      "Blaue Lagune",
+      "Rat der Ältesten",
+      "Geheime Karte"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_022",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Versteckter Ort auf dem Schulgelände mit Thermalwasser",
+    "answers": [
+      "Blaue Lagune",
+      "Geheime Karte",
+      "Rivalenrudel",
+      "Rat der Ältesten"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_023",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Gremium, das über Wandler-Gesetze wacht",
+    "answers": [
+      "Geheime Karte",
+      "Rat der Ältesten",
+      "Funkenregen",
+      "Rivalenrudel"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_024",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: zeigt Pfade zu sicheren Unterschlüpfen für Woodwalker",
+    "answers": [
+      "Rivalenrudel",
+      "Seidenpfad",
+      "Geheime Karte",
+      "Funkenregen"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_025",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Gegenspieler, die Carag in Fallen locken wollen",
+    "answers": [
+      "Jäger-Club",
+      "Seidenpfad",
+      "Funkenregen",
+      "Rivalenrudel"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_woodwalkers_026",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Trainingsübung, bei der Schüler Funken von Fackeln ausweichen",
+    "answers": [
+      "Seidenpfad",
+      "Herbstball",
+      "Funkenregen",
+      "Jäger-Club"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_woodwalkers_027",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: heimlicher Tunnel zwischen den Schlafsälen",
+    "answers": [
+      "Bärenmedizin",
+      "Seidenpfad",
+      "Herbstball",
+      "Jäger-Club"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_woodwalkers_028",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Organisation von Menschen, die Woodwalker verfolgen",
+    "answers": [
+      "Bärenmedizin",
+      "Jäger-Club",
+      "Carag",
+      "Herbstball"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_woodwalkers_029",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Fest, bei dem Schüler im Menschenkörper tanzen",
+    "answers": [
+      "Tikaani",
+      "Carag",
+      "Herbstball",
+      "Bärenmedizin"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_woodwalkers_030",
+    "category": "Woodwalkers",
+    "question": "Welches Woodwalkers-Element gehört zur Beschreibung: Heilkräuter-Mix, den Carag als Puma bevorzugt",
+    "answers": [
+      "Tikaani",
+      "Bärenmedizin",
+      "Carag",
+      "Holly"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_sheldon_001",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Platz im Wohnzimmer, den Sheldon als seinen Anspruch markiert",
+    "answers": [
+      "Bazinga",
+      "Spot auf dem Sofa",
+      "Mitbewohnervereinbarung",
+      "Soft Kitty"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_002",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: detaillierter Vertrag zwischen Sheldon und Leonard",
+    "answers": [
+      "Mitbewohnervereinbarung",
+      "Soft Kitty",
+      "Bazinga",
+      "Zug-Enthusiasmus"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_003",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Kinderlied, das Sheldon beim Kranksein beruhigt",
+    "answers": [
+      "Soft Kitty",
+      "Zug-Enthusiasmus",
+      "Bazinga",
+      "Comicbuch-Mittwoch"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_004",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldons Ausruf nach einem gelungenen Streich",
+    "answers": [
+      "Comicbuch-Mittwoch",
+      "Bazinga",
+      "Zug-Enthusiasmus",
+      "Fun with Flags"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_005",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldons Liebe für Fahrpläne, Modelle und reale Lokomotiven",
+    "answers": [
+      "Zug-Enthusiasmus",
+      "Comicbuch-Mittwoch",
+      "Fun with Flags",
+      "String-Theorie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_006",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: fester Tag, an dem die Clique den Laden besucht",
+    "answers": [
+      "Knock-Ritual",
+      "String-Theorie",
+      "Fun with Flags",
+      "Comicbuch-Mittwoch"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_007",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: YouTube-Serie, in der Sheldon Flaggenkunde erklärt",
+    "answers": [
+      "Fun with Flags",
+      "String-Theorie",
+      "MeeMaw",
+      "Knock-Ritual"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_008",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: physikalisches Feld, an dem Sheldon arbeitet",
+    "answers": [
+      "Knock-Ritual",
+      "Tiara",
+      "String-Theorie",
+      "MeeMaw"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_009",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: dreimaliges Klopfen plus Namensruf, bevor er einen Raum betritt",
+    "answers": [
+      "Tiara",
+      "Roommate-Moratorium",
+      "MeeMaw",
+      "Knock-Ritual"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_010",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Spitzname für Sheldons Großmutter, die ihn verwöhnt",
+    "answers": [
+      "Roommate-Moratorium",
+      "Cooper-Hofstadter-Polarisation",
+      "Tiara",
+      "MeeMaw"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_011",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Geschenk für Amy, wenn sie eine wissenschaftliche Errungenschaft feiert",
+    "answers": [
+      "Roboter Shelbot",
+      "Tiara",
+      "Roommate-Moratorium",
+      "Cooper-Hofstadter-Polarisation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_012",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Klausel, die Leonard zeitweise aus dem Vertrag entlässt",
+    "answers": [
+      "Roboter Shelbot",
+      "ComicCon-Cosplay",
+      "Cooper-Hofstadter-Polarisation",
+      "Roommate-Moratorium"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_013",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Veröffentlichung, die beide verbindet",
+    "answers": [
+      "Cooper-Hofstadter-Polarisation",
+      "ComicCon-Cosplay",
+      "Frühstücksroutine",
+      "Roboter Shelbot"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_014",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Telepräsenz, mit der Sheldon krank von zu Hause unterrichtet",
+    "answers": [
+      "Roboter Shelbot",
+      "ComicCon-Cosplay",
+      "Frühstücksroutine",
+      "Raj-Ehevertrag"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_015",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldon tritt gern als Spock oder Data verkleidet auf",
+    "answers": [
+      "Frühstücksroutine",
+      "Bowling-Rivalität",
+      "Raj-Ehevertrag",
+      "ComicCon-Cosplay"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_016",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Oatmeal-Montag, French Toast Dienstag usw.",
+    "answers": [
+      "Roommate-Agreement-Klausel 37B",
+      "Raj-Ehevertrag",
+      "Bowling-Rivalität",
+      "Frühstücksroutine"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_017",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldon verhandelt juristische Details für Freunde",
+    "answers": [
+      "Adhäsionsvertrag",
+      "Raj-Ehevertrag",
+      "Roommate-Agreement-Klausel 37B",
+      "Bowling-Rivalität"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_018",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Konflikt mit dem Comicladenbesitzer Stuart",
+    "answers": [
+      "Treppenhaus-Defekt",
+      "Adhäsionsvertrag",
+      "Bowling-Rivalität",
+      "Roommate-Agreement-Klausel 37B"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_019",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: regelt das Öffnen gemeinsamer Geschenke",
+    "answers": [
+      "Treppenhaus-Defekt",
+      "Professor Proton",
+      "Roommate-Agreement-Klausel 37B",
+      "Adhäsionsvertrag"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_020",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldons Lieblingsbeispiel für asymmetrische Machtverteilung",
+    "answers": [
+      "Kohabitationsexperiment",
+      "Treppenhaus-Defekt",
+      "Professor Proton",
+      "Adhäsionsvertrag"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_021",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Fahrstuhl ist jahrelang kaputt, was Sheldons Fitness erhält",
+    "answers": [
+      "Kohabitationsexperiment",
+      "Professor Proton",
+      "Spaghetti-Dienstag",
+      "Treppenhaus-Defekt"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_022",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: TV-Wissenschaftler, den Sheldon als Kind verehrte",
+    "answers": [
+      "Comicbuchinventar",
+      "Professor Proton",
+      "Spaghetti-Dienstag",
+      "Kohabitationsexperiment"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_023",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldon zieht vorübergehend bei Amy ein",
+    "answers": [
+      "Laserharfe",
+      "Spaghetti-Dienstag",
+      "Comicbuchinventar",
+      "Kohabitationsexperiment"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_024",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: wöchentlicher Menüplan in der WG",
+    "answers": [
+      "Spaghetti-Dienstag",
+      "Nobelpreis",
+      "Comicbuchinventar",
+      "Laserharfe"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_025",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldon katalogisiert jede Ausgabe mit Plastikhüllen",
+    "answers": [
+      "Comicbuchinventar",
+      "Nobelpreis",
+      "Laserharfe",
+      "Emergency-Kit"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_sheldon_026",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Instrument, das Sheldon im Musikladen spielt",
+    "answers": [
+      "Emergency-Kit",
+      "Nobelpreis",
+      "Sheldonbot",
+      "Laserharfe"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_sheldon_027",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Sheldon gewinnt ihn schließlich gemeinsam mit Amy für Superasymmetrie",
+    "answers": [
+      "Sheldonbot",
+      "Emergency-Kit",
+      "Couch-Fort",
+      "Nobelpreis"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_sheldon_028",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Go-Bag mit Pässen, Snacks und Videospielen",
+    "answers": [
+      "Sheldonbot",
+      "Emergency-Kit",
+      "Couch-Fort",
+      "Spot auf dem Sofa"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_sheldon_029",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Computerprogramm, das Sheldons Persönlichkeit testen soll",
+    "answers": [
+      "Couch-Fort",
+      "Sheldonbot",
+      "Mitbewohnervereinbarung",
+      "Spot auf dem Sofa"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_sheldon_030",
+    "category": "Sheldon",
+    "question": "Welche Aussage über Sheldon Cooper trifft hier zu: Kissenburg, die Sheldon bei Erkältungsangst baut",
+    "answers": [
+      "Spot auf dem Sofa",
+      "Mitbewohnervereinbarung",
+      "Couch-Fort",
+      "Soft Kitty"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_001",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: europäische Nummer für Rettungsdienst und Feuerwehr",
+    "answers": [
+      "ABCDE-Schema",
+      "Druckverband",
+      "Stabile Seitenlage",
+      "Notruf 112"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_002",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Struktur zur Erstuntersuchung von Patienten",
+    "answers": [
+      "Stabile Seitenlage",
+      "Rautek-Rettungsgriff",
+      "ABCDE-Schema",
+      "Druckverband"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_003",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Position, um Atemwege freizuhalten",
+    "answers": [
+      "Stabile Seitenlage",
+      "Rautek-Rettungsgriff",
+      "Druckverband",
+      "Helmabnahme"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_004",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Technik, um starke Blutungen zu stoppen",
+    "answers": [
+      "Helmabnahme",
+      "SAM-Splint",
+      "Druckverband",
+      "Rautek-Rettungsgriff"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_005",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Methode, um Verletzte schnell aus Gefahrenzonen zu ziehen",
+    "answers": [
+      "SAM-Splint",
+      "Helmabnahme",
+      "Tourniquet",
+      "Rautek-Rettungsgriff"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_006",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Teamtechnik bei bewusstlosen Motorradfahrern",
+    "answers": [
+      "Tourniquet",
+      "Helmabnahme",
+      "SAM-Splint",
+      "Defibrillator AED"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_007",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Formbare Schiene zur Schienung von Knochenbrüchen",
+    "answers": [
+      "Defibrillator AED",
+      "SAM-Splint",
+      "Tourniquet",
+      "Herzdruckmassage"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_008",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Abbindesystem bei lebensbedrohlichen Blutungen an Extremitäten",
+    "answers": [
+      "Herzdruckmassage",
+      "Beatmungsbeutel",
+      "Tourniquet",
+      "Defibrillator AED"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_009",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Gerät zur Abgabe elektrischer Schocks bei Kammerflimmern",
+    "answers": [
+      "Beatmungsbeutel",
+      "Defibrillator AED",
+      "Herzdruckmassage",
+      "Pulsoxymeter"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_010",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: 30 Kompressionen gefolgt von 2 Beatmungen",
+    "answers": [
+      "Herzdruckmassage",
+      "Bodycheck",
+      "Pulsoxymeter",
+      "Beatmungsbeutel"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_011",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Hilfsmittel, um Luft kontrolliert zu verabreichen",
+    "answers": [
+      "Sauerstoffmaske",
+      "Pulsoxymeter",
+      "Beatmungsbeutel",
+      "Bodycheck"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_012",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Misst Sauerstoffsättigung am Finger",
+    "answers": [
+      "Sauerstoffmaske",
+      "Schocklage",
+      "Pulsoxymeter",
+      "Bodycheck"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_013",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Schnelles Abtasten nach versteckten Verletzungen",
+    "answers": [
+      "Schocklage",
+      "Bodycheck",
+      "Sauerstoffmaske",
+      "HWS-Stütze"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_014",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Zubehör, das 6–10 Liter O2 pro Minute liefert",
+    "answers": [
+      "Schocklage",
+      "Sauerstoffmaske",
+      "Rippenprellung",
+      "HWS-Stütze"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_015",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Beinhochlagerung, um Kreislauf zu stabilisieren",
+    "answers": [
+      "Schocklage",
+      "HWS-Stütze",
+      "Rippenprellung",
+      "Eis-Schema"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_016",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Kragen, der die Halswirbelsäule immobilisiert",
+    "answers": [
+      "Rippenprellung",
+      "HWS-Stütze",
+      "Sichtungsalgorithmus",
+      "Eis-Schema"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_017",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: verursacht Druckschmerz, sollte aber stabilisiert werden",
+    "answers": [
+      "Glasgow Coma Scale",
+      "Eis-Schema",
+      "Sichtungsalgorithmus",
+      "Rippenprellung"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_018",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Entzündete Gelenke: Eis, Kompression, Hochlagern",
+    "answers": [
+      "Hypoglykämie-Erkennung",
+      "Sichtungsalgorithmus",
+      "Eis-Schema",
+      "Glasgow Coma Scale"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_019",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: START- oder mSTaRT-Triage bei Massenanfall",
+    "answers": [
+      "Anaphylaxie-Management",
+      "Hypoglykämie-Erkennung",
+      "Sichtungsalgorithmus",
+      "Glasgow Coma Scale"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_020",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Bewertung von Bewusstseinslage 3–15 Punkte",
+    "answers": [
+      "Glasgow Coma Scale",
+      "Anaphylaxie-Management",
+      "Hypoglykämie-Erkennung",
+      "Asthma-Spray"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_021",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Zittern, Schwitzen, Verwirrtheit bei Diabetikern",
+    "answers": [
+      "Hypoglykämie-Erkennung",
+      "Asthma-Spray",
+      "Anaphylaxie-Management",
+      "Hitzeerschöpfung"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_022",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Adrenalin-Autoinjektor in den Oberschenkel geben",
+    "answers": [
+      "Asthma-Spray",
+      "Anaphylaxie-Management",
+      "Hitzeerschöpfung",
+      "Verbrennung 2. Grades"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_023",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Dosieraerosol, das mit Spacer effektiver wirkt",
+    "answers": [
+      "Hitzeerschöpfung",
+      "Verbrennung 2. Grades",
+      "Asthma-Spray",
+      "PECH-Regel"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_024",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: führt zu Schwindel, braucht Kühlung und Flüssigkeit",
+    "answers": [
+      "Verbrennung 2. Grades",
+      "Hitzeerschöpfung",
+      "PECH-Regel",
+      "Rettungsdecke"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_025",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: blasenbildend, steril abdecken, nicht aufstechen",
+    "answers": [
+      "Rettungsdecke",
+      "SAMU-Schema",
+      "Verbrennung 2. Grades",
+      "PECH-Regel"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_026",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Pause, Eis, Compression, Hochlagern bei Sportverletzung",
+    "answers": [
+      "SAMU-Schema",
+      "RR-Messung",
+      "PECH-Regel",
+      "Rettungsdecke"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_027",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: silberne Seite nach innen, um Wärme zu halten",
+    "answers": [
+      "SAMU-Schema",
+      "RR-Messung",
+      "Handschuhe anziehen",
+      "Rettungsdecke"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_028",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Situation, Airway, Maßnahmen, Übergabe für Funkmeldungen",
+    "answers": [
+      "RR-Messung",
+      "Notruf 112",
+      "Handschuhe anziehen",
+      "SAMU-Schema"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_029",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: Blutdruck mit Manschette auf Herzhöhe messen",
+    "answers": [
+      "Notruf 112",
+      "Handschuhe anziehen",
+      "ABCDE-Schema",
+      "RR-Messung"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_rettungssanitater_fur_schuler_030",
+    "category": "Rettungssanitäter für Schüler",
+    "question": "Welcher Rettungstipp passt: erster Schritt zum Eigenschutz",
+    "answers": [
+      "Handschuhe anziehen",
+      "Notruf 112",
+      "Stabile Seitenlage",
+      "ABCDE-Schema"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_physik_8_klasse_001",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Berechnet sich als Strecke durch Zeit",
+    "answers": [
+      "Geschwindigkeit",
+      "Beschleunigung",
+      "Masse",
+      "Kraft"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_002",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Änderung der Geschwindigkeit pro Zeitintervall",
+    "answers": [
+      "Masse",
+      "Beschleunigung",
+      "Gewichtskraft",
+      "Kraft"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_003",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: wird in Newton gemessen und verursacht Beschleunigung",
+    "answers": [
+      "Gewichtskraft",
+      "Masse",
+      "Kraft",
+      "Hebelgesetz"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_004",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Eigenschaft eines Körpers, angegeben in Kilogramm",
+    "answers": [
+      "Masse",
+      "Gewichtskraft",
+      "Hebelgesetz",
+      "Dichte"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_005",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Produkt aus Masse und Ortsfaktor g",
+    "answers": [
+      "Gewichtskraft",
+      "Hebelgesetz",
+      "Pascal",
+      "Dichte"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_006",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Kraft mal Kraftarm gleich Last mal Lastarm",
+    "answers": [
+      "Dichte",
+      "Pascal",
+      "Hebelgesetz",
+      "Archimedisches Prinzip"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_007",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Verhältnis von Masse zu Volumen",
+    "answers": [
+      "Archimedisches Prinzip",
+      "Schwerpunkt",
+      "Pascal",
+      "Dichte"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_008",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Einheit für Druck",
+    "answers": [
+      "Archimedisches Prinzip",
+      "Impuls",
+      "Schwerpunkt",
+      "Pascal"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_009",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Auftrieb entspricht verdrängtem Flüssigkeitsgewicht",
+    "answers": [
+      "Schwerpunkt",
+      "Archimedisches Prinzip",
+      "Trägheit",
+      "Impuls"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_010",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Punkt, an dem alle Gewichtskräfte angreifen",
+    "answers": [
+      "Impuls",
+      "Trägheit",
+      "Reibung",
+      "Schwerpunkt"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_011",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Produkt aus Masse und Geschwindigkeit",
+    "answers": [
+      "Impuls",
+      "Federkonstante",
+      "Reibung",
+      "Trägheit"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_012",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Widerstand gegen Bewegungsänderungen",
+    "answers": [
+      "Trägheit",
+      "Federkonstante",
+      "Energieerhaltung",
+      "Reibung"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_013",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Kraft, die Bewegungen hemmt",
+    "answers": [
+      "Reibung",
+      "Energieerhaltung",
+      "Federkonstante",
+      "Potentielle Energie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_014",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Beschreibt Steifigkeit einer Feder",
+    "answers": [
+      "Kinetische Energie",
+      "Potentielle Energie",
+      "Federkonstante",
+      "Energieerhaltung"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_015",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Gesamtenergie in einem abgeschlossenen System bleibt gleich",
+    "answers": [
+      "Energieerhaltung",
+      "Potentielle Energie",
+      "Mechanische Arbeit",
+      "Kinetische Energie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_016",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Energie eines gehobenen Körpers",
+    "answers": [
+      "Kinetische Energie",
+      "Leistung",
+      "Mechanische Arbeit",
+      "Potentielle Energie"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_017",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Energie eines bewegten Körpers",
+    "answers": [
+      "Kinetische Energie",
+      "Ohmsches Gesetz",
+      "Leistung",
+      "Mechanische Arbeit"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_018",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Kraft mal Weg",
+    "answers": [
+      "Mechanische Arbeit",
+      "Leistung",
+      "Reihenschaltung",
+      "Ohmsches Gesetz"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_019",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Arbeit pro Zeit, Einheit Watt",
+    "answers": [
+      "Leistung",
+      "Parallelschaltung",
+      "Reihenschaltung",
+      "Ohmsches Gesetz"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_020",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Spannung gleich Strom mal Widerstand",
+    "answers": [
+      "Transformator",
+      "Reihenschaltung",
+      "Ohmsches Gesetz",
+      "Parallelschaltung"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_021",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Ströme gleich, Spannungen addieren sich",
+    "answers": [
+      "Reihenschaltung",
+      "Parallelschaltung",
+      "Elektromagnet",
+      "Transformator"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_022",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Spannungen gleich, Ströme addieren sich",
+    "answers": [
+      "Transformator",
+      "Parallelschaltung",
+      "Induktion",
+      "Elektromagnet"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_023",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: verändert Spannungsniveaus durch Spulenwicklungen",
+    "answers": [
+      "Lichtbrechung",
+      "Elektromagnet",
+      "Transformator",
+      "Induktion"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_024",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Spule mit Eisenkern, die ein Magnetfeld erzeugt",
+    "answers": [
+      "Induktion",
+      "Elektromagnet",
+      "Lichtbrechung",
+      "Reflexion"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_025",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Entstehung einer Spannung durch Bewegungen im Magnetfeld",
+    "answers": [
+      "Induktion",
+      "Elektrostatische Aufladung",
+      "Lichtbrechung",
+      "Reflexion"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_physik_8_klasse_026",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Richtungsänderung von Licht beim Übergang in anderes Medium",
+    "answers": [
+      "Elektrostatische Aufladung",
+      "Schallgeschwindigkeit",
+      "Lichtbrechung",
+      "Reflexion"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_physik_8_klasse_027",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Zurückwerfen von Licht an spiegelnden Flächen",
+    "answers": [
+      "Elektrostatische Aufladung",
+      "Reflexion",
+      "Dezibel",
+      "Schallgeschwindigkeit"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_physik_8_klasse_028",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Trennung von Ladungen z. B. durch Reibung",
+    "answers": [
+      "Elektrostatische Aufladung",
+      "Dezibel",
+      "Geschwindigkeit",
+      "Schallgeschwindigkeit"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_physik_8_klasse_029",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: ca. 343 m/s in Luft",
+    "answers": [
+      "Geschwindigkeit",
+      "Beschleunigung",
+      "Dezibel",
+      "Schallgeschwindigkeit"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_physik_8_klasse_030",
+    "category": "Physik 8. Klasse",
+    "question": "Welcher physikalische Begriff passt: Maß für Lautstärke",
+    "answers": [
+      "Kraft",
+      "Beschleunigung",
+      "Dezibel",
+      "Geschwindigkeit"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_survival_fragen_001",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Du überlebst 3 Minuten ohne Luft, 3 Stunden ohne Schutz, 3 Tage ohne Wasser",
+    "answers": [
+      "Sonnenstandsuhr",
+      "Notfallspiegel",
+      "Rule of Three",
+      "Signalfeuer-Dreieck"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_002",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Drei Feuer in Dreiecksform signalisieren Hilfe",
+    "answers": [
+      "Trinkwasser abkochen",
+      "Signalfeuer-Dreieck",
+      "Notfallspiegel",
+      "Sonnenstandsuhr"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_003",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Reflektiert Sonne, um Suchteams auf sich aufmerksam zu machen",
+    "answers": [
+      "Trinkwasser abkochen",
+      "Wasserfilter aus Sand und Kohle",
+      "Sonnenstandsuhr",
+      "Notfallspiegel"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_004",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Nutze Schatten eines Stocks, um grobe Himmelsrichtungen zu ermitteln",
+    "answers": [
+      "Trinkwasser abkochen",
+      "Sonnenstandsuhr",
+      "Biwaksack",
+      "Wasserfilter aus Sand und Kohle"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_005",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: mindestens 5 Minuten kochen, um Keime abzutöten",
+    "answers": [
+      "Wasserfilter aus Sand und Kohle",
+      "Tarpknoten",
+      "Trinkwasser abkochen",
+      "Biwaksack"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_006",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Improvisierter Filter aus geschichteten Materialien",
+    "answers": [
+      "Biwaksack",
+      "Wasserfilter aus Sand und Kohle",
+      "Feuerstahl",
+      "Tarpknoten"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_007",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Ultraleichte Hülle, die Wärme reflektiert",
+    "answers": [
+      "Biwaksack",
+      "Birkenrinde",
+      "Feuerstahl",
+      "Tarpknoten"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_008",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Schnelleckknoten und Spannschnüre für Unterstände",
+    "answers": [
+      "Birkenrinde",
+      "Feuerstahl",
+      "Tarpknoten",
+      "Fatwood"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_009",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Erzeugt Funken selbst bei Nässe",
+    "answers": [
+      "Feuerstahl",
+      "Dakota Fire Hole",
+      "Birkenrinde",
+      "Fatwood"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_010",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: brennt schnell und dient als Zunder",
+    "answers": [
+      "Dakota Fire Hole",
+      "Fatwood",
+      "Birkenrinde",
+      "Bow Drill"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_011",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Harzreiches Holz, das lange Flammen liefert",
+    "answers": [
+      "Dakota Fire Hole",
+      "Snare",
+      "Bow Drill",
+      "Fatwood"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_012",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: zwei Gruben für raucharmes, effizientes Feuer",
+    "answers": [
+      "Paracord",
+      "Dakota Fire Hole",
+      "Snare",
+      "Bow Drill"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_013",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Reibungsfeuertechnik mit Bogen, Spindel und Brett",
+    "answers": [
+      "Improvisierter Kompass",
+      "Snare",
+      "Paracord",
+      "Bow Drill"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_014",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Schlinge zum Fangen kleiner Tiere",
+    "answers": [
+      "Paracord",
+      "Improvisierter Kompass",
+      "Bergungssignal",
+      "Snare"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_015",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: leichtes, starkes Seil mit sieben Innensträngen",
+    "answers": [
+      "Improvisierter Kompass",
+      "Bergungssignal",
+      "Mylar-Decke",
+      "Paracord"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_016",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Nadel magnetisieren, auf Wasser schwimmen lassen",
+    "answers": [
+      "Layering",
+      "Improvisierter Kompass",
+      "Mylar-Decke",
+      "Bergungssignal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_017",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Drei Pfiffe oder Schüsse gelten als Notruf",
+    "answers": [
+      "Bergungssignal",
+      "Leave No Trace",
+      "Layering",
+      "Mylar-Decke"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_018",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: reflektiert bis zu 90 % Körperwärme",
+    "answers": [
+      "Mylar-Decke",
+      "Leave No Trace",
+      "Layering",
+      "Bärenregel"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_019",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Mehrere Kleidungsschichten gegen Kälte",
+    "answers": [
+      "Leave No Trace",
+      "Buddy-Check",
+      "Bärenregel",
+      "Layering"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_020",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Sieben Regeln, um Natur zu schützen",
+    "answers": [
+      "Trotzrichtung bestimmen",
+      "Buddy-Check",
+      "Bärenregel",
+      "Leave No Trace"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_021",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Essenslager mindestens 100 Meter vom Schlafplatz entfernt",
+    "answers": [
+      "Bärenregel",
+      "Trotzrichtung bestimmen",
+      "SOS am Boden",
+      "Buddy-Check"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_022",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Partner kontrollieren sich gegenseitig vor Aufbruch",
+    "answers": [
+      "Buddy-Check",
+      "Trotzrichtung bestimmen",
+      "Trinkwasserpflanzen",
+      "SOS am Boden"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_023",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Moos wächst nicht nur im Norden, kombiniere Hinweise",
+    "answers": [
+      "Trotzrichtung bestimmen",
+      "Trinkwasserpflanzen",
+      "Morsecode",
+      "SOS am Boden"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_024",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Große Buchstaben mit Steinen oder Stöcken legen",
+    "answers": [
+      "SOS am Boden",
+      "Morsecode",
+      "Trinkwasserpflanzen",
+      "Signalrauch"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_025",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Schilf und Bambus speichern sauberes Wasser",
+    "answers": [
+      "Signalrauch",
+      "Trinkwasserpflanzen",
+      "Notunterkunft",
+      "Morsecode"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "noah_survival_fragen_026",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: SOS ist •••---•••",
+    "answers": [
+      "Notunterkunft",
+      "Signalrauch",
+      "Himmelsnavigation",
+      "Morsecode"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_survival_fragen_027",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Grünes Material sorgt für auffälligen Rauch",
+    "answers": [
+      "Notunterkunft",
+      "Signalrauch",
+      "Survival-Kit",
+      "Himmelsnavigation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_survival_fragen_028",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Lean-to, Debris Hut oder A-Frame je nach Material",
+    "answers": [
+      "Notunterkunft",
+      "Rule of Three",
+      "Survival-Kit",
+      "Himmelsnavigation"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_survival_fragen_029",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: Polarstern im Norden, Kreuz des Südens im Süden",
+    "answers": [
+      "Rule of Three",
+      "Signalfeuer-Dreieck",
+      "Survival-Kit",
+      "Himmelsnavigation"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "noah_survival_fragen_030",
+    "category": "Survival-Fragen",
+    "question": "Welche Survival-Idee passt: enthält Messer, Feuerstarter, Erste-Hilfe, Kompass",
+    "answers": [
+      "Rule of Three",
+      "Notfallspiegel",
+      "Survival-Kit",
+      "Signalfeuer-Dreieck"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  }
+]
