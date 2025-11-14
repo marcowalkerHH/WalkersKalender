@@ -3510,3 +3510,22 @@
     "difficulty": "hard"
   }
 ]
+  {"id":"noah_fortnite_001","category":"Fortnite","question":"Welche Ressource brauchst du für den Aufstieg in die Luft in Fortnite Kapitel 5 besonders häufig?","answers":["Metall","Holz","Schockwellen","Goldbarren"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"noah_fortnite_101","category":"Fortnite","question":"Wie heißt der Modus, in dem du völlig ohne Bauoptionen spielst?","answers":["Schnellkampf","Reboot Royale","Null Bauen","Arena"],"correctIndex":2,"difficulty":"hard"},
+  {"id":"noah_marvel_001","category":"Marvel","question":"Wie lautet der bürgerliche Name von Black Panther?","answers":["T'Challa","M'Baku","Shuri","N'Jadaka"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"noah_marvel_101","category":"Marvel","question":"Welches Metall ist in Wakanda besonders wertvoll?","answers":["Adamantium","Vibranium","Uru","Titanium"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"noah_starwars_001","category":"Star Wars","question":"Wie heißt das Raumschiff von Han Solo?","answers":["Ghost","Razor Crest","Millennium Falcon","Outrider"],"correctIndex":2,"difficulty":"normal"},
+  {"id":"noah_starwars_101","category":"Star Wars","question":"Welche Farbe hat das Lichtschwert von Mace Windu?","answers":["Blau","Grün","Violett","Gelb"],"correctIndex":2,"difficulty":"hard"},
+  {"id":"noah_minecraft_001","category":"Minecraft","question":"Welches Material benötigst du für ein Netherportal?","answers":["Diamant","Obsidian","Basalt","Kupfer"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"noah_minecraft_101","category":"Minecraft","question":"Wie viele Obsidianblöcke brauchst du mindestens für ein funktionierendes Netherportal?","answers":["8","10","12","14"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"noah_woodwalkers_001","category":"Woodwalkers","question":"Wie heißen die beiden Hauptfiguren der Woodwalkers-Reihe?","answers":["Carag und Tikaani","Lou und Shari","Mika und Berta","Rory und Fee"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"noah_woodwalkers_101","category":"Woodwalkers","question":"Welches Tier ist Carags Tiergestalt?","answers":["Puma","Wolf","Adler","Bison"],"correctIndex":0,"difficulty":"hard"},
+  {"id":"noah_sheldon_001","category":"Sheldon","question":"Welches Lieblingsgericht gönnt sich Sheldon Cooper immer donnerstags?","answers":["Thai","Pizza","Spaghetti","Curry"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"noah_sheldon_101","category":"Sheldon","question":"Wie nennt Sheldon seine Sitzposition im Wohnzimmer?","answers":["Hot Spot","Perfect Seat","Optimaler Platz","Sein Platz"],"correctIndex":3,"difficulty":"hard"},
+  {"id":"noah_rettung_001","category":"Rettungssanitäter für Schüler","question":"Welche Telefonnummer wählst du in Deutschland für den Rettungsdienst?","answers":["112","110","118","19222"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"noah_rettung_101","category":"Rettungssanitäter für Schüler","question":"Wie heißt die stabile Seitenlage auf Englisch?","answers":["Stable Side Position","Recovery Position","Safe Sleep Position","Resting Roll"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"noah_physik_001","category":"Physik 8. Klasse","question":"Wie berechnest du Geschwindigkeit?","answers":["Strecke × Zeit","Strecke ÷ Zeit","Zeit ÷ Strecke","Strecke × Strecke"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"noah_physik_101","category":"Physik 8. Klasse","question":"Wie lautet die Einheit der Kraft im SI-System?","answers":["Newton","Joule","Watt","Pascal"],"correctIndex":0,"difficulty":"hard"},
+  {"id":"noah_survival_001","category":"Survival-Fragen","question":"Welche Himmelsrichtung zeigt dir in Mitteleuropa meistens Moos am Baum?","answers":["Süden","Norden","Westen","Osten"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"noah_survival_101","category":"Survival-Fragen","question":"Welches Knotenmuster eignet sich gut, um eine Hängematte zu befestigen?","answers":["Palstek","Achterknoten","Slipknot","Webeleinenstek"],"correctIndex":0,"difficulty":"hard"}
+]

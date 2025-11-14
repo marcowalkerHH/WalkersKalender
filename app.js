@@ -258,6 +258,9 @@ function getDoorIcons() {
   return DOOR_ICONS[state.selectedUser] || DOOR_ICONS.default;
 }
 
+  updateDoors();
+}
+
 function handleDoorClick(day) {
   if (!state.selectedUser) {
     loginMessage.textContent = 'Bitte erst einloggen.';
@@ -365,6 +368,9 @@ function handleAnswer(button, isCorrect, question) {
     button.classList.add('correct');
     questionFeedback.textContent = getPraiseMessage();
     questionFeedback.classList.add('celebrate');
+  if (isCorrect) {
+    button.classList.add('correct');
+    questionFeedback.textContent = 'Richtig! +1 Punkt';
     updateScore(1);
   } else {
     button.classList.add('wrong');

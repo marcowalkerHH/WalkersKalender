@@ -3120,3 +3120,20 @@
     "difficulty": "hard"
   }
 ]
+  {"id":"johanna_mode_001","category":"Mode","question":"Wie nennt man ein kleines Schwarzes im englischen Sprachraum?","answers":["Little Black Dress","Mini Black","Night Shift","Evening Fit"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"johanna_mode_101","category":"Mode","question":"Welches Jahrzehnt prägte die Schulterpolster am stärksten?","answers":["1960er","1970er","1980er","1990er"],"correctIndex":2,"difficulty":"hard"},
+  {"id":"johanna_haute_001","category":"Haute Couture","question":"In welcher Stadt finden die offiziellen Haute-Couture-Schauen statt?","answers":["Paris","Mailand","New York","London"],"correctIndex":0,"difficulty":"normal"},
+  {"id":"johanna_haute_101","category":"Haute Couture","question":"Wie heißt der Verband, der Haute Couture in Frankreich reguliert?","answers":["Chambre Syndicale","Maison Elite","Mode Conseil","Couture Forum"],"correctIndex":0,"difficulty":"hard"},
+  {"id":"johanna_designer_001","category":"Berühmte Designer","question":"Welcher Designer ist für das Monogramm der Marke LV bekannt?","answers":["Giorgio Armani","Karl Lagerfeld","Virgil Abloh","Tom Ford"],"correctIndex":2,"difficulty":"normal"},
+  {"id":"johanna_designer_101","category":"Berühmte Designer","question":"Welches Duo gründete das Label Proenza Schouler?","answers":["Jack McCollough & Lazaro Hernandez","Domenico Dolce & Stefano Gabbana","Pierpaolo Piccioli & Maria Grazia Chiuri","Miuccia Prada & Patrizio Bertelli"],"correctIndex":0,"difficulty":"hard"},
+  {"id":"johanna_english_001","category":"Englische Ausdrücke","question":"Choose the correct C2 synonym for 'very fashionable'.","answers":["Dowdy","On fleek","Modish","Outdated"],"correctIndex":2,"difficulty":"normal"},
+  {"id":"johanna_english_101","category":"Englische Ausdrücke","question":"Complete the sentence: 'Her ensemble is the epitome of ____ elegance.'","answers":["unrestrained","understated","unfettered","untamed"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"johanna_chemie_001","category":"Chemie 10. Klasse","question":"Wie viele Protonen besitzt ein Sauerstoffatom?","answers":["6","8","10","12"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"johanna_chemie_101","category":"Chemie 10. Klasse","question":"Wie lautet die Summenformel von Ethanol?","answers":["C2H4O2","C2H6O","C3H8O","CH4O"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"johanna_emily_001","category":"Emily in Paris","question":"In welcher Branche arbeitet Emily Cooper in Staffel 1?","answers":["Finanzen","Marketing","Journalismus","Design"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"johanna_emily_101","category":"Emily in Paris","question":"Wie heißt Emilys Chefin in Paris?","answers":["Sylvie","Madeline","Camille","Mindy"],"correctIndex":0,"difficulty":"hard"},
+  {"id":"johanna_beauty_001","category":"Beauty & Styling","question":"Welcher Pinsel eignet sich für Rouge?","answers":["Spoolie","Kabuki","Flacher Lidschattenpinsel","Fächerpinsel"],"correctIndex":1,"difficulty":"normal"},
+  {"id":"johanna_beauty_101","category":"Beauty & Styling","question":"Was beschreibt der Begriff 'undertone' bei Foundations?","answers":["Deckkraft","Hautton-Unterton","Finish","Haltbarkeit"],"correctIndex":1,"difficulty":"hard"},
+  {"id":"johanna_taschen_001","category":"Handtaschen","question":"Welche Form hat die klassische Kelly Bag?","answers":["Bucket","Satchel","Trapez","Hobo"],"correctIndex":2,"difficulty":"normal"},
+  {"id":"johanna_taschen_101","category":"Handtaschen","question":"Wie nennt man die legendäre zweifarbige Chanel-Kette?","answers":["Chain Classic","Mademoiselle Chain","Bijou Chain","Iconic Link"],"correctIndex":1,"difficulty":"hard"}
+]
