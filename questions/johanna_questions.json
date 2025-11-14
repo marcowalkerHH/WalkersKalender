@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "johanna_mode_001",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Kleiderschrank mit wenigen, kombinierbaren Lieblingsteilen",
+    "answers": [
+      "Color Blocking",
+      "Layering",
+      "Capsule Wardrobe",
+      "Monochrome Look"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_002",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Outfit komplett in einer Farbfamilie",
+    "answers": [
+      "Statement Piece",
+      "Layering",
+      "Color Blocking",
+      "Monochrome Look"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_003",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Kombination kräftiger, kontrastierender Farben in großen Flächen",
+    "answers": [
+      "Statement Piece",
+      "Layering",
+      "Tailoring",
+      "Color Blocking"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_004",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Mehrere Lagen unterschiedlicher Längen übereinander tragen",
+    "answers": [
+      "Tailoring",
+      "Streetwear",
+      "Statement Piece",
+      "Layering"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_005",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: auffälliges Einzelteil, das den Rest des Looks bestimmt",
+    "answers": [
+      "Statement Piece",
+      "Streetwear",
+      "Tailoring",
+      "Athleisure"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_006",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: maßgeschneiderte Details wie Abnäher und scharfe Kanten",
+    "answers": [
+      "Tailoring",
+      "Streetwear",
+      "Athleisure",
+      "Normcore"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_007",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Casual-Looks mit Hoodies, Sneakern und Caps",
+    "answers": [
+      "Quiet Luxury",
+      "Normcore",
+      "Streetwear",
+      "Athleisure"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_008",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Sportliche Teile wie Leggings werden alltagstauglich kombiniert",
+    "answers": [
+      "Dopamine Dressing",
+      "Normcore",
+      "Athleisure",
+      "Quiet Luxury"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_009",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: unauffälliger Minimalstil mit Jeans und Basic-Shirts",
+    "answers": [
+      "Cottagecore",
+      "Quiet Luxury",
+      "Dopamine Dressing",
+      "Normcore"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_010",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Understatement mit hochwertigen Materialien ohne Logos",
+    "answers": [
+      "Quiet Luxury",
+      "Dopamine Dressing",
+      "Utility Trend",
+      "Cottagecore"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_011",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: bunte, fröhliche Farben zur Stimmungsaufhellung",
+    "answers": [
+      "Cottagecore",
+      "Sheer Fabrics",
+      "Dopamine Dressing",
+      "Utility Trend"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_012",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: romantische, ländlich inspirierte Kleider und Stickereien",
+    "answers": [
+      "Balletcore",
+      "Sheer Fabrics",
+      "Utility Trend",
+      "Cottagecore"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_013",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Overalls, Cargo-Taschen und funktionale Materialien",
+    "answers": [
+      "Sheer Fabrics",
+      "Balletcore",
+      "Utility Trend",
+      "Preppy Style"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_014",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Durchscheinende Stoffe wie Organza oder Mesh",
+    "answers": [
+      "Sheer Fabrics",
+      "Y2K",
+      "Preppy Style",
+      "Balletcore"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_015",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Body, Wickelcardigan und Tüll inspiriert vom Ballett",
+    "answers": [
+      "Y2K",
+      "Preppy Style",
+      "Boho",
+      "Balletcore"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_016",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: College-Look mit Blazer, Faltenrock und Loafern",
+    "answers": [
+      "Preppy Style",
+      "Boho",
+      "Minimalismus",
+      "Y2K"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_017",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Retrotrend mit Crop Tops, Low-Rise-Jeans und Glitzerelementen",
+    "answers": [
+      "Minimalismus",
+      "Boho",
+      "Maximalismus",
+      "Y2K"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_018",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Ethno-Prints, Fransen und fließende Silhouetten",
+    "answers": [
+      "Minimalismus",
+      "Maximalismus",
+      "Androgyn",
+      "Boho"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_019",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: reduzierte Formen, neutrale Farben, klare Linien",
+    "answers": [
+      "Maximalismus",
+      "Androgyn",
+      "Minimalismus",
+      "Power Suit"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_020",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Mix aus Prints, Farben und Accessoires ohne Zurückhaltung",
+    "answers": [
+      "Power Suit",
+      "Androgyn",
+      "Slip Dress",
+      "Maximalismus"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_021",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Verschmelzung maskuliner und femininer Schnitte",
+    "answers": [
+      "Power Suit",
+      "Slip Dress",
+      "Paperbag-Taille",
+      "Androgyn"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_022",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: markant geschneiderter Anzug für Business-Auftritte",
+    "answers": [
+      "Wide-Leg Pants",
+      "Slip Dress",
+      "Paperbag-Taille",
+      "Power Suit"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_023",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Seidiges Kleid mit Spaghettiträgern im Lingerie-Stil",
+    "answers": [
+      "Wide-Leg Pants",
+      "Slip Dress",
+      "Paperbag-Taille",
+      "Mock Neck"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_024",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Hosenbund mit gerafftem, paperbag-ähnlichem Abschluss",
+    "answers": [
+      "Mock Neck",
+      "Wide-Leg Pants",
+      "Paperbag-Taille",
+      "Cut-Outs"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_025",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: weite Hosen, die locker über den Schuhen fallen",
+    "answers": [
+      "Mock Neck",
+      "Wide-Leg Pants",
+      "Matching Set",
+      "Cut-Outs"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_mode_026",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: hoher, aber nicht umgeschlagener Kragen",
+    "answers": [
+      "Matching Set",
+      "Mock Neck",
+      "Statement Sleeve",
+      "Cut-Outs"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_mode_027",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: gezielt platzierte Aussparungen an Kleidern oder Tops",
+    "answers": [
+      "Cut-Outs",
+      "Sustainable Fashion",
+      "Matching Set",
+      "Statement Sleeve"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_mode_028",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Ober- und Unterteil aus demselben Stoff und Print",
+    "answers": [
+      "Sustainable Fashion",
+      "Capsule Wardrobe",
+      "Statement Sleeve",
+      "Matching Set"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_mode_029",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: voluminöse Ärmel wie Puff oder Trompete",
+    "answers": [
+      "Monochrome Look",
+      "Sustainable Fashion",
+      "Statement Sleeve",
+      "Capsule Wardrobe"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_mode_030",
+    "category": "Mode",
+    "question": "Welcher Modebegriff passt: Mode aus recycelten oder zertifizierten Materialien",
+    "answers": [
+      "Sustainable Fashion",
+      "Color Blocking",
+      "Capsule Wardrobe",
+      "Monochrome Look"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_haute_couture_001",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: legendäres Pariser Haus mit tweedigen Kostümen",
+    "answers": [
+      "Atelier Versace",
+      "Christian Dior Bar Jacket",
+      "Givenchy Atelier",
+      "Maison Chanel"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_002",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: ikonischer Silhouettenstart des New Look 1947",
+    "answers": [
+      "Christian Dior Bar Jacket",
+      "Atelier Versace",
+      "Balenciaga Cristóbal",
+      "Givenchy Atelier"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_003",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: bekannt für klare Linien und Audrey Hepburn Looks",
+    "answers": [
+      "Givenchy Atelier",
+      "Atelier Versace",
+      "Schiaparelli Surrealismus",
+      "Balenciaga Cristóbal"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_004",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: dramatische Schnitte, Kristalle und Slits",
+    "answers": [
+      "Schiaparelli Surrealismus",
+      "Balenciaga Cristóbal",
+      "Atelier Versace",
+      "Elie Saab Perlenstickerei"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_005",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Architekt der Couture mit Skulpturformen",
+    "answers": [
+      "Balenciaga Cristóbal",
+      "Schiaparelli Surrealismus",
+      "Elie Saab Perlenstickerei",
+      "Zuhair Murad Cape-Dresses"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_006",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Augen- und Ohrenschmuck, inspiriert von Dalí",
+    "answers": [
+      "Zuhair Murad Cape-Dresses",
+      "Schiaparelli Surrealismus",
+      "Elie Saab Perlenstickerei",
+      "Iris van Herpen 3D"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_007",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: romantische Roben voller Perlen und Spitze",
+    "answers": [
+      "Zuhair Murad Cape-Dresses",
+      "Maison Margiela Artisanal",
+      "Elie Saab Perlenstickerei",
+      "Iris van Herpen 3D"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_008",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: orientalisch inspirierte Capes und Cut-outs",
+    "answers": [
+      "Zuhair Murad Cape-Dresses",
+      "Iris van Herpen 3D",
+      "Maison Margiela Artisanal",
+      "Giambattista Valli Tüllwolken"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_009",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: technologische Couture aus gedruckten Strukturen",
+    "answers": [
+      "Alexandre Vauthier Power Couture",
+      "Maison Margiela Artisanal",
+      "Iris van Herpen 3D",
+      "Giambattista Valli Tüllwolken"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_010",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Upcycling, Dekonstruktion und Handarbeit",
+    "answers": [
+      "Ralph & Russo",
+      "Alexandre Vauthier Power Couture",
+      "Giambattista Valli Tüllwolken",
+      "Maison Margiela Artisanal"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_011",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: aufwendige Volumen in Bonbonfarben",
+    "answers": [
+      "Alexandre Vauthier Power Couture",
+      "Giambattista Valli Tüllwolken",
+      "Ralph & Russo",
+      "Valentino Haute Couture"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_012",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Schulterbetonte Silhouetten mit Pailletten",
+    "answers": [
+      "Fendi Couture",
+      "Alexandre Vauthier Power Couture",
+      "Ralph & Russo",
+      "Valentino Haute Couture"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_013",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: britische Couture mit Pastelltönen und Blumenapplikationen",
+    "answers": [
+      "Ralph & Russo",
+      "Fendi Couture",
+      "Valentino Haute Couture",
+      "Jean Paul Gaultier Corsets"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_014",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Pierpaolo Picciolis Farbflächen und Schleppen",
+    "answers": [
+      "Chambre Syndicale",
+      "Fendi Couture",
+      "Jean Paul Gaultier Corsets",
+      "Valentino Haute Couture"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_015",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Pelz- und Stickkunst in Rom",
+    "answers": [
+      "Fendi Couture",
+      "Chambre Syndicale",
+      "Jean Paul Gaultier Corsets",
+      "Flou vs. Tailleur"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_016",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: ikonische Korsetts und maritime Details",
+    "answers": [
+      "Lesage Stickerei",
+      "Chambre Syndicale",
+      "Flou vs. Tailleur",
+      "Jean Paul Gaultier Corsets"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_017",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Gremium, das Couture-Häuser in Paris zulässt",
+    "answers": [
+      "Lemarié Federn",
+      "Chambre Syndicale",
+      "Lesage Stickerei",
+      "Flou vs. Tailleur"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_018",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: zwei Departments für fließende Roben und strukturierte Anzüge",
+    "answers": [
+      "Lemarié Federn",
+      "Première",
+      "Lesage Stickerei",
+      "Flou vs. Tailleur"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_019",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: historisches Atelier für Perlen und Pailletten",
+    "answers": [
+      "Lesage Stickerei",
+      "Lemarié Federn",
+      "Première",
+      "Toile"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_020",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Federkunstwerkstatt für Couture",
+    "answers": [
+      "Première",
+      "Bastidor",
+      "Toile",
+      "Lemarié Federn"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_021",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Chef-Schneiderin, die Atelierteams leitet",
+    "answers": [
+      "Première",
+      "Bastidor",
+      "Toile",
+      "HouteFourrure"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_022",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Probekleid aus Baumwolle vor dem finalen Stoff",
+    "answers": [
+      "Bastidor",
+      "Toile",
+      "HouteFourrure",
+      "Client Fitting"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_023",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: metallener Körper für Millinery und Kopfschmuck",
+    "answers": [
+      "HouteFourrure",
+      "Savoir-Faire",
+      "Client Fitting",
+      "Bastidor"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_024",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Pelzdivision innerhalb eines Hauses",
+    "answers": [
+      "Client Fitting",
+      "HouteFourrure",
+      "Savoir-Faire",
+      "Lookbook Shooting"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_025",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: mehrere Anproben, oft drei Termine",
+    "answers": [
+      "Client Fitting",
+      "Savoir-Faire",
+      "Lookbook Shooting",
+      "Couture Calendar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_haute_couture_026",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Wissen und Handwerk, das Generationen weitergeben",
+    "answers": [
+      "Savoir-Faire",
+      "Made-to-Measure",
+      "Lookbook Shooting",
+      "Couture Calendar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_haute_couture_027",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: inszeniert Kollektionen, bevor Kundinnen bestellen",
+    "answers": [
+      "Lookbook Shooting",
+      "Made-to-Measure",
+      "Atelier Délai",
+      "Couture Calendar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_haute_couture_028",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: zwei offizielle Wochen pro Jahr in Paris",
+    "answers": [
+      "Atelier Délai",
+      "Couture Calendar",
+      "Made-to-Measure",
+      "Maison Chanel"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_haute_couture_029",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: jedes Kleidungsstück auf individuelle Maße gefertigt",
+    "answers": [
+      "Christian Dior Bar Jacket",
+      "Made-to-Measure",
+      "Maison Chanel",
+      "Atelier Délai"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_haute_couture_030",
+    "category": "Haute Couture",
+    "question": "Welches Haute-Couture-Haus oder -Detail passt: Herstellung dauert oft 600 Arbeitsstunden",
+    "answers": [
+      "Maison Chanel",
+      "Christian Dior Bar Jacket",
+      "Atelier Délai",
+      "Givenchy Atelier"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beruhmte_designer_001",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: schuf das kleine Schwarze und Kostüme mit Ketten",
+    "answers": [
+      "Karl Lagerfeld",
+      "Coco Chanel",
+      "Christian Dior",
+      "Yves Saint Laurent"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_002",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: initiierte den New Look 1947",
+    "answers": [
+      "Christian Dior",
+      "Alexander McQueen",
+      "Yves Saint Laurent",
+      "Karl Lagerfeld"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_003",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: brachte den Smoking für Frauen auf den Laufsteg",
+    "answers": [
+      "Alexander McQueen",
+      "Yves Saint Laurent",
+      "Donatella Versace",
+      "Karl Lagerfeld"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_004",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: prägte Chanel und Fendi jahrzehntelang",
+    "answers": [
+      "Alexander McQueen",
+      "Giorgio Armani",
+      "Karl Lagerfeld",
+      "Donatella Versace"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_005",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: berühmt für dramatische, avantgardistische Shows",
+    "answers": [
+      "Alexander McQueen",
+      "Ralph Lauren",
+      "Donatella Versace",
+      "Giorgio Armani"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_006",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: leitet das Haus Versace mit glamourösen Prints",
+    "answers": [
+      "Giorgio Armani",
+      "Ralph Lauren",
+      "Vivienne Westwood",
+      "Donatella Versace"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_007",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Meister der cleanen Anzüge und Red-Carpet-Roben",
+    "answers": [
+      "Giorgio Armani",
+      "Ralph Lauren",
+      "Vivienne Westwood",
+      "Tom Ford"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_008",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: präsentierte den American Preppy Lifestyle",
+    "answers": [
+      "Vivienne Westwood",
+      "Ralph Lauren",
+      "Tom Ford",
+      "Phoebe Philo"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_009",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Punk-Ikone mit Tartans und Korsetts",
+    "answers": [
+      "Vivienne Westwood",
+      "Stella McCartney",
+      "Phoebe Philo",
+      "Tom Ford"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_010",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: relaunchte Gucci und gründete eigenes Label mit Sexappeal",
+    "answers": [
+      "Tom Ford",
+      "Stella McCartney",
+      "Phoebe Philo",
+      "Maria Grazia Chiuri"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_011",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: minimalistische Designs bei Céline",
+    "answers": [
+      "Phoebe Philo",
+      "Pierpaolo Piccioli",
+      "Stella McCartney",
+      "Maria Grazia Chiuri"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_012",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: setzt auf nachhaltige, vegane Materialien",
+    "answers": [
+      "Pierpaolo Piccioli",
+      "Stella McCartney",
+      "Maria Grazia Chiuri",
+      "Riccardo Tisci"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_013",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: erste weibliche Kreativdirektorin bei Dior",
+    "answers": [
+      "Demna",
+      "Maria Grazia Chiuri",
+      "Pierpaolo Piccioli",
+      "Riccardo Tisci"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_014",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: verantwortlich für farbintensive Valentino-Couture",
+    "answers": [
+      "Pierpaolo Piccioli",
+      "Riccardo Tisci",
+      "Demna",
+      "Jonathan Anderson"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_015",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: mischte Streetwear in Givenchy und Burberry",
+    "answers": [
+      "Riccardo Tisci",
+      "Jonathan Anderson",
+      "Olivier Rousteing",
+      "Demna"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_016",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: experimenteller Kreativchef bei Balenciaga",
+    "answers": [
+      "Rei Kawakubo",
+      "Olivier Rousteing",
+      "Jonathan Anderson",
+      "Demna"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_017",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: LOEWE und JW Anderson mit Kunstreferenzen",
+    "answers": [
+      "Miuccia Prada",
+      "Jonathan Anderson",
+      "Olivier Rousteing",
+      "Rei Kawakubo"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_018",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Balmain Designer mit strukturierten Schultern",
+    "answers": [
+      "Miuccia Prada",
+      "Olivier Rousteing",
+      "Tory Burch",
+      "Rei Kawakubo"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_019",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Comme des Garçons Gründerin, die Dekonstruktion liebt",
+    "answers": [
+      "Miuccia Prada",
+      "Michael Kors",
+      "Rei Kawakubo",
+      "Tory Burch"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_020",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: intellektuelle Minimalistin und Miu Miu Designerin",
+    "answers": [
+      "Michael Kors",
+      "Hedi Slimane",
+      "Miuccia Prada",
+      "Tory Burch"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_021",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: amerikanische Designerin mit Boho-Preppy Look",
+    "answers": [
+      "Tory Burch",
+      "Hedi Slimane",
+      "Issey Miyake",
+      "Michael Kors"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_022",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: bekannt für Jetset-Looks und Accessoires",
+    "answers": [
+      "Issey Miyake",
+      "Hedi Slimane",
+      "Zac Posen",
+      "Michael Kors"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_023",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: brachte Skinny-Silhouetten zu Dior Homme und Celine",
+    "answers": [
+      "Carolina Herrera",
+      "Zac Posen",
+      "Hedi Slimane",
+      "Issey Miyake"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_024",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Pleats Please und technologische Stoffe",
+    "answers": [
+      "Zac Posen",
+      "Issey Miyake",
+      "Carolina Herrera",
+      "Alber Elbaz"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_025",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Hollywood-Glamour mit dramatischen Röcken",
+    "answers": [
+      "Zac Posen",
+      "Nicolas Ghesquière",
+      "Alber Elbaz",
+      "Carolina Herrera"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beruhmte_designer_026",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: klassische Eleganz für First Ladies",
+    "answers": [
+      "Alber Elbaz",
+      "Virgil Abloh",
+      "Nicolas Ghesquière",
+      "Carolina Herrera"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beruhmte_designer_027",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Lanvin Designer mit verspielten Details",
+    "answers": [
+      "Sarah Burton",
+      "Nicolas Ghesquière",
+      "Virgil Abloh",
+      "Alber Elbaz"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beruhmte_designer_028",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Louis Vuitton Designer mit Sci-Fi-Anklängen",
+    "answers": [
+      "Coco Chanel",
+      "Nicolas Ghesquière",
+      "Virgil Abloh",
+      "Sarah Burton"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beruhmte_designer_029",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: Off-White Gründer und LV Herrenkreativdirektor",
+    "answers": [
+      "Sarah Burton",
+      "Virgil Abloh",
+      "Christian Dior",
+      "Coco Chanel"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beruhmte_designer_030",
+    "category": "Berühmte Designer",
+    "question": "Welcher Designer passt: führte Alexander McQueen nach seinem Tod weiter",
+    "answers": [
+      "Yves Saint Laurent",
+      "Sarah Burton",
+      "Coco Chanel",
+      "Christian Dior"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_001",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: means to treat a statement with cautious skepticism",
+    "answers": [
+      "silver lining",
+      "to take something with a grain of salt",
+      "sweeping generalization",
+      "cut to the chase"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_002",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: the hopeful aspect of an otherwise negative situation",
+    "answers": [
+      "sweeping generalization",
+      "cut to the chase",
+      "serendipitous encounter",
+      "silver lining"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_003",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: skip preliminaries and go straight to the essential point",
+    "answers": [
+      "sweeping generalization",
+      "serendipitous encounter",
+      "ubiquitous presence",
+      "cut to the chase"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_004",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: an overbroad conclusion lacking nuance",
+    "answers": [
+      "ubiquitous presence",
+      "nuanced argument",
+      "serendipitous encounter",
+      "sweeping generalization"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_005",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: a fortunate meeting that occurs by chance",
+    "answers": [
+      "quintessential example",
+      "serendipitous encounter",
+      "nuanced argument",
+      "ubiquitous presence"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_006",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: something that seems to appear everywhere",
+    "answers": [
+      "quintessential example",
+      "jump on the bandwagon",
+      "ubiquitous presence",
+      "nuanced argument"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_007",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: a line of reasoning with subtle distinctions",
+    "answers": [
+      "quintessential example",
+      "think on your feet",
+      "jump on the bandwagon",
+      "nuanced argument"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_008",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: the purest embodiment of a category",
+    "answers": [
+      "think on your feet",
+      "quintessential example",
+      "a double-edged sword",
+      "jump on the bandwagon"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_009",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: join a trend once it has become popular",
+    "answers": [
+      "think on your feet",
+      "jump on the bandwagon",
+      "a double-edged sword",
+      "play devil's advocate"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_010",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: respond quickly and effectively without preparation",
+    "answers": [
+      "a double-edged sword",
+      "play devil's advocate",
+      "meticulous attention to detail",
+      "think on your feet"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_011",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: something that has both positive and negative consequences",
+    "answers": [
+      "a double-edged sword",
+      "meticulous attention to detail",
+      "play devil's advocate",
+      "beyond the scope"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_012",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: argue the opposite side to test its strength",
+    "answers": [
+      "beyond the scope",
+      "meticulous attention to detail",
+      "cast a wide net",
+      "play devil's advocate"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_013",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: obsessing over every small component",
+    "answers": [
+      "meticulous attention to detail",
+      "bite the bullet",
+      "cast a wide net",
+      "beyond the scope"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_014",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: outside the defined remit of a discussion",
+    "answers": [
+      "cast a wide net",
+      "call the shots",
+      "beyond the scope",
+      "bite the bullet"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_015",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: seek many possibilities at once",
+    "answers": [
+      "bite the bullet",
+      "cast a wide net",
+      "call the shots",
+      "broach the subject"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_016",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: face a difficult situation with resolve",
+    "answers": [
+      "by the same token",
+      "broach the subject",
+      "call the shots",
+      "bite the bullet"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_017",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: be the person who makes the key decisions",
+    "answers": [
+      "by the same token",
+      "call the shots",
+      "broach the subject",
+      "in the nick of time"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_018",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: introduce a sensitive topic",
+    "answers": [
+      "put something on the back burner",
+      "broach the subject",
+      "by the same token",
+      "in the nick of time"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_019",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: for the same reason; likewise",
+    "answers": [
+      "by the same token",
+      "reinvent the wheel",
+      "in the nick of time",
+      "put something on the back burner"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_020",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: at the very last possible moment",
+    "answers": [
+      "in the nick of time",
+      "reinvent the wheel",
+      "put something on the back burner",
+      "rule of thumb"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_021",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: delay dealing with it for later",
+    "answers": [
+      "reinvent the wheel",
+      "up in the air",
+      "rule of thumb",
+      "put something on the back burner"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_022",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: waste effort creating something that already exists",
+    "answers": [
+      "rule of thumb",
+      "up in the air",
+      "on the same wavelength",
+      "reinvent the wheel"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_023",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: a broadly accurate practical principle",
+    "answers": [
+      "rule of thumb",
+      "on the same wavelength",
+      "play it by ear",
+      "up in the air"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_024",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: undecided or unresolved",
+    "answers": [
+      "read between the lines",
+      "play it by ear",
+      "up in the air",
+      "on the same wavelength"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_025",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: sharing identical thoughts or feelings",
+    "answers": [
+      "on the same wavelength",
+      "read between the lines",
+      "play it by ear",
+      "raise the bar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_026",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: improvise rather than sticking to a plan",
+    "answers": [
+      "play it by ear",
+      "word of mouth",
+      "read between the lines",
+      "raise the bar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_027",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: understand implied or hidden meanings",
+    "answers": [
+      "raise the bar",
+      "read between the lines",
+      "word of mouth",
+      "to walk a fine line"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_028",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: increase standards or expectations",
+    "answers": [
+      "to take something with a grain of salt",
+      "to walk a fine line",
+      "word of mouth",
+      "raise the bar"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_029",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: information spread by spoken recommendations",
+    "answers": [
+      "word of mouth",
+      "to take something with a grain of salt",
+      "silver lining",
+      "to walk a fine line"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_englische_ausdrucke_c2_niveau_auf_englisch_formuliert_030",
+    "category": "Englische Ausdrücke (C2-Niveau, auf Englisch formuliert)",
+    "question": "Which expression matches the description: balance between two opposing demands",
+    "answers": [
+      "silver lining",
+      "cut to the chase",
+      "to walk a fine line",
+      "to take something with a grain of salt"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_001",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Grundbaustein der Materie mit Protonen, Neutronen, Elektronen",
+    "answers": [
+      "Valenzelektronen",
+      "Ionenbindung",
+      "Periodensystem",
+      "Atom"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_002",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: ordnet Elemente nach Ordnungszahl und Eigenschaften",
+    "answers": [
+      "Valenzelektronen",
+      "Ionenbindung",
+      "Periodensystem",
+      "Kovalente Bindung"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_003",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Elektronen der äußersten Schale, bestimmen Bindungen",
+    "answers": [
+      "Kovalente Bindung",
+      "Metallbindung",
+      "Valenzelektronen",
+      "Ionenbindung"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_004",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Bindung zwischen positiv und negativ geladenen Teilchen",
+    "answers": [
+      "Ionenbindung",
+      "Kovalente Bindung",
+      "Oxidation",
+      "Metallbindung"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_005",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Atome teilen Elektronenpaare",
+    "answers": [
+      "Reduktion",
+      "Oxidation",
+      "Metallbindung",
+      "Kovalente Bindung"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_006",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: delokalisierte Elektronen bewegen sich in einem Metallgitter",
+    "answers": [
+      "Redoxreaktion",
+      "Oxidation",
+      "Metallbindung",
+      "Reduktion"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_007",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Abgabe von Elektronen",
+    "answers": [
+      "Oxidationszahl",
+      "Oxidation",
+      "Reduktion",
+      "Redoxreaktion"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_008",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Aufnahme von Elektronen",
+    "answers": [
+      "Redoxreaktion",
+      "Oxidationszahl",
+      "Reduktion",
+      "Säuren"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_009",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Gleichzeitige Oxidation und Reduktion",
+    "answers": [
+      "Oxidationszahl",
+      "Säuren",
+      "Redoxreaktion",
+      "Basen"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_010",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: gedachter Ladungszustand eines Atoms",
+    "answers": [
+      "Oxidationszahl",
+      "pH-Wert",
+      "Basen",
+      "Säuren"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_011",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: geben Protonen (H+) ab",
+    "answers": [
+      "Säuren",
+      "Basen",
+      "pH-Wert",
+      "Neutralisation"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_012",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: nehmen Protonen auf oder geben OH- Ionen ab",
+    "answers": [
+      "pH-Wert",
+      "Basen",
+      "Titration",
+      "Neutralisation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_013",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Maß für die Konzentration von H+-Ionen",
+    "answers": [
+      "Neutralisation",
+      "pH-Wert",
+      "Massenwirkungsgesetz",
+      "Titration"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_014",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Reaktion von Säure mit Base zu Salz und Wasser",
+    "answers": [
+      "Titration",
+      "Massenwirkungsgesetz",
+      "Katalysator",
+      "Neutralisation"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_015",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Verfahren zur Konzentrationsbestimmung einer Lösung",
+    "answers": [
+      "Katalysator",
+      "Endotherm",
+      "Massenwirkungsgesetz",
+      "Titration"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_016",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: beschreibt Gleichgewichtskonstanten chemischer Reaktionen",
+    "answers": [
+      "Exotherm",
+      "Katalysator",
+      "Massenwirkungsgesetz",
+      "Endotherm"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_017",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: senkt Aktivierungsenergie, ohne verbraucht zu werden",
+    "answers": [
+      "Katalysator",
+      "Stöchiometrie",
+      "Endotherm",
+      "Exotherm"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_018",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Reaktion, die Wärme aufnimmt",
+    "answers": [
+      "Endotherm",
+      "Exotherm",
+      "Mol",
+      "Stöchiometrie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_019",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Reaktion, die Wärme freisetzt",
+    "answers": [
+      "Exotherm",
+      "Mol",
+      "Avogadro-Konstante",
+      "Stöchiometrie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_020",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Berechnung von Stoffmengenverhältnissen",
+    "answers": [
+      "Isotope",
+      "Stöchiometrie",
+      "Avogadro-Konstante",
+      "Mol"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_021",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Basiseinheit für Stoffmenge, 6,022 · 10^23 Teilchen",
+    "answers": [
+      "Isotope",
+      "Mol",
+      "Elektrolyse",
+      "Avogadro-Konstante"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_022",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Zahl der Teilchen pro Mol",
+    "answers": [
+      "Isotope",
+      "Galvanische Zelle",
+      "Avogadro-Konstante",
+      "Elektrolyse"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_023",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Atome desselben Elements mit unterschiedlicher Neutronenzahl",
+    "answers": [
+      "Galvanische Zelle",
+      "Elektrolyse",
+      "Elektronegativität",
+      "Isotope"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_024",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Zerlegung einer Verbindung durch elektrischen Strom",
+    "answers": [
+      "Galvanische Zelle",
+      "Elektrolyse",
+      "Elektronegativität",
+      "Salzlösung"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_025",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: wandelt chemische Energie in elektrische um",
+    "answers": [
+      "Elektronegativität",
+      "Präzipitation",
+      "Salzlösung",
+      "Galvanische Zelle"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_026",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Maß für die Fähigkeit, Elektronen anzuziehen",
+    "answers": [
+      "Destillation",
+      "Elektronegativität",
+      "Salzlösung",
+      "Präzipitation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_027",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Ionen sind frei beweglich und leiten Strom",
+    "answers": [
+      "Salzlösung",
+      "Destillation",
+      "Chromatografie",
+      "Präzipitation"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_028",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Entstehung eines unlöslichen Niederschlags",
+    "answers": [
+      "Chromatografie",
+      "Destillation",
+      "Atom",
+      "Präzipitation"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_029",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Trennung von Flüssigkeiten anhand unterschiedlicher Siedepunkte",
+    "answers": [
+      "Atom",
+      "Periodensystem",
+      "Destillation",
+      "Chromatografie"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_chemie_10_klasse_030",
+    "category": "Chemie 10. Klasse",
+    "question": "Welcher Chemiebegriff passt: Trennverfahren anhand unterschiedlicher Laufgeschwindigkeiten",
+    "answers": [
+      "Valenzelektronen",
+      "Chromatografie",
+      "Atom",
+      "Periodensystem"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_001",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: US-Marketingexpertin, die nach Paris versetzt wird",
+    "answers": [
+      "Sylvie Grateau",
+      "Mindy Chen",
+      "Emily Cooper",
+      "Gabriel"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_002",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: strenge Chefin von Savoir mit perfektem Stil",
+    "answers": [
+      "Gabriel",
+      "Mindy Chen",
+      "Camille",
+      "Sylvie Grateau"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_003",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Chefkoch im Restaurant Les Deux Compères",
+    "answers": [
+      "Savoir",
+      "Gabriel",
+      "Mindy Chen",
+      "Camille"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_004",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Emilys beste Freundin und Sängerin",
+    "answers": [
+      "Pierre Cadault",
+      "Mindy Chen",
+      "Camille",
+      "Savoir"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_005",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Künstlerin und Gabriels Partnerin",
+    "answers": [
+      "Camille",
+      "Maison Lavaux",
+      "Pierre Cadault",
+      "Savoir"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_006",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Pariser Agentur, die Emily beschäftigt",
+    "answers": [
+      "Maison Lavaux",
+      "Antoine Lambert",
+      "Pierre Cadault",
+      "Savoir"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_007",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: exzentrischer Designer, den Emily betreut",
+    "answers": [
+      "Pierre Cadault",
+      "Antoine Lambert",
+      "Julien",
+      "Maison Lavaux"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_008",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Champagnerhaus von Camille's Familie",
+    "answers": [
+      "Julien",
+      "Maison Lavaux",
+      "Luc",
+      "Antoine Lambert"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_009",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Parfümmogul und Savoir-Kunde",
+    "answers": [
+      "Emilygram",
+      "Antoine Lambert",
+      "Julien",
+      "Luc"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_010",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Social-Media-Spezialist bei Savoir",
+    "answers": [
+      "Julien",
+      "Emilygram",
+      "Luc",
+      "Maison Lavaux Spritz"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_011",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: älterer Kollege mit Liebe zu französischem Kino",
+    "answers": [
+      "Luc",
+      "Emilygram",
+      "La Liste",
+      "Maison Lavaux Spritz"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_012",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Emilys wachsender Instagram-Account",
+    "answers": [
+      "La Liste",
+      "Maison Lavaux Spritz",
+      "Emilygram",
+      "Fashion Week Rooftop"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_013",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Kampagne mit dem Champagner-Sprayer",
+    "answers": [
+      "La Liste",
+      "Fashion Week Rooftop",
+      "Maison Lavaux Spritz",
+      "Chicago Office"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_014",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: exklusive Restaurantliste, auf die Emily hinarbeitet",
+    "answers": [
+      "BnF Bibliothek",
+      "Fashion Week Rooftop",
+      "La Liste",
+      "Chicago Office"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_015",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Event, das Emily spontan organisiert",
+    "answers": [
+      "Fashion Week Rooftop",
+      "Chicago Office",
+      "STC (Save the Champ)",
+      "BnF Bibliothek"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_016",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Emilys vorherige Arbeitsstelle",
+    "answers": [
+      "BnF Bibliothek",
+      "Chicago Office",
+      "Madeline Wheeler",
+      "STC (Save the Champ)"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_017",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Ort eines geheimen Mode-Shootings",
+    "answers": [
+      "STC (Save the Champ)",
+      "BnF Bibliothek",
+      "Château Lalisse",
+      "Madeline Wheeler"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_018",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Hashtag gegen das Übernehmen von Antoine",
+    "answers": [
+      "Emily in Paris Season 2 Cliffhanger",
+      "Château Lalisse",
+      "Madeline Wheeler",
+      "STC (Save the Champ)"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_019",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Amerikanische Chefin, die später in Paris auftaucht",
+    "answers": [
+      "Château Lalisse",
+      "Grey Space Agency",
+      "Madeline Wheeler",
+      "Emily in Paris Season 2 Cliffhanger"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_020",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Ort eines Luxus-Retreats",
+    "answers": [
+      "Château Lalisse",
+      "Alfie",
+      "Grey Space Agency",
+      "Emily in Paris Season 2 Cliffhanger"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_021",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Emily soll wählen zwischen USA und Paris",
+    "answers": [
+      "Grey Space Agency",
+      "Bateau Mouche Event",
+      "Emily in Paris Season 2 Cliffhanger",
+      "Alfie"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_022",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: neuer Arbeitgeber, den Emily kurz ausprobiert",
+    "answers": [
+      "Patrice",
+      "Grey Space Agency",
+      "Alfie",
+      "Bateau Mouche Event"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_023",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: britischer Banker, der Emilys Liebe wird",
+    "answers": [
+      "Bateau Mouche Event",
+      "Patrice",
+      "Alfie",
+      "Petra"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_024",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Launch auf einem Seine-Boot",
+    "answers": [
+      "McDonald's Pitch",
+      "Petra",
+      "Patrice",
+      "Bateau Mouche Event"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_025",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Sylvies Ehemann, mit dem sie in offenem Arrangement lebt",
+    "answers": [
+      "Petra",
+      "McDonald's Pitch",
+      "Patrice",
+      "Maison Lavaux Garden Party"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_026",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Mitstudentin im Sprachkurs, die Emily zum Shoplifting verleitet",
+    "answers": [
+      "Petra",
+      "McDonald's Pitch",
+      "Rue des Fossés Saint-Jacques",
+      "Maison Lavaux Garden Party"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_027",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Emily verkauft Burger mit Haute-Couture-Twist",
+    "answers": [
+      "Maison Lavaux Garden Party",
+      "Rue des Fossés Saint-Jacques",
+      "La Perla Restaurant",
+      "McDonald's Pitch"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_028",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Ort des Dramas zwischen Emily, Gabriel und Camille",
+    "answers": [
+      "Maison Lavaux Garden Party",
+      "Rue des Fossés Saint-Jacques",
+      "La Perla Restaurant",
+      "Emily Cooper"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_029",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Straße von Emilys Wohnung",
+    "answers": [
+      "Sylvie Grateau",
+      "Rue des Fossés Saint-Jacques",
+      "Emily Cooper",
+      "La Perla Restaurant"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_serie_emily_in_paris_030",
+    "category": "Serie \"Emily in Paris\"",
+    "question": "Welche Info zu 'Emily in Paris' passt: Gabriels neues Lokalprojekt",
+    "answers": [
+      "Gabriel",
+      "La Perla Restaurant",
+      "Emily Cooper",
+      "Sylvie Grateau"
+    ],
+    "correctIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beauty_styling_001",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: erst Öl-, dann Schaumreiniger für porentiefe Sauberkeit",
+    "answers": [
+      "Chemical Peeling",
+      "Double Cleansing",
+      "Niacinamide",
+      "Retinol"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_002",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: AHA oder BHA lösen abgestorbene Hautzellen",
+    "answers": [
+      "Chemical Peeling",
+      "Niacinamide",
+      "Retinol",
+      "SPF 50"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_003",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Vitamin-A-Derivat zur Kollagenbildung",
+    "answers": [
+      "SPF 50",
+      "Niacinamide",
+      "Retinol",
+      "Glass Skin"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_004",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: beruhigt Rötungen und reguliert Talgproduktion",
+    "answers": [
+      "Niacinamide",
+      "Brow Lamination",
+      "SPF 50",
+      "Glass Skin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_005",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: täglicher Sonnenschutz, auch bei Bewölkung",
+    "answers": [
+      "Brow Lamination",
+      "Glass Skin",
+      "SPF 50",
+      "Tightlining"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_006",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: koreanischer Trend für spiegelglatte Haut",
+    "answers": [
+      "Tightlining",
+      "Glass Skin",
+      "Brow Lamination",
+      "Cat Eye"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_007",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Augenbrauen werden gebürstet und fixiert",
+    "answers": [
+      "Soap Brows",
+      "Brow Lamination",
+      "Tightlining",
+      "Cat Eye"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_008",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Eyeliner zwischen den Wimpern für unsichtbare Definition",
+    "answers": [
+      "Tightlining",
+      "Soap Brows",
+      "Color Correcting",
+      "Cat Eye"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_009",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Winged Liner, der das Auge optisch anhebt",
+    "answers": [
+      "Underpainting",
+      "Soap Brows",
+      "Cat Eye",
+      "Color Correcting"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_010",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Brow-Styling mit transparentem Seifenfilm",
+    "answers": [
+      "Underpainting",
+      "Color Correcting",
+      "Cream Blush",
+      "Soap Brows"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_011",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Pfirsich gegen Blau, Grün gegen Rötungen",
+    "answers": [
+      "Color Correcting",
+      "Cream Blush",
+      "Underpainting",
+      "Baking"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_012",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Bronzer und Concealer vor der Foundation auftragen",
+    "answers": [
+      "Lip Stain",
+      "Baking",
+      "Underpainting",
+      "Cream Blush"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_013",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: sorgt für natürlichen Glow",
+    "answers": [
+      "Lip Stain",
+      "Cream Blush",
+      "Baking",
+      "Glossy Eye"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_014",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Fixieren von Concealer mit viel losem Puder",
+    "answers": [
+      "Glossy Eye",
+      "Baking",
+      "Lip Stain",
+      "Slick Bun"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_015",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: leichte Farbe, die lange hält ohne zu kleben",
+    "answers": [
+      "Lip Stain",
+      "Slick Bun",
+      "Beach Waves",
+      "Glossy Eye"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_016",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Lidschatten plus Balm für glänzende Lider",
+    "answers": [
+      "Beach Waves",
+      "Slick Bun",
+      "Diffuser",
+      "Glossy Eye"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_017",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: streng zurückgekämmter Dutt",
+    "answers": [
+      "Keratin Treatment",
+      "Beach Waves",
+      "Slick Bun",
+      "Diffuser"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_018",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: lässige Locken mit Salzspray",
+    "answers": [
+      "Keratin Treatment",
+      "Diffuser",
+      "Balayage",
+      "Beach Waves"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_019",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Aufsatz für Locken ohne Frizz",
+    "answers": [
+      "Diffuser",
+      "Olaplex",
+      "Balayage",
+      "Keratin Treatment"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_020",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: glättet Haare semi-permanent",
+    "answers": [
+      "Keratin Treatment",
+      "Olaplex",
+      "Balayage",
+      "Scalp Scrub"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_021",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: freihändig gemalte Strähnen mit weichem Übergang",
+    "answers": [
+      "Olaplex",
+      "Balayage",
+      "Gua Sha",
+      "Scalp Scrub"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_022",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Bonding-Produkt zur Haarstärkung",
+    "answers": [
+      "Scalp Scrub",
+      "LED-Maske",
+      "Gua Sha",
+      "Olaplex"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_023",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Peeling für die Kopfhaut",
+    "answers": [
+      "Gua Sha",
+      "Gel Maniküre",
+      "LED-Maske",
+      "Scalp Scrub"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_024",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Massage-Stein für Lymphdrainage",
+    "answers": [
+      "LED-Maske",
+      "Gua Sha",
+      "French Fade",
+      "Gel Maniküre"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_025",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Lichttherapie gegen Akne oder Falten",
+    "answers": [
+      "Microblading",
+      "French Fade",
+      "LED-Maske",
+      "Gel Maniküre"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_beauty_styling_026",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: UV-härtender Nagellack für langen Halt",
+    "answers": [
+      "French Fade",
+      "Lash Lift",
+      "Microblading",
+      "Gel Maniküre"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beauty_styling_027",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: weicher Ombre-French-Look",
+    "answers": [
+      "Microblading",
+      "Setting Spray",
+      "Lash Lift",
+      "French Fade"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beauty_styling_028",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: semi-permanente Brauenhärchenzeichnung",
+    "answers": [
+      "Microblading",
+      "Lash Lift",
+      "Double Cleansing",
+      "Setting Spray"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beauty_styling_029",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: Wimpern werden nach oben gebogen und gefärbt",
+    "answers": [
+      "Double Cleansing",
+      "Setting Spray",
+      "Chemical Peeling",
+      "Lash Lift"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_beauty_styling_030",
+    "category": "Beauty & Styling",
+    "question": "Welcher Beauty-Begriff passt: fixiert Make-up und nimmt Pudrigkeit",
+    "answers": [
+      "Retinol",
+      "Chemical Peeling",
+      "Setting Spray",
+      "Double Cleansing"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_handtaschen_001",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: ikonische Tasche mit Wartezeiten und Sattlerhandwerk",
+    "answers": [
+      "Hermès Birkin",
+      "Dior Lady Dior",
+      "Hermès Kelly",
+      "Chanel 2.55"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_002",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Tasche mit Trapezform und H-Schnalle",
+    "answers": [
+      "Hermès Kelly",
+      "Chanel 2.55",
+      "Louis Vuitton Speedy",
+      "Dior Lady Dior"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_003",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Steppleder mit Kettenriemen und Mademoiselle-Schloss",
+    "answers": [
+      "Chanel 2.55",
+      "Louis Vuitton Capucines",
+      "Dior Lady Dior",
+      "Louis Vuitton Speedy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_004",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Kulttasche mit Cannage-Steppung und Charms",
+    "answers": [
+      "Louis Vuitton Capucines",
+      "Dior Lady Dior",
+      "Gucci Jackie 1961",
+      "Louis Vuitton Speedy"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_005",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: klassische Duffel aus Monogram Canvas",
+    "answers": [
+      "Gucci Jackie 1961",
+      "Gucci Marmont",
+      "Louis Vuitton Capucines",
+      "Louis Vuitton Speedy"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_006",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Tasche mit LV-Bügel und strukturierter Form",
+    "answers": [
+      "Louis Vuitton Capucines",
+      "Gucci Jackie 1961",
+      "Gucci Marmont",
+      "Prada Galleria"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_007",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Hobo-Bag mit Kolbenverschluss",
+    "answers": [
+      "Prada Galleria",
+      "Gucci Jackie 1961",
+      "Prada Re-Edition",
+      "Gucci Marmont"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_008",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Matelassé-Leder und GG-Schnalle",
+    "answers": [
+      "Prada Re-Edition",
+      "Gucci Marmont",
+      "Fendi Baguette",
+      "Prada Galleria"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_009",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Saffianoleder mit Struktur und Dreifachfach",
+    "answers": [
+      "Fendi Peekaboo",
+      "Fendi Baguette",
+      "Prada Galleria",
+      "Prada Re-Edition"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_010",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Nylon-Satteltasche aus den 2000ern",
+    "answers": [
+      "Fendi Baguette",
+      "Prada Re-Edition",
+      "Fendi Peekaboo",
+      "Bottega Veneta Jodie"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_011",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: schmale Schultertasche, gefeiert in Sex and the City",
+    "answers": [
+      "Bottega Cassette",
+      "Fendi Baguette",
+      "Bottega Veneta Jodie",
+      "Fendi Peekaboo"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_012",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Tasche mit zwei Fächern und Mittelseparator",
+    "answers": [
+      "Fendi Peekaboo",
+      "Balenciaga City",
+      "Bottega Cassette",
+      "Bottega Veneta Jodie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_013",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: geflochtene Hobo mit Knoten",
+    "answers": [
+      "Balenciaga City",
+      "Celine Luggage",
+      "Bottega Cassette",
+      "Bottega Veneta Jodie"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_014",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: gepolsterte Intrecciato-Quadrate",
+    "answers": [
+      "Balenciaga City",
+      "Celine Triomphe",
+      "Bottega Cassette",
+      "Celine Luggage"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_015",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: abgewetzter Motorradtaschen-Look",
+    "answers": [
+      "Loewe Puzzle",
+      "Balenciaga City",
+      "Celine Luggage",
+      "Celine Triomphe"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_016",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: charakteristische Flügel und Smiley-Front",
+    "answers": [
+      "Loewe Basket",
+      "Celine Triomphe",
+      "Loewe Puzzle",
+      "Celine Luggage"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_017",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Logo-verschlossene Schultertasche",
+    "answers": [
+      "Saint Laurent Sac de Jour",
+      "Loewe Puzzle",
+      "Loewe Basket",
+      "Celine Triomphe"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_018",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: geometrische Panels, die sich falten lassen",
+    "answers": [
+      "Loewe Puzzle",
+      "Saint Laurent Sac de Jour",
+      "Saint Laurent Kate",
+      "Loewe Basket"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_019",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Strohtasche mit Ledergriffen",
+    "answers": [
+      "Saint Laurent Kate",
+      "Givenchy Antigona",
+      "Loewe Basket",
+      "Saint Laurent Sac de Jour"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_020",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: strukturierter Tote mit Hängeschloss",
+    "answers": [
+      "Givenchy Antigona",
+      "Saint Laurent Sac de Jour",
+      "Saint Laurent Kate",
+      "Mulberry Bayswater"
+    ],
+    "correctIndex": 1,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_021",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Abendtasche mit YSL-Kette und Quaste",
+    "answers": [
+      "Chloé Marcie",
+      "Mulberry Bayswater",
+      "Saint Laurent Kate",
+      "Givenchy Antigona"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_022",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: kantige Boston Bag mit Dreieckslogo",
+    "answers": [
+      "Chloé Marcie",
+      "Chloé Drew",
+      "Givenchy Antigona",
+      "Mulberry Bayswater"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_023",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: britischer Klassiker mit Postman’s Lock",
+    "answers": [
+      "Chloé Drew",
+      "Chloé Marcie",
+      "Mulberry Bayswater",
+      "Cuyana Tote"
+    ],
+    "correctIndex": 2,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_024",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Hufeisen-Stitching und Tassel",
+    "answers": [
+      "Chloé Marcie",
+      "Mansur Gavriel Bucket Bag",
+      "Cuyana Tote",
+      "Chloé Drew"
+    ],
+    "correctIndex": 0,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_025",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: runde Tasche mit Metallbügel",
+    "answers": [
+      "Mansur Gavriel Bucket Bag",
+      "Polène Numéro Un",
+      "Cuyana Tote",
+      "Chloé Drew"
+    ],
+    "correctIndex": 3,
+    "difficulty": "normal"
+  },
+  {
+    "id": "johanna_handtaschen_026",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Minimalistische Ledertasche zum Personalisieren",
+    "answers": [
+      "JW Pei Gabbi",
+      "Mansur Gavriel Bucket Bag",
+      "Cuyana Tote",
+      "Polène Numéro Un"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_handtaschen_027",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: minimaler Lederbeutel mit Kordelzug",
+    "answers": [
+      "Telfar Shopping Bag",
+      "Polène Numéro Un",
+      "Mansur Gavriel Bucket Bag",
+      "JW Pei Gabbi"
+    ],
+    "correctIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_handtaschen_028",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Pariser Label mit geschwungenen Linien",
+    "answers": [
+      "Hermès Birkin",
+      "Telfar Shopping Bag",
+      "JW Pei Gabbi",
+      "Polène Numéro Un"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_handtaschen_029",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: veganer Stoff mit ruched Handle",
+    "answers": [
+      "JW Pei Gabbi",
+      "Telfar Shopping Bag",
+      "Hermès Kelly",
+      "Hermès Birkin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "johanna_handtaschen_030",
+    "category": "Handtaschen",
+    "question": "Welche Handtaschen-Info passt: Unisex-Tasche mit demokratischem Drop",
+    "answers": [
+      "Hermès Birkin",
+      "Chanel 2.55",
+      "Hermès Kelly",
+      "Telfar Shopping Bag"
+    ],
+    "correctIndex": 3,
+    "difficulty": "hard"
+  }
+]
