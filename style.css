@@ -409,10 +409,15 @@ body[data-theme='theme-johanna'] #calendarView {
   width: 100%;
 }
 
-#toggleSnow {
+.snow-controls button {
   flex: 0 0 auto;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.32));
   color: #0b1b2b;
+}
+
+#toggleSnow,
+#toggleSnowPile {
+  flex: 0 0 auto;
 }
 
 .snow-meter,
@@ -568,6 +573,44 @@ body[data-theme='theme-johanna'] #calendarView {
 
 .winter-decor .elf::after { content: '🧝‍♂️'; }
 
+.peek-elf-slot {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.peek-elf {
+  position: absolute;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35));
+  animation: elf-peek 3.4s ease-in-out forwards;
+  pointer-events: none;
+}
+
+.peek-elf::after {
+  content: '🧝‍♀️';
+}
+
+.peek-elf.from-left {
+  left: -12%;
+  top: var(--peek-offset, 40%);
+}
+
+.peek-elf.from-right {
+  right: -12%;
+  top: var(--peek-offset, 30%);
+}
+
+.peek-elf.from-top {
+  top: -16%;
+  left: var(--peek-offset, 50%);
+}
+
+.peek-elf.from-bottom {
+  bottom: -18%;
+  left: var(--peek-offset, 35%);
+}
+
 .winter-decor .santa {
   right: -10%;
   animation: santa-ride 14s linear infinite;
@@ -578,6 +621,14 @@ body[data-theme='theme-johanna'] #calendarView {
 @keyframes elf-hop {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
+}
+
+@keyframes elf-peek {
+  0% { transform: translate(0, 0) scale(0.6); opacity: 0; }
+  8% { opacity: 1; }
+  50% { transform: translate(12%, 0) scale(1); opacity: 1; }
+  90% { transform: translate(0, 0) scale(0.8); opacity: 0; }
+  100% { opacity: 0; }
 }
 
 @keyframes santa-ride {

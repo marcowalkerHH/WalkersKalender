@@ -29,6 +29,8 @@ const DOOR_ICONS = {
   sibylle: ['❤️', '🩺', '💊', '🧬', '🥼', '🌿', '🍎', '🧠', '🫀', '💡'],
 };
 
+const ELF_PEEK_SIDES = ['left', 'right', 'top', 'bottom'];
+
 const INTRO_GALLERY = [
   { user: 'sibylle', src: 'assets/images/sibylle_bg.svg' },
   { user: 'noah', src: 'assets/images/noah_bg.svg' },
@@ -127,11 +129,14 @@ let musicToggle;
 let volumeControl;
 let nextTrackButton;
 let toggleSnow;
+let toggleSnowPile;
 let snowDepthLabel;
 let plowControl;
 let snowLayer;
 let snowPile;
 let snowPlow;
+let winterDecor;
+let peekElfSlot;
 
 const audioPlaylist = Array.isArray(window.WALKERS_AUDIO_TRACKS)
   ? window.WALKERS_AUDIO_TRACKS
@@ -153,9 +158,11 @@ let introFailsafeTimer = null;
 let loginChallengeAnswer = null;
 let subtitleResetTimer = null;
 let snowEnabled = true;
+let snowPileEnabled = true;
 let snowDepth = 0;
 let snowInterval = null;
 let snowGrowthInterval = null;
+let elfPeekTimer = null;
 
 function cacheDom() {
   calendar = document.getElementById('calendar');
@@ -205,11 +212,14 @@ function cacheDom() {
   volumeControl = document.getElementById('volumeControl');
   nextTrackButton = document.getElementById('nextTrack');
   toggleSnow = document.getElementById('toggleSnow');
+  toggleSnowPile = document.getElementById('toggleSnowPile');
   snowDepthLabel = document.getElementById('snowDepth');
   plowControl = document.getElementById('plowControl');
   snowLayer = document.getElementById('snowLayer');
   snowPile = document.getElementById('snowPile');
   snowPlow = document.getElementById('snowPlow');
+  winterDecor = document.getElementById('winterDecor');
+  peekElfSlot = document.querySelector('.peek-elf-slot');
 }
 
 function ensureDomReferences() {
@@ -261,11 +271,13 @@ function ensureDomReferences() {
     volumeControl,
     nextTrackButton,
     toggleSnow,
+    toggleSnowPile,
     snowDepthLabel,
     plowControl,
     snowLayer,
     snowPile,
     snowPlow,
+    winterDecor,
   };
 
   const missing = Object.entries(required)
@@ -335,6 +347,7 @@ function init() {
     bindEvents();
     loadQuestions();
     initSnow();
+    startElfPeeks();
     initMusic();
   } catch (error) {
     handleFatalError(error);
@@ -915,6 +928,10 @@ function initSnow() {
     toggleSnow.addEventListener('click', toggleSnowfall);
   }
 
+  if (toggleSnowPile) {
+    toggleSnowPile.addEventListener('click', toggleSnowPileGrowth);
+  }
+
   if (plowControl) {
     plowControl.addEventListener('input', (event) => {
       if (Number(event.target.value) >= 95) {
@@ -983,14 +1000,29 @@ function stopSnowfall() {
 }
 
 function startSnowGrowth() {
+  snowPileEnabled = true;
+  if (toggleSnowPile) {
+    toggleSnowPile.textContent = '⛄️ Schneehügel';
+  }
   if (snowGrowthInterval) {
     clearInterval(snowGrowthInterval);
   }
   snowGrowthInterval = setInterval(() => {
-    if (!snowEnabled) return;
+    if (!snowEnabled || !snowPileEnabled) return;
     snowDepth = Math.min(100, snowDepth + 1 + Math.random() * 2.5);
     applySnowDepth();
   }, 1700);
+}
+
+function stopSnowGrowth() {
+  snowPileEnabled = false;
+  if (toggleSnowPile) {
+    toggleSnowPile.textContent = '🏔️ Schnee stoppt';
+  }
+  if (snowGrowthInterval) {
+    clearInterval(snowGrowthInterval);
+    snowGrowthInterval = null;
+  }
 }
 
 function applySnowDepth() {
@@ -1005,8 +1037,48 @@ function toggleSnowfall() {
     stopSnowfall();
   } else {
     startSnowfall();
+    if (snowPileEnabled) {
+      startSnowGrowth();
+    } else {
+      stopSnowGrowth();
+    }
+  }
+}
+
+function toggleSnowPileGrowth() {
+  if (snowPileEnabled) {
+    stopSnowGrowth();
+  } else {
     startSnowGrowth();
   }
+}
+
+function spawnPeekElf() {
+  if (!peekElfSlot) return;
+  const elf = document.createElement('div');
+  elf.className = 'peek-elf';
+  const side = ELF_PEEK_SIDES[Math.floor(Math.random() * ELF_PEEK_SIDES.length)];
+  elf.classList.add(`from-${side}`);
+  elf.style.setProperty('--peek-offset', `${20 + Math.random() * 60}%`);
+  elf.addEventListener('animationend', () => {
+    elf.remove();
+  });
+  peekElfSlot.appendChild(elf);
+}
+
+function startElfPeeks() {
+  if (!peekElfSlot) return;
+  if (elfPeekTimer) {
+    clearTimeout(elfPeekTimer);
+  }
+
+  const loop = () => {
+    spawnPeekElf();
+    const delay = 4200 + Math.random() * 5200;
+    elfPeekTimer = setTimeout(loop, delay);
+  };
+
+  loop();
 }
 
 function clearSnowWithPlow() {
