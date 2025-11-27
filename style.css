@@ -156,24 +156,24 @@ main {
 }
 
 #calendarView {
-  background-image: linear-gradient(135deg, rgba(3, 4, 14, 0.85), rgba(72, 16, 32, 0.65));
+  background-image: linear-gradient(135deg, rgba(3, 4, 14, 0.55), rgba(72, 16, 32, 0.4));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
+  background-blend-mode: soft-light, normal;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 body[data-theme='theme-sibylle'] #calendarView {
-  background-image: linear-gradient(135deg, rgba(28, 19, 7, 0.6), rgba(121, 44, 14, 0.75)), url('assets/images/sibylle_bg.svg');
+  background-image: linear-gradient(135deg, rgba(28, 19, 7, 0.35), rgba(121, 44, 14, 0.55)), url('assets/images/sibylle_bg.svg');
 }
 
 body[data-theme='theme-noah'] #calendarView {
-  background-image: linear-gradient(135deg, rgba(5, 8, 22, 0.85), rgba(4, 40, 63, 0.75)), url('assets/images/noah_bg.svg');
+  background-image: linear-gradient(135deg, rgba(5, 8, 22, 0.55), rgba(4, 40, 63, 0.45)), url('assets/images/noah_bg.svg');
 }
 
 body[data-theme='theme-johanna'] #calendarView {
-  background-image: linear-gradient(135deg, rgba(48, 12, 29, 0.65), rgba(92, 43, 34, 0.7)), url('assets/images/johanna_bg.svg');
+  background-image: linear-gradient(135deg, rgba(48, 12, 29, 0.4), rgba(92, 43, 34, 0.5)), url('assets/images/johanna_bg.svg');
 }
 
 .winter-decor {
@@ -253,8 +253,8 @@ body[data-theme='theme-johanna'] #calendarView {
 .calendar {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.2rem;
   position: relative;
   z-index: 2;
 }
@@ -268,10 +268,10 @@ body[data-theme='theme-johanna'] #calendarView {
 }
 
 .calendar button {
-  padding: 2.6rem 0;
-  border-radius: 20px;
+  padding: 3rem 0;
+  border-radius: 22px;
   border: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #fff;
   background: linear-gradient(135deg, var(--door-color), var(--door-color-secondary));
@@ -472,11 +472,45 @@ body[data-theme='theme-johanna'] #calendarView {
   animation: snowball-slide 6s cubic-bezier(0.55, 0.06, 0.68, 0.53) infinite;
 }
 
+.winter-decor .snowball-fast {
+  top: 12%;
+  animation-duration: 4s;
+  animation-delay: 1.2s;
+  opacity: 0.85;
+}
+
+.winter-decor .snowball-loop {
+  top: 30%;
+  left: auto;
+  right: -15%;
+  animation-name: snowball-loop;
+  animation-duration: 7.5s;
+  animation-direction: alternate;
+}
+
+.winter-decor .snowman {
+  position: absolute;
+  bottom: 18px;
+  left: 22%;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.55));
+  animation: snowman-bob 4s ease-in-out infinite;
+}
+
+.winter-decor .snowman::after { content: '⛄️'; }
+
 @keyframes snowball-slide {
   0% { transform: translate(0, 0) scale(0.8); opacity: 0; }
   10% { opacity: 1; }
   60% { transform: translate(120%, 40vh) scale(1); opacity: 1; }
   100% { transform: translate(160%, 55vh) scale(0.5); opacity: 0; }
+}
+
+@keyframes snowball-loop {
+  0% { transform: translate(0, 0) rotate(0deg) scale(0.9); opacity: 0; }
+  10% { opacity: 1; }
+  50% { transform: translate(-120%, 38vh) rotate(-18deg) scale(1.05); }
+  100% { transform: translate(-180%, 52vh) rotate(12deg) scale(0.85); opacity: 0; }
 }
 
 .winter-decor .mistletoe,
@@ -510,6 +544,56 @@ body[data-theme='theme-johanna'] #calendarView {
 }
 
 .winter-decor .gift::after { content: '🎁'; }
+
+.winter-decor .fireworks {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.6));
+  z-index: 1;
+}
+
+.winter-decor .firework {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff, rgba(255, 255, 255, 0.2) 60%);
+  animation: explode 3.2s ease-in-out infinite;
+  opacity: 0.9;
+}
+
+.winter-decor .firework::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  box-shadow:
+    0 -16px 0 2px #ffef9f,
+    14px -8px 0 1px #ff4f81,
+    16px 8px 0 1px #2dd4bf,
+    0 16px 0 2px #ffd166,
+    -16px 8px 0 1px #9f7aea,
+    -12px -10px 0 1px #4dd2ff;
+  opacity: 0.9;
+}
+
+.firework.f1 { top: 16%; left: 18%; animation-delay: 0.2s; }
+.firework.f2 { top: 8%; right: 14%; animation-delay: 1s; }
+.firework.f3 { top: 22%; left: 58%; animation-delay: 1.6s; }
+
+@keyframes explode {
+  0% { transform: scale(0.4); opacity: 0; }
+  20% { transform: scale(1); opacity: 1; }
+  60% { transform: scale(1.2); opacity: 0.8; }
+  100% { transform: scale(0.5); opacity: 0; }
+}
+
+@keyframes snowman-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
 
 @keyframes mistletoe-sway {
   0%, 100% { transform: rotate(-5deg); }

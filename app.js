@@ -782,11 +782,11 @@ function initSnow() {
     }, (delay + duration + 1) * 1000);
   };
 
-  for (let i = 0; i < 120; i += 1) {
+  for (let i = 0; i < 200; i += 1) {
     spawnFlake();
   }
 
-  setInterval(spawnFlake, 500);
+  setInterval(spawnFlake, 380);
 }
 
 function restoreState() {
