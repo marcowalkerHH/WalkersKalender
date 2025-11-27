@@ -447,7 +447,9 @@ function updateDoors() {
     door.disabled = locked;
     door.setAttribute('aria-disabled', locked ? 'true' : 'false');
     if (locked) {
-      door.title = `Im Advent-Modus ab ${limit}. Dezember freigeschaltet`;
+      door.title = limit === 0
+        ? 'Im Advent-Modus ab November 2025 verfügbar'
+        : `Im Advent-Modus ab ${limit}. November 2025 freigeschaltet`;
     } else {
       door.removeAttribute('title');
     }
@@ -509,6 +511,7 @@ function handleDoorClick(day) {
   if (state.mode === 'advent') {
     const currentDay = getCurrentAdventDay();
     if (day > currentDay) {
+      questionFeedback.textContent = '';
       updateDoors();
       return;
     }
@@ -518,10 +521,12 @@ function handleDoorClick(day) {
 
 function getCurrentAdventDay() {
   const now = new Date();
-  if (now.getMonth() === 11) {
-    return Math.min(now.getDate(), 24);
+  const targetYear = 2025;
+  const targetMonth = 10; // November (0-indexed)
+  if (now.getFullYear() !== targetYear || now.getMonth() !== targetMonth) {
+    return 0;
   }
-  return 24;
+  return Math.min(now.getDate(), 24);
 }
 
 function loadQuestions() {

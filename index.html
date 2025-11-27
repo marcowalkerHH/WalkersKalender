@@ -90,13 +90,19 @@
   </main>
 
   <div id="questionModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="questionTitle">
-    <div class="modal-content">
-      <h3 id="questionTitle">Frage</h3>
+    <div class="modal-content question-card">
+      <div class="question-header">
+        <div class="question-icon" aria-hidden="true">❄️</div>
+        <div>
+          <p class="eyebrow">Quiz-Time</p>
+          <h3 id="questionTitle">Frage</h3>
+        </div>
+      </div>
       <p id="questionCategory" class="category"></p>
-      <p id="questionText"></p>
+      <p id="questionText" class="question-body"></p>
       <div id="answers" class="answers"></div>
       <p id="questionFeedback" class="message"></p>
-      <button id="closeQuestion">Zurück zum Kalender</button>
+      <button id="closeQuestion" class="ghost">Zurück zum Kalender</button>
     </div>
   </div>
 
