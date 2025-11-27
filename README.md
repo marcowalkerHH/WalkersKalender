@@ -45,3 +45,11 @@ Interaktive Ein-Seiten-Anwendung als Adventskalender für Noah, Johanna und Siby
 
 ## Lizenz
 Privates Familienprojekt. Weitere Nutzung auf eigene Verantwortung.
+
+## Ideen für weitere Verbesserungen
+- **Mini-Games in den Türchen**: Statt nur Fragen könnten einzelne Tage kleine Spielereien bieten (Memory, Schiebepuzzle, Wortsuche), die auf den jeweiligen Stil der Person angepasst sind.
+- **Tägliche Erfolge**: Ergänze Achievements wie „3 richtige Antworten am Stück“ oder „Alle Türen der Woche geöffnet“ und zeige sie als Sticker unter der Scoreleiste.
+- **Geteilte Momente**: Erlaube das Exportieren eines Türchen-Screenshots inklusive Punktestand, damit die Familie Highlights teilen kann.
+- **Audiovisuelle Abwechslung**: Hinterlege pro Person eigene kurze Jingles für richtige Antworten oder Level-Ups, die über das bestehende Musik-Setup eingebunden werden können.
+- **Barrierefreiheit**: Ergänze Tastatursteuerung, größere Kontraste und optionale Sprachausgabe der Fragen, damit auch bei hellem Licht oder für Kinder das Lesen leichter fällt.
+- **Progressives Web App (PWA)**: Mit einem Manifest und einem Service Worker könnte der Kalender offline verfügbar und installierbar werden.
