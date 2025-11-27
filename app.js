@@ -29,6 +29,12 @@ const DOOR_ICONS = {
   sibylle: ['❤️', '🩺', '💊', '🧬', '🥼', '🌿', '🍎', '🧠', '🫀', '💡'],
 };
 
+const INTRO_GALLERY = [
+  { user: 'sibylle', src: 'assets/images/sibylle_bg.svg' },
+  { user: 'noah', src: 'assets/images/noah_bg.svg' },
+  { user: 'johanna', src: 'assets/images/johanna_bg.svg' },
+];
+
 const PRAISE_MESSAGES = {
   default: [
     'Glückwunsch, das war absolut richtig! +1 Punkt 🎉',
@@ -96,6 +102,9 @@ let intro;
 let heartStage;
 let matrixCanvas;
 let neonStage;
+let galleryStage;
+let gallerySlideA;
+let gallerySlideB;
 let closeQuestion;
 let refreshQuestions;
 let backToLogin;
@@ -133,6 +142,7 @@ audioPlayer.addEventListener('error', () => {
 let hasInitialized = false;
 let introFailsafeTimer = null;
 let loginChallengeAnswer = null;
+let subtitleResetTimer = null;
 
 function cacheDom() {
   calendar = document.getElementById('calendar');
@@ -157,6 +167,9 @@ function cacheDom() {
   heartStage = document.getElementById('heartStage');
   matrixCanvas = document.getElementById('matrixCanvas');
   neonStage = document.getElementById('neonStage');
+  galleryStage = document.getElementById('galleryStage');
+  gallerySlideA = document.getElementById('gallerySlideA');
+  gallerySlideB = document.getElementById('gallerySlideB');
   closeQuestion = document.getElementById('closeQuestion');
   refreshQuestions = document.getElementById('refreshQuestions');
   backToLogin = document.getElementById('backToLogin');
@@ -200,6 +213,9 @@ function ensureDomReferences() {
     intro,
     heartStage,
     neonStage,
+    galleryStage,
+    gallerySlideA,
+    gallerySlideB,
     matrixCanvas,
     closeQuestion,
     refreshQuestions,
@@ -305,43 +321,51 @@ function setupIntro() {
   }
 
   const heartDuration = 3500;
-  const neonDuration = 3000;
-  const matrixDuration = 5000;
+  const neonDuration = 2600;
+  const galleryDuration = INTRO_GALLERY.length * 1100 + 500;
+  const matrixDuration = 4200;
 
   introFailsafeTimer = setTimeout(() => {
     console.warn('Intro-Failsafe aktiv, Anwendung wird direkt angezeigt.');
     revealAppImmediately();
-  }, heartDuration + neonDuration + matrixDuration + 2500);
+  }, heartDuration + neonDuration + galleryDuration + matrixDuration + 2500);
 
-  setTimeout(() => {
-    if (heartStage) {
-      heartStage.classList.add('hidden');
-    }
-    if (neonStage) {
-      neonStage.classList.remove('hidden');
-    }
-  }, heartDuration);
+  runIntroSequence(heartDuration, neonDuration, galleryDuration, matrixDuration);
+}
 
-  setTimeout(() => {
-    if (neonStage) {
-      neonStage.classList.add('hidden');
-    }
-    if (matrixCanvas) {
-      matrixCanvas.classList.remove('hidden');
-      startMatrixAnimation();
-    }
-  }, heartDuration + neonDuration);
+async function runIntroSequence(heartDuration, neonDuration, galleryDuration, matrixDuration) {
+  await wait(heartDuration);
+  if (heartStage) {
+    heartStage.classList.add('hidden');
+  }
+  if (neonStage) {
+    neonStage.classList.remove('hidden');
+  }
 
-  setTimeout(() => {
-    intro.classList.add('hidden');
-    if (app) {
-      app.classList.remove('hidden');
-    }
-    if (introFailsafeTimer) {
-      clearTimeout(introFailsafeTimer);
-      introFailsafeTimer = null;
-    }
-  }, heartDuration + neonDuration + matrixDuration);
+  await wait(neonDuration);
+  if (neonStage) {
+    neonStage.classList.add('hidden');
+  }
+
+  await playGallerySlides();
+  await wait(galleryDuration - INTRO_GALLERY.length * 1100);
+
+  if (matrixCanvas) {
+    matrixCanvas.classList.remove('hidden');
+    startMatrixAnimation();
+  }
+
+  await wait(matrixDuration);
+
+  intro.classList.add('hidden');
+  if (app) {
+    app.classList.remove('hidden');
+  }
+  matrixCanvas?.classList.add('hidden');
+  if (introFailsafeTimer) {
+    clearTimeout(introFailsafeTimer);
+    introFailsafeTimer = null;
+  }
 }
 
 function startMatrixAnimation() {
@@ -372,10 +396,42 @@ function startMatrixAnimation() {
   setTimeout(() => clearInterval(matrixInterval), 5000);
 }
 
+async function playGallerySlides() {
+  if (!galleryStage || !gallerySlideA || !gallerySlideB) return;
+  const order = shuffleArray([...INTRO_GALLERY]);
+  let show = gallerySlideA;
+  let hide = gallerySlideB;
+  galleryStage.classList.remove('hidden');
+
+  for (const item of order) {
+    show.style.backgroundImage = `url(${item.src})`;
+    show.dataset.user = item.user;
+    show.classList.add('visible');
+    hide.classList.remove('visible');
+    await wait(1100);
+    [show, hide] = [hide, show];
+  }
+
+  hide.classList.remove('visible');
+  await wait(300);
+  galleryStage.classList.add('hidden');
+}
+
 function getRandomInt(min, max) {
   const minCeil = Math.ceil(min);
   const maxFloor = Math.floor(max);
   return Math.floor(Math.random() * (maxFloor - minCeil + 1)) + minCeil;
+}
+
+function shuffleArray(list) {
+  return list
+    .map((item) => ({ sort: Math.random(), value: item }))
+    .sort((a, b) => a.sort - b.sort)
+    .map((item) => item.value);
+}
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function refreshSecurityQuestion() {
@@ -511,8 +567,11 @@ function handleDoorClick(day) {
   if (state.mode === 'advent') {
     const currentDay = getCurrentAdventDay();
     if (day > currentDay) {
-      questionFeedback.textContent = '';
       updateDoors();
+      const message = currentDay === 0
+        ? 'Im Advent-Modus öffnen sich die Türen erst im November 2025.'
+        : `Türchen ${day} öffnet sich ab dem ${day}. November 2025.`;
+      showLockedNotice(message);
       return;
     }
   }
@@ -688,12 +747,12 @@ function bindEvents() {
     loginMessage.textContent = '';
     refreshSecurityQuestion();
   });
-  modeSwitch.addEventListener('change', () => {
+  modeSwitch.addEventListener('change', (event) => {
+    const desired = event.target.checked ? 'advent' : 'open';
     modeSwitch.checked = state.mode === 'advent';
     requestAdminCode(() => {
-      state.mode = state.mode === 'open' ? 'advent' : 'open';
+      state.mode = desired;
       saveState();
-      modeSwitch.checked = state.mode === 'advent';
       updateModeLabel();
     });
   });
@@ -737,8 +796,29 @@ function bindEvents() {
 
 function updateModeLabel() {
   modeLabel.textContent = state.mode === 'open' ? 'Offener Modus' : 'Advent-Modus';
-  calendarSubtitle.textContent = state.mode === 'open' ? 'Alle Türchen frei wählbar' : 'Tägliche Türchen bis heute aktiv';
+  modeSwitch.checked = state.mode === 'advent';
+  if (state.mode === 'open') {
+    calendarSubtitle.textContent = 'Alle Türchen frei wählbar';
+  } else {
+    const limit = getCurrentAdventDay();
+    if (limit === 0) {
+      calendarSubtitle.textContent = 'Advent-Modus aktiv – Türen öffnen sich erst im November 2025';
+    } else {
+      calendarSubtitle.textContent = `Advent-Modus: Tage 1–${limit} sind freigeschaltet`;
+    }
+  }
   updateDoors();
+}
+
+function showLockedNotice(message) {
+  if (!calendarSubtitle) return;
+  calendarSubtitle.textContent = message;
+  if (subtitleResetTimer) {
+    clearTimeout(subtitleResetTimer);
+  }
+  subtitleResetTimer = setTimeout(() => {
+    updateModeLabel();
+  }, 2400);
 }
 
 function requestAdminCode(callback) {
@@ -796,7 +876,8 @@ function initSnow() {
 
 function restoreState() {
   state.scores = safeReadJSON(LOCAL_KEYS.scores, state.scores);
-  state.mode = localStorage.getItem(LOCAL_KEYS.mode) || 'open';
+  const storedMode = localStorage.getItem(LOCAL_KEYS.mode);
+  state.mode = storedMode === 'advent' ? 'advent' : 'open';
   state.categoryUsage = safeReadJSON(LOCAL_KEYS.categoryUsage, {});
   state.usedQuestions = safeReadJSON(LOCAL_KEYS.usedQuestions, {});
   const musicSettings = safeReadJSON(LOCAL_KEYS.music, {});
@@ -814,7 +895,6 @@ function restoreState() {
   } else {
     state.musicIndex = state.musicIndex % audioPlaylist.length;
   }
-  modeSwitch.checked = state.mode === 'advent';
   updateModeLabel();
   updateScoreboard();
 }
