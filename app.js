@@ -105,6 +105,9 @@ let neonStage;
 let galleryStage;
 let gallerySlideA;
 let gallerySlideB;
+let selectionGallery;
+let selectionSlideA;
+let selectionSlideB;
 let closeQuestion;
 let refreshQuestions;
 let backToLogin;
@@ -123,6 +126,12 @@ let toggleModeButton;
 let musicToggle;
 let volumeControl;
 let nextTrackButton;
+let toggleSnow;
+let snowDepthLabel;
+let plowControl;
+let snowLayer;
+let snowPile;
+let snowPlow;
 
 const audioPlaylist = Array.isArray(window.WALKERS_AUDIO_TRACKS)
   ? window.WALKERS_AUDIO_TRACKS
@@ -143,6 +152,10 @@ let hasInitialized = false;
 let introFailsafeTimer = null;
 let loginChallengeAnswer = null;
 let subtitleResetTimer = null;
+let snowEnabled = true;
+let snowDepth = 0;
+let snowInterval = null;
+let snowGrowthInterval = null;
 
 function cacheDom() {
   calendar = document.getElementById('calendar');
@@ -170,6 +183,9 @@ function cacheDom() {
   galleryStage = document.getElementById('galleryStage');
   gallerySlideA = document.getElementById('gallerySlideA');
   gallerySlideB = document.getElementById('gallerySlideB');
+  selectionGallery = document.getElementById('selectionGallery');
+  selectionSlideA = document.getElementById('selectionSlideA');
+  selectionSlideB = document.getElementById('selectionSlideB');
   closeQuestion = document.getElementById('closeQuestion');
   refreshQuestions = document.getElementById('refreshQuestions');
   backToLogin = document.getElementById('backToLogin');
@@ -188,6 +204,12 @@ function cacheDom() {
   musicToggle = document.getElementById('musicToggle');
   volumeControl = document.getElementById('volumeControl');
   nextTrackButton = document.getElementById('nextTrack');
+  toggleSnow = document.getElementById('toggleSnow');
+  snowDepthLabel = document.getElementById('snowDepth');
+  plowControl = document.getElementById('plowControl');
+  snowLayer = document.getElementById('snowLayer');
+  snowPile = document.getElementById('snowPile');
+  snowPlow = document.getElementById('snowPlow');
 }
 
 function ensureDomReferences() {
@@ -216,6 +238,9 @@ function ensureDomReferences() {
     galleryStage,
     gallerySlideA,
     gallerySlideB,
+    selectionGallery,
+    selectionSlideA,
+    selectionSlideB,
     matrixCanvas,
     closeQuestion,
     refreshQuestions,
@@ -235,6 +260,12 @@ function ensureDomReferences() {
     musicToggle,
     volumeControl,
     nextTrackButton,
+    toggleSnow,
+    snowDepthLabel,
+    plowControl,
+    snowLayer,
+    snowPile,
+    snowPlow,
   };
 
   const missing = Object.entries(required)
@@ -469,11 +500,45 @@ function setupLogin() {
       }
       loginMessage.textContent = '';
       refreshSecurityQuestion();
-      showCalendar();
+      startSelectionBridge();
     });
   }
 
   refreshSecurityQuestion();
+}
+
+function startSelectionBridge() {
+  loginSection.classList.add('hidden');
+  if (!selectionGallery || !selectionSlideA || !selectionSlideB) {
+    showCalendar();
+    return;
+  }
+
+  const order = shuffleArray([...INTRO_GALLERY]);
+  let show = selectionSlideA;
+  let hide = selectionSlideB;
+  let count = 0;
+
+  selectionGallery.classList.remove('hidden');
+
+  const cycle = () => {
+    if (count >= 3) {
+      selectionGallery.classList.add('hidden');
+      showCalendar();
+      return;
+    }
+    const item = order[count % order.length];
+    show.style.backgroundImage = `url(${item.src})`;
+    show.classList.add('visible');
+    hide.classList.remove('visible');
+    setTimeout(() => {
+      [show, hide] = [hide, show];
+      count += 1;
+      cycle();
+    }, 1500);
+  };
+
+  cycle();
 }
 
 function showCalendar() {
@@ -504,8 +569,8 @@ function updateDoors() {
     door.setAttribute('aria-disabled', locked ? 'true' : 'false');
     if (locked) {
       door.title = limit === 0
-        ? 'Im Advent-Modus ab November 2025 verfügbar'
-        : `Im Advent-Modus ab ${limit}. November 2025 freigeschaltet`;
+        ? 'Im Advent-Modus ab November verfügbar'
+        : `Im Advent-Modus ab dem ${limit}. November freigeschaltet`;
     } else {
       door.removeAttribute('title');
     }
@@ -569,8 +634,8 @@ function handleDoorClick(day) {
     if (day > currentDay) {
       updateDoors();
       const message = currentDay === 0
-        ? 'Im Advent-Modus öffnen sich die Türen erst im November 2025.'
-        : `Türchen ${day} öffnet sich ab dem ${day}. November 2025.`;
+        ? 'Im Advent-Modus öffnen sich die Türen ab November.'
+        : `Türchen ${day} öffnet sich ab dem ${day}. November.`;
       showLockedNotice(message);
       return;
     }
@@ -580,9 +645,8 @@ function handleDoorClick(day) {
 
 function getCurrentAdventDay() {
   const now = new Date();
-  const targetYear = 2025;
   const targetMonth = 10; // November (0-indexed)
-  if (now.getFullYear() !== targetYear || now.getMonth() !== targetMonth) {
+  if (now.getMonth() !== targetMonth) {
     return 0;
   }
   return Math.min(now.getDate(), 24);
@@ -746,6 +810,7 @@ function bindEvents() {
     document.querySelectorAll('.user-select button').forEach((btn) => btn.classList.remove('active'));
     loginMessage.textContent = '';
     refreshSecurityQuestion();
+    selectionGallery?.classList.add('hidden');
   });
   modeSwitch.addEventListener('change', (event) => {
     const desired = event.target.checked ? 'advent' : 'open';
@@ -802,7 +867,7 @@ function updateModeLabel() {
   } else {
     const limit = getCurrentAdventDay();
     if (limit === 0) {
-      calendarSubtitle.textContent = 'Advent-Modus aktiv – Türen öffnen sich erst im November 2025';
+      calendarSubtitle.textContent = 'Advent-Modus aktiv – Türen öffnen sich erst im November';
     } else {
       calendarSubtitle.textContent = `Advent-Modus: Tage 1–${limit} sind freigeschaltet`;
     }
@@ -844,34 +909,120 @@ function validateAdmin() {
 }
 
 function initSnow() {
-  const snowLayer = document.getElementById('snowLayer');
   if (!snowLayer) return;
 
-  const spawnFlake = () => {
-    const flake = document.createElement('div');
-    flake.className = 'flake';
-    flake.style.left = `${Math.random() * 100}%`;
-    const delay = Math.random() * 4;
-    const duration = 5 + Math.random() * 8;
-    const size = 4 + Math.random() * 5;
-    flake.style.width = `${size}px`;
-    flake.style.height = `${size}px`;
-    flake.style.opacity = (0.5 + Math.random() * 0.5).toFixed(2);
-    flake.style.animationDelay = `${delay}s`;
-    flake.style.animationDuration = `${duration}s`;
-    snowLayer.appendChild(flake);
-    setTimeout(() => {
-      if (flake.parentNode) {
-        flake.parentNode.removeChild(flake);
-      }
-    }, (delay + duration + 1) * 1000);
-  };
-
-  for (let i = 0; i < 200; i += 1) {
-    spawnFlake();
+  if (toggleSnow) {
+    toggleSnow.addEventListener('click', toggleSnowfall);
   }
 
-  setInterval(spawnFlake, 380);
+  if (plowControl) {
+    plowControl.addEventListener('input', (event) => {
+      if (Number(event.target.value) >= 95) {
+        clearSnowWithPlow();
+        event.target.value = 0;
+      }
+    });
+  }
+
+  startSnowfall();
+  startSnowGrowth();
+  applySnowDepth();
+}
+
+function spawnFlake() {
+  if (!snowLayer || !snowEnabled) return;
+  const flake = document.createElement('div');
+  flake.className = 'flake';
+  flake.style.left = `${Math.random() * 100}%`;
+  const delay = Math.random() * 4;
+  const duration = 5 + Math.random() * 8;
+  const size = 4 + Math.random() * 5;
+  flake.style.width = `${size}px`;
+  flake.style.height = `${size}px`;
+  flake.style.opacity = (0.5 + Math.random() * 0.5).toFixed(2);
+  flake.style.animationDelay = `${delay}s`;
+  flake.style.animationDuration = `${duration}s`;
+  snowLayer.appendChild(flake);
+  setTimeout(() => {
+    if (flake.parentNode) {
+      flake.parentNode.removeChild(flake);
+    }
+  }, (delay + duration + 1) * 1000);
+}
+
+function startSnowfall() {
+  snowEnabled = true;
+  if (toggleSnow) {
+    toggleSnow.textContent = '❄️ Schneefall';
+  }
+  if (snowInterval) {
+    clearInterval(snowInterval);
+  }
+  if (snowLayer) {
+    snowLayer.innerHTML = '';
+  }
+  for (let i = 0; i < 120; i += 1) {
+    spawnFlake();
+  }
+  snowInterval = setInterval(spawnFlake, 380);
+  applySnowDepth();
+}
+
+function stopSnowfall() {
+  snowEnabled = false;
+  if (toggleSnow) {
+    toggleSnow.textContent = '🌤️ Schneepause';
+  }
+  if (snowInterval) {
+    clearInterval(snowInterval);
+    snowInterval = null;
+  }
+  if (snowLayer) {
+    snowLayer.innerHTML = '';
+  }
+}
+
+function startSnowGrowth() {
+  if (snowGrowthInterval) {
+    clearInterval(snowGrowthInterval);
+  }
+  snowGrowthInterval = setInterval(() => {
+    if (!snowEnabled) return;
+    snowDepth = Math.min(100, snowDepth + 1 + Math.random() * 2.5);
+    applySnowDepth();
+  }, 1700);
+}
+
+function applySnowDepth() {
+  if (snowDepthLabel) {
+    snowDepthLabel.textContent = `${Math.round(snowDepth)}%`;
+  }
+  document.documentElement.style.setProperty('--snow-depth', snowDepth.toFixed(1));
+}
+
+function toggleSnowfall() {
+  if (snowEnabled) {
+    stopSnowfall();
+  } else {
+    startSnowfall();
+    startSnowGrowth();
+  }
+}
+
+function clearSnowWithPlow() {
+  if (!snowPile || !snowPlow) return;
+  snowPlow.classList.add('active');
+  const sweep = setInterval(() => {
+    snowDepth = Math.max(0, snowDepth - 8);
+    applySnowDepth();
+    if (snowDepth <= 0) {
+      clearInterval(sweep);
+    }
+  }, 150);
+
+  setTimeout(() => {
+    snowPlow.classList.remove('active');
+  }, 2600);
 }
 
 function restoreState() {

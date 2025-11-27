@@ -53,6 +53,17 @@
       </div>
     </section>
 
+    <section id="selectionGallery" class="modal full hidden" aria-live="polite">
+      <div class="modal-content gallery-bridge">
+        <h2 class="gallery-bridge__title">Walker's Familienweihnachtskalender</h2>
+        <div class="gallery-bridge__frame">
+          <div class="gallery-bridge__slide visible" id="selectionSlideA"></div>
+          <div class="gallery-bridge__slide" id="selectionSlideB"></div>
+        </div>
+        <p class="gallery-bridge__note">Von Marco für euch – kurz durch die Motive blättern …</p>
+      </div>
+    </section>
+
     <section id="calendarView" class="panel hidden">
       <div class="calendar-header">
         <div>
@@ -91,8 +102,17 @@
       <div class="calendar-controls">
         <button id="refreshQuestions">Fragen neu mischen</button>
         <button id="backToLogin">Zur Personenauswahl</button>
+        <div class="snow-controls">
+          <button id="toggleSnow">❄️ Schneefall</button>
+          <label class="snow-meter">Schneehöhe: <span id="snowDepth">0%</span></label>
+          <label class="plow-control">Pistenraupe: <input type="range" id="plowControl" min="0" max="100" value="0"></label>
+        </div>
+        <p class="personal-note">Mit ganz viel Liebe von Papa Marco – genießt jede Frage!</p>
       </div>
       <div class="snow" id="snowLayer" aria-hidden="true"></div>
+      <div class="snow-pile" id="snowPile" aria-hidden="true">
+        <div class="plow" id="snowPlow">🛻</div>
+      </div>
     </section>
   </main>
 
